@@ -127,8 +127,8 @@ const bibles = {
         const block = document.createElement("div");
         block.className = "verse-block";
 
-        const meijiText = bibles.meiji[num] || "<i>未収録</i>";
-        const modernText = bibles.modern[num] || "<i>未収録</i>";
+       const meijiText = bibles["1873"][num] || "<i>未収録</i>";
+       const modernText = bibles["1880"][num] || "<i>未収録</i>";
 
         block.innerHTML = `
           <div class="translation-title">第${num}節</div>
@@ -141,3 +141,4 @@ const bibles = {
   </script>
 </body>
 </html>
+
