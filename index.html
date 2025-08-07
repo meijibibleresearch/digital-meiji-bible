@@ -1,72 +1,103 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>Meiji Bible Comparison</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meiji Bible Comparison Tool</title>
+  <style>
+    body {
+      font-family: "Hiragino Mincho Pro", serif;
+      margin: 20px;
+    }
+    #comparison-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .verse-block {
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .translation-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .verse-text {
+      line-height: 1.8;
+    }
+    label, input, button {
+      font-size: 16px;
+    }
+    input[type="text"] {
+      width: 300px;
+      padding: 5px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Meiji Bible Comparison Tool</h1>
+  <h1>明治聖書 比較ツール</h1>
+  <label for="verseInput">比較したい節（例: 1,3,5-6）:</label>
+  <input type="text" id="verseInput" placeholder="1-6"/>
+  <button onclick="compareVerses()">比較</button>
 
-  <label for="verses">Enter verses (e.g. John 3:16, Psalm 23:1-2):</label><br>
-  <input type="text" id="verses" size="50" />
-  <button onclick="compare()">Compare</button>
-
-  <div id="output"></div>
+  <div id="comparison-container"></div>
 
   <script>
-    const japanBibles = {
+    const bibles = {
       meiji: {
-        "John 3:16": "神は、そのひとり子を賜うほどにこの世を愛し給えり...",
-        "Psalm 23:1": "主はわが牧者なり...",
-        "Psalm 23:2": "主はわが魂を生きかえらせ給う...",
-        "Psalm 23:3": "主は我を義の道に導き給う...",
+        1: '<ruby>アブラハム<rt>うみ</rt></ruby>の<ruby>なる<rt>うみ</rt></ruby>ダビデのイエス・キリストの。',
+        2: '<ruby>アブラハム<rt>うみ</rt></ruby>、<ruby>イサク<rt>うみ</rt></ruby>を…',
+        3: '<ruby>ユダ<rt>うみ</rt></ruby>、<ruby>タマル<rt>より</rt></ruby>にて…',
+        4: '<ruby>アラム<rt>うみ</rt></ruby>、<ruby>アミナダブ<rt>うみ</rt></ruby>を…',
+        5: '<ruby>サルモン<rt>うみ</rt></ruby>、<ruby>ラハブ<rt>より</rt></ruby>にて…',
+        6: '<ruby>エツサイ<rt>うみ</rt></ruby>、<ruby>ダビデ<rt>王</rt></ruby>を…'
       },
-      shinkai: {
-        "John 3:16": "神は実に、そのひとり子をお与えになったほどに世を愛された...",
-        "Psalm 23:1": "主は私の羊飼い。私は乏しいことがありません...",
-        "Psalm 23:2": "主は私を緑の牧場に伏させ...",
-        "Psalm 23:3": "主は私のたましいを生き返らせ...",
+      modern: {
+        1: '<ruby>イエス<rt>いえす</rt></ruby>・<ruby>キリスト<rt>きりすと</rt></ruby>の系図。',
+        2: '<ruby>アブラハム<rt>あぶらはむ</rt></ruby>はイサクを…',
+        3: '<ruby>ユダ<rt>ゆだ</rt></ruby>はタマルによって…',
+        4: 'アラムはアミナダブを…',
+        5: 'サルモンはラハブによって…',
+        6: 'エッサイはダビデ王を…'
       }
     };
 
-    function parseReference(ref) {
-      const result = [];
-      const parts = ref.split(',');
-      for (let part of parts) {
-        part = part.trim();
-        const [bookChapter, verseSpec] = part.split(':');
-        if (verseSpec.includes('-')) {
-          const [start, end] = verseSpec.split('-').map(Number);
-          for (let v = start; v <= end; v++) {
-            result.push(`${bookChapter}:${v}`);
-          }
+    function parseInput(input) {
+      const result = new Set();
+      const parts = input.split(',');
+      for (const part of parts) {
+        if (part.includes('-')) {
+          const [start, end] = part.split('-').map(Number);
+          for (let i = start; i <= end; i++) result.add(i);
         } else {
-          result.push(`${bookChapter}:${parseInt(verseSpec)}`);
+          result.add(Number(part));
         }
       }
-      return result;
+      return [...result].sort((a, b) => a - b);
     }
 
-    function compare() {
-      const input = document.getElementById("verses").value;
-      const verses = parseReference(input);
-      const outputDiv = document.getElementById("output");
-      outputDiv.innerHTML = '';
+    function compareVerses() {
+      const input = document.getElementById("verseInput").value;
+      const verses = parseInput(input);
+      const container = document.getElementById("comparison-container");
+      container.innerHTML = "";
 
-      for (let version in japanBibles) {
-        const header = document.createElement('h2');
-        header.textContent = version.toUpperCase();
-        outputDiv.appendChild(header);
+      verses.forEach(num => {
+        const block = document.createElement("div");
+        block.className = "verse-block";
 
-        const ul = document.createElement('ul');
-        for (let verse of verses) {
-          const li = document.createElement('li');
-          const text = japanBibles[version][verse] || '[未翻訳]';
-          li.textContent = `${verse} - ${text}`;
-          ul.appendChild(li);
-        }
-        outputDiv.appendChild(ul);
-      }
+        const meijiText = bibles.meiji[num] || "<i>未収録</i>";
+        const modernText = bibles.modern[num] || "<i>未収録</i>";
+
+        block.innerHTML = `
+          <div class="translation-title">第${num}節</div>
+          <div class="verse-text"><b>明治:</b> ${meijiText}</div>
+          <div class="verse-text"><b>現代:</b> ${modernText}</div>
+        `;
+        container.appendChild(block);
+      });
     }
   </script>
 </body>
