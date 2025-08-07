@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Meiji Bible Comparison Tool</title>
+  <title>Meiji Bible Comparison Tool for The Book of Matthew</title>
   <style>
     body {
       font-family: "Hiragino Mincho Pro", serif;
@@ -37,7 +37,7 @@
   </style>
 </head>
 <body>
-  <h1>明治聖書 比較ツール</h1>
+  <h1>明治聖書 マタイ福音書 比較ツール</h1>
   <label for="verseInput">比較したい節（例: 1,3,5-6）:</label>
   <input type="text" id="verseInput" placeholder="1-6"/>
   <button onclick="compareVerses()">比較</button>
@@ -46,7 +46,7 @@
 
   <script>
 const bibles = {
-  "新約聖書馬太傳 - 邦語先行訳 	J. C. Hepburn／S. R. Brown 	1873": {
+  "1873": {
     1: "アブラハムのすゑダビデのすゑ耶穌キリストの系譜",
     2: "アブラハム、イサクをうみイサク、ヤコブをうみヤコブ、ユーダとその兄弟をうみ",
     3: "ユーダ、タマルのはらにパレスとザラをうみパレス、ヱスロンをうみヱスロン、アラムをうみ",
@@ -73,7 +73,7 @@ const bibles = {
     24: "ヨセフ目さめておき主のつかひの命ぜしごとくにしてその妻をめとりしが",
     25: "初子のうまるるまで交合もせざりきしかしてその名を耶穌ととなへり"
   },
-  "新約全書 - 明治新約合冊 	翻訳委員社中 	1880": {
+  "1880": {
     1: "アブラハムの裔なるダビデの裔イエス・キリストの系圖。",
     2: "アブラハム、イサクを生イサク、ヤコブを生ヤコブ、ユダとその兄弟を生り",
     3: "ユダ、タマルに由てパレスとザラとを生パレス、エスロンを生エスロン、アラムを生",
@@ -100,6 +100,10 @@ const bibles = {
     24: "ヨセフ寐より起て主の使者の命ぜし言に遵ひ其妻を娶たれど",
     25: "冢子の生るるまで牀を同にせざりき其生れし子をイエスと名けたり"
   }
+};
+const versionTitles = {
+  "1873": "新約聖書馬太傳 - 邦語先行訳 J. C. Hepburn／S. R. Brown (1873)",
+  "1880": "新約全書 - 明治新約合冊 翻訳委員社中 (1880)"
 };
 
 
@@ -128,19 +132,21 @@ const bibles = {
         block.className = "verse-block";
 
        const meijiText = bibles["1873"][num] || "<i>未収録</i>";
-       const modernText = bibles["1880"][num] || "<i>未収録</i>";
+const modernText = bibles["1880"][num] || "<i>未収録</i>";
 
-        block.innerHTML = `
-          <div class="translation-title">第${num}節</div>
-          <div class="verse-text"><b>1873:</b> ${meijiText}</div>
-          <div class="verse-text"><b>1880:</b> ${modernText}</div>
-        `;
+ block.innerHTML = `
+  <div class="translation-title">第${num}節</div>
+  <div class="verse-text"><b>${versionTitles["1873"]}:</b><br>${meijiText}</div>
+  <div class="verse-text"><b>${versionTitles["1880"]}:</b><br>${modernText}</div>
+`;
+
         container.appendChild(block);
       });
     }
   </script>
 </body>
 </html>
+
 
 
 
