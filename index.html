@@ -47,12 +47,34 @@
   <script>
     const bibles = {
       meiji: {
-        1: '<ruby>アブラハム<rt>うみ</rt></ruby>の<ruby>なる<rt>うみ</rt></ruby>ダビデのイエス・キリストの。',
-        2: '<ruby>アブラハム<rt>うみ</rt></ruby>、<ruby>イサク<rt>うみ</rt></ruby>を…',
-        3: '<ruby>ユダ<rt>うみ</rt></ruby>、<ruby>タマル<rt>より</rt></ruby>にて…',
-        4: '<ruby>アラム<rt>うみ</rt></ruby>、<ruby>アミナダブ<rt>うみ</rt></ruby>を…',
-        5: '<ruby>サルモン<rt>うみ</rt></ruby>、<ruby>ラハブ<rt>より</rt></ruby>にて…',
-        6: '<ruby>エツサイ<rt>うみ</rt></ruby>、<ruby>ダビデ<rt>王</rt></ruby>を…'
+meiji: {
+  1:1: `<p>1:1<ruby>アブラハム<rt>あぶらはむ</rt></ruby>の<ruby>裔<rt>こ</rt></ruby>なる<ruby>ダビデ<rt>だびで</rt></ruby>の<ruby>裔<rt>こ</rt></ruby><ruby>イエス<rt>いえす</rt></ruby>・<ruby>キリスト<rt>きりすと</rt></ruby>の<ruby>系圖<rt>けいず</rt></ruby>。</p>`,
+  1:2: `<p>1:2<ruby>アブラハム<rt>あぶらはむ</rt></ruby>、<ruby>イサク<rt>いさく</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>イサク<rt>いさく</rt></ruby>、<ruby>ヤコブ<rt>やこぶ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>ヤコブ<rt>やこぶ</rt></ruby>、<ruby>ユダ<rt>ゆだ</rt></ruby>とその<ruby>兄弟<rt>きょうだい</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>り</p>`,
+  1:3: `<p>1:3<ruby>ユダ<rt>ゆだ</rt></ruby>、<ruby>タマル<rt>たまる</rt></ruby>に<ruby>由<rt>より</rt></ruby>て<ruby>パレス<rt>ぱれす</rt></ruby>と<ruby>ザラ<rt>ざら</rt></ruby>とを<ruby>生<rt>うみ</rt></ruby><ruby>パレス<rt>ぱれす</rt></ruby>、<ruby>エスロン<rt>えすろん</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>エスロン<rt>えすろん</rt></ruby>、<ruby>アラム<rt>あらむ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby></p>`,
+  1:4: `<p>1:4<ruby>アラム<rt>あらむ</rt></ruby>、<ruby>アミナダブ<rt>あみなだぶ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>アミナダブ<rt>あみなだぶ</rt></ruby>、<ruby>ナアソン<rt>なあそん</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>ナアソン<rt>なあそん</rt></ruby>、<ruby>サルモン<rt>さるもん</rt></ruby>を<ruby>生<rt>うみ</rt></ruby></p>`,
+  1:5: `<p>1:5<ruby>サルモン<rt>さるもん</rt></ruby>、<ruby>ラハブ<rt>らはぶ</rt></ruby>に<ruby>由<rt>より</rt></ruby>て<ruby>ボアズ<rt>ぼあず</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>ボアズ<rt>ぼあず</rt></ruby>、<ruby>ルツ<rt>るつ</rt></ruby>に<ruby>由<rt>より</rt></ruby>て<ruby>オベデ<rt>おべで</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>オベデ<rt>おべで</rt></ruby>、<ruby>エッサイ<rt>えっさい</rt></ruby>を<ruby>生<rt>うみ</rt></ruby></p>`,
+  1:6: `<p>1:6<ruby>エッサイ<rt>えっさい</rt></ruby>、<ruby>ダビデ<rt>だびで</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>ダビデ<rt>だびで</rt></ruby>、<ruby>ウリヤ<rt>うりや</rt></ruby>の<ruby>妻<rt>つま</rt></ruby>に<ruby>由<rt>より</rt></ruby>て<ruby>ソロモン<rt>そろもん</rt></ruby>を<ruby>生<rt>うみ</rt></ruby></p>`
+  1:7: '<ruby>ソロモン<rt>そろもん</rt></ruby>、<ruby>レハベアム<rt>れはべあむ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>、<ruby>レハベアム<rt>れはべあむ</rt></ruby>、<ruby>アビヤ<rt>あびや</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>、<ruby>アビヤ<rt>あびや</rt></ruby>、<ruby>アサ<rt>あさ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>。',
+  1:8: '<ruby>アサ<rt>あさ</rt></ruby>、<ruby>ヨサパテ<rt>よさぱて</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>、<ruby>ヨサパテ<rt>よさぱて</rt></ruby>、<ruby>ヨラム<rt>よらむ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>、<ruby>ヨラム<rt>よらむ</rt></ruby>、<ruby>ウジヤ<rt>うじや</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>。',
+  1:9: '<ruby>ウジヤ<rt>うじや</rt></ruby>、<ruby>ヨタム<rt>よたむ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>、<ruby>ヨタム<rt>よたむ</rt></ruby>、<ruby>アハズ<rt>あはず</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>、<ruby>アハズ<rt>あはず</rt></ruby>、<ruby>ヒゼキヤ<rt>ひぜきや</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>。',
+  1:10: '<ruby>ヒゼキヤ<rt>ひぜきや</rt></ruby>、<ruby>マナセ<rt>まなせ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>、<ruby>マナセ<rt>まなせ</rt></ruby>、<ruby>アモス<rt>あもす</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>、<ruby>アモス<rt>あもす</rt></ruby>、<ruby>ヨシヤ<rt>よしや</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>。'
+  1:11 <ruby>ヨシヤ<rt>よしや</rt></ruby>、<ruby>エコニヤ<rt>えこにや</rt></ruby>とその<ruby>兄弟<rt>きょうだい</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>、そのころバビロンに<ruby>移<rt>うつ</rt></ruby>されたり。
+  1:12 バビロンに<ruby>移<rt>うつ</rt></ruby>されたのち、<ruby>エコニヤ<rt>えこにや</rt></ruby>、<ruby>サラテル<rt>さらてる</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>サラテル<rt>さらてる</rt></ruby>、<ruby>ゾロバベル<rt>ぞろばべる</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>
+  1:13 <ruby>ゾロバベル<rt>ぞろばべる</rt></ruby>、<ruby>アビウド<rt>あびうど</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>アビウド<rt>あびうど</rt></ruby>、<ruby>エリヤキム<rt>えりやきむ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>エリヤキム<rt>えりやきむ</rt></ruby>、<ruby>アゾル<rt>あぞる</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>
+  1:14 <ruby>アゾル<rt>あぞる</rt></ruby>、<ruby>サドク<rt>さどく</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>サドク<rt>さどく</rt></ruby>、<ruby>アキム<rt>あきむ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>アキム<rt>あきむ</rt></ruby>、<ruby>エリウデ<rt>えりうで</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>
+  1:15 <ruby>エリウデ<rt>えりうで</rt></ruby>、<ruby>エレアザル<rt>えれあざる</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>エレアザル<rt>えれあざる</rt></ruby>、<ruby>マタン<rt>またん</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>マタン<rt>またん</rt></ruby>、<ruby>ヤコブ<rt>やこぶ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby>
+1:16 <ruby>ヤコブ<rt>やこぶ</rt></ruby>、<ruby>マリア<rt>まりあ</rt></ruby>の<ruby>夫<rt>おっと</rt></ruby><ruby>ヨセフ<rt>よせふ</rt></ruby>を<ruby>生<rt>うみ</rt></ruby><ruby>マリア<rt>まりあ</rt></ruby>、<ruby>イエス<rt>いえす</rt></ruby>と<ruby>称<rt>となえ</rt></ruby>う<ruby>キリスト<rt>きりすと</rt></ruby>を<ruby>産<rt>うみ</rt></ruby>
+1:17<ruby>総<rt>そう</rt></ruby>じてアブラハムよりダビデまで<ruby>十四<rt>じゅうし</rt></ruby><ruby>代<rt>だい</rt></ruby>、ダビデよりバビロンに<ruby>移<rt>うつ</rt></ruby>されしまで<ruby>十四<rt>じゅうし</rt></ruby><ruby>代<rt>だい</rt></ruby>、バビロンに<ruby>移<rt>うつ</rt></ruby>されしより<ruby>キリスト<rt>きりすと</rt></ruby>まで<ruby>十四<rt>じゅうし</rt></ruby><ruby>代<rt>だい</rt></ruby>なり。
+1:18 <ruby>イエス<rt>いえす</rt></ruby><ruby>キリスト<rt>きりすと</rt></ruby>の<ruby>誕生<rt>たんじょう</rt></ruby>は<ruby>斯<rt>かく</rt></ruby>のごとし。<ruby>母<rt>はは</rt></ruby><ruby>マリア<rt>まりあ</rt></ruby>、<ruby>ヨセフ<rt>よせふ</rt></ruby>に<ruby>嫁<rt>とつ</rt></ruby>がんとししが、<ruby>同居<rt>どうきょ</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に、<ruby>聖<rt>せい</rt></ruby><ruby>霊<rt>れい</rt></ruby>によりて<ruby>身<rt>み</rt></ruby><ruby>孕<rt>ごも</rt></ruby>れること<ruby>顕<rt>あら</rt></ruby>はれたり。
+1:19<ruby>夫<rt>おっと</rt></ruby><ruby>ヨセフ<rt>よせふ</rt></ruby>は<ruby>義人<rt>ぎじん</rt></ruby>にして、<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>を<ruby>露顕<rt>ろけん</rt></ruby>せじと<ruby>欲<rt>ほっ</rt></ruby>して<ruby>密<rt>ひそか</rt></ruby>に<ruby>離縁<rt>りえん</rt></ruby>せんとす。
+1:20この<ruby>事<rt>こと</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>廻<rt>めぐ</rt></ruby>らす<ruby>間<rt>あいだ</rt></ruby>に、<ruby>主<rt>しゅ</rt></ruby>の<ruby>使<rt>つかい</rt></ruby>、<ruby>夢<rt>ゆめ</rt></ruby>に<ruby>現<rt>あらわ</rt></ruby>れて<ruby>言<rt>い</rt></ruby>ふ、「<ruby>ダビデ<rt>だびで</rt></ruby>の<ruby>子<rt>こ</rt></ruby><ruby>ヨセフ<rt>よせふ</rt></ruby>よ、<ruby>汝<rt>なんじ</rt></ruby><ruby>恐<rt>おそ</rt></ruby>るな。<ruby>汝<rt>なんじ</rt></ruby>の<ruby>妻<rt>つま</rt></ruby><ruby>マリア<rt>まりあ</rt></ruby>を<ruby>娶<rt>めと</rt></ruby>ることを<ruby>拒<rt>こば</rt></ruby>むるな。<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>の<ruby>胎内<rt>たいない</rt></ruby>に<ruby>宿<rt>やど</rt></ruby>るは<ruby>聖<rt>せい</rt></ruby><ruby>霊<rt>れい</rt></ruby>によるなり。
+1:21<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>は<ruby>子<rt>こ</rt></ruby>を<ruby>産<rt>う</rt></ruby>まん。その<ruby>名<rt>な</rt></ruby>を<ruby>イエス<rt>いえす</rt></ruby>と<ruby>名<rt>なづ</rt></ruby>けよ。この<ruby>人<rt>ひと</rt></ruby>こそ<ruby>己<rt>おのれ</rt></ruby>の<ruby>民<rt>たみ</rt></ruby>をその<ruby>罪<rt>つみ</rt></ruby>より<ruby>救<rt>すく</rt></ruby>う<ruby>者<rt>もの</rt></ruby>なればなり。」
+1:22これら<ruby>凡<rt>すべ</rt></ruby>ての<ruby>事<rt>こと</rt></ruby>の<ruby>成就<rt>じょうじゅ</rt></ruby>せしは、<ruby>主<rt>しゅ</rt></ruby>が<ruby>預言者<rt>よげんしゃ</rt></ruby>によりて<ruby>告<rt>つ</rt></ruby>げしことを<ruby>顕<rt>あらわ</rt></ruby>さんためなり。
+1:23「<ruby>視<rt>み</rt></ruby>よ、<ruby>処女<rt>おとめ</rt></ruby><ruby>懐胎<rt>かいたい</rt></ruby>して<ruby>子<rt>こ</rt></ruby>を<ruby>産<rt>う</rt></ruby>まん。その<ruby>名<rt>な</rt></ruby>は<ruby>インマヌエル<rt>いんまぬえる</rt></ruby>と<ruby>称<rt>とな</rt></ruby>へられん。」これは「<ruby>神<rt>かみ</rt></ruby>われらとともに<ruby>在<rt>いま</rt></ruby>す」という<ruby>意味<rt>いみ</rt></ruby>なり。
+1:24<ruby>ヨセフ<rt>よせふ</rt></ruby>、<ruby>眠<rt>ねむ</rt></ruby>り<ruby>覚<rt>さ</rt></ruby>めて、<ruby>主<rt>しゅ</rt></ruby>の<ruby>使<rt>つかい</rt></ruby>の<ruby>命<rt>めい</rt></ruby>じしごとく<ruby>行<rt>おこな</rt></ruby>ひ、その<ruby>妻<rt>つま</rt></ruby>を<ruby>娶<rt>めと</rt></ruby>れり。
+1:25されどその<ruby>子<rt>こ</rt></ruby>を<ruby>産<rt>う</rt></ruby>まんまでは<ruby>知<rt>
+}
+
       },
       modern: {
         1: '<ruby>イエス<rt>いえす</rt></ruby>・<ruby>キリスト<rt>きりすと</rt></ruby>の系図。',
@@ -102,3 +124,4 @@
   </script>
 </body>
 </html>
+
