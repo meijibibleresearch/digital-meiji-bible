@@ -1,169 +1,88 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Japanese Bible Comparison Tool – Matthew 1</title>
+  <title>Digital Meiji Bible Viewer – Matthew</title>
   <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; }
-    h1 { text-align: center; padding: 1rem; background-color: #f8f8f8; }
-    .container { display: flex; flex-direction: row; }
-    .column { flex: 1; padding: 1rem; border-left: 1px solid #ccc; overflow-y: auto; height: 90vh; }
-    .column:first-child { border-left: none; }
-    h2 { text-align: center; }
-    p { white-space: pre-wrap; line-height: 1.5; }
-	  /* 🔴 Ruby glosses in red */
-rt[rend~="color(red)"] {
-  color: red;
-}
+    /* 🔴 Ruby glosses in red */
+    rt {
+      color: red;
+    }
 
-/* ✨ Basic typography */
-body {
-  font-family: "Noto Serif JP", serif;
-  font-size: 1.2em;
-  line-height: 1.8;
-  padding: 2em;
-  background-color: #fdfdfd;
-  color: #222;
-}
+    /* ✨ Basic typography */
+    body {
+      font-family: "Noto Serif JP", serif;
+      font-size: 1.2em;
+      line-height: 1.8;
+      padding: 2em;
+      background-color: #fdfdfd;
+      color: #222;
+    }
 
-/* 📖 Verse spacing */
-ab {
-  display: block;
-  margin-bottom: 1em;
-}
+    /* 📖 Verse spacing */
+    ab {
+      display: block;
+      margin-bottom: 1em;
+    }
 
-/* 📌 Superscript verse numbers */
-hi[rend~="superscript"] {
-  vertical-align: super;
-  font-size: 0.7em;
-  color: #888;
-  padding-right: 0.4em;
-}
+    /* 📌 Superscript verse numbers */
+    hi[rend~="superscript"] {
+      vertical-align: super;
+      font-size: 0.7em;
+      color: #888;
+      padding-right: 0.4em;
+    }
 
-/* 🔠 Ruby positioning */
-ruby {
-  ruby-position: over;
-}
+    /* 🔠 Ruby positioning */
+    ruby {
+      ruby-position: over;
+    }
 
-/* ✒ Optional: Red headings for chapters */
-div[type="chapter"] > head {
-  color: #b11;
-  font-weight: bold;
-  font-size: 1.4em;
-  margin-top: 2em;
-  margin-bottom: 0.5em;
-}
-	  
+    /* ✒ Optional: Red headings for chapters */
+    div[type="chapter"] > head {
+      color: #b11;
+      font-weight: bold;
+      font-size: 1.4em;
+      margin-top: 2em;
+      margin-bottom: 0.5em;
+    }
   </style>
 </head>
 <body>
+  <h1>明治訳聖書デジタルビューワー – マタイによる福音書</h1>
 
-	<h2>Ruby Test</h2>
-<p>
-  <ruby>義人<rt style="color:red;">ただしいひと</rt></ruby> は祝福される。
-</p>
-	
-  <h1>Matthew 1 – Japanese Bible Comparison Tool</h1>
-  <div class="container">
-    <div class="column">
-      <h2>新約聖書馬太傳
-	邦語先行訳 	J. C. Hepburn／S. R. Brown 	1873</h2>
-      <p>
-1:1アブラハムのすゑダビデのすゑ耶穌キリストの系譜<br>
-1:2アブラハム、イサクをうみイサク、ヤコブをうみヤコブ、ユーダとその兄弟をうみ<br>
-1:3ユーダ、タマルのはらにパレスとザラをうみパレス、ヱスロンをうみヱスロン、アラムをうみ<br>
-1:4アラン、アミナダブをうみアミナダブ、ナーソンをうみナーソン、サルモンをうみ<br>
-1:5サルモン、ラカブのはらにボーズをうみボーズ、ルツのはらにヲベデをうみヲベデ、イヱツサイをうみ<br>
-1:6イヱツサイ、ダビデ王をうみダビデ王ウリヤの妻のはらにソロモンをうみ<br>
-1:7ソロモン、ロボアムをうみロボアム、アビアをうみアビア、アサフをうみ<br>
-1:8アサフ、ヨサパテをうみヨサパテ、ヨラムをうみヨラム、ヲジヤをうみ<br>
-1:9ヲジヤ、ヨアタムをうみヨアタム、アカズをうみアカズ、エゼキヤをうみ<br>
-1:10エゼキヤ、マナセをうみマナセ、アモンをうみアモン、イヨシアをうみ<br>
-1:11バブロンにうつされたるときイヨシア、イヱコニアとその兄弟をうみ<br>
-1:12バブロンにうつされたるのちイヱコニア、サラチエルをうみサラチエル、ゾロバベルをうみ<br>
-1:13ゾロバベル、アビウデをうみアビウデ、ヱリアキンをうみヱリアキン、アゾルをうみ<br>
-1:14アゾル、サドクをうみサドク、アキンをうみアキン、ヱリウデをうみ<br>
-1:15ヱリウデ、エリアザルをうみエリアザル、マツタンをうみマツタン、ヤコブをうみ<br>
-1:16ヤコブ、マリアの夫ヨセフをうみこのマリアよりキリストととなふる耶穌うまれたまへり<br>
-1:17かくアブラハムよりダビデまでの歴代すべて十四代またダビデよりバブロンにうつるまで十四代またバブロンにうつりてよりキリストまで十四代なり<br>
-1:18それ耶穌キリストのうまれたまふことさのごとしその母マリアはヨセフと契約していまだともにをらざるに聖靈に感じてはらみしことあらはれしが<br>
-1:19その夫ヨセフはただしき人なればこれをはづかしむることをほつせずひそかに離縁せんとおもへり<br>
-1:20かくてこのことをかんがへ居けるにみよ主のつかひかれのゆめにあらはれていひけるはダビデのすゑヨセフよなんぢの妻マリアをめとるをおそるるないかにとなればかれにはらみしものは聖靈によるなり<br>
-1:21かれ子をうまんその名を耶穌となづくべしかれその民をそのつみよりすくはんとすればなり<br>
-1:22すべてこのことは預言者によりて主のいひたまひしことばに<br>
-1:23みよむすめはらみて子をうまんその名をヱンマヌエルととなふべしといひしにかなへんためなりその名をとけば神われらとともにあるとのいみなり<br>
-1:24ヨセフ目さめておき主のつかひの命ぜしごとくにしてその妻をめとりしが<br>
-1:25初子のうまるるまで交合もせざりきしかしてその名を耶穌ととなへり
-</p>
-    </div>
-    <div class="column">
-      <h2>新約全書
-	明治新約合冊 	翻訳委員社中 	1880</h2>
-      <p>
-1:1 アブラハムの子、ダビデの裔、イエス・キリストの系図。<br>
-1:2 アブラハムはイサクを生み、イサクはヤコブを生み、ヤコブはユダとその兄弟たちを生み、<br>
-1:3 ユダはタマルによってペレズとゼラを生み、ペレズはヘツロンを生み、ヘツロンはアラムを生み、<br>
-1:4アラム、アミナダブを生アミナダブ、ナアソンを生ナアソン、サルモンを生 <br>
-1:5サルモン、ラハブに由てボアズを生ボアズ、ルツに由てオベデを生オベデ、エツサイを生 <br>
-1:6エツサイ、ダビデ王を生ダビデ王ウリヤの妻に由てソロモンを生み <br>
-1:7ソロモン、レハベアムを生レハベアム、アビヤを生アビヤ、アサを生 <br>
-1:8アサ、ヨサパテを生ヨサパテ、ヨラムを生ヨラム、ウッズヤを生 <br>
-1:9ウッズヤ、ヨタムを生ヨタム、アカズを生アカズ、ヘゼキヤを生 <br>
-1:10ヘゼキヤ、マナセを生マナセ、アモンを生みアモン、ヨシヤを生り <br>
-1:11バビロンに徙さるる時ヨシヤ、エホヤキンと其兄弟を生 <br>
-1:12バビロンに徙されたる後エホヤキン、シアテルを生シアテル、ゼルバベルを生 <br>
-1:13ゼルバベル、アビウデを生アビウデ、エリヤキンを生エリヤキン、アゾルを生 <br>
-1:14アゾル、ザドクを生ザドク、アキムを生アキム、エリウデを生 <br>
-1:15エリウデ、エリアザルを生エリアザル、マツタンを生マツタン、ヤコブを生 <br>
-1:16ヤコブ、マリヤの夫ヨセフを生り此マリヤよりキリストと稱るイエス生れ給ひき <br>
-1:17其世系を數ふればアブラハムよりダビデに至るまで十四代ダビデよりバビロンに徙さるる時まで十四代バビロンに徙されしよりキリストまで十四代なり／<br> 
-1:18それイエス・キリストの生れ給ること左の如し其母マリアはヨセフと聘定を爲るのみにて未だ偕にならざりしとき聖靈に感じて孕しが其孕たること顯れければ <br>
-1:19夫ヨセフ義人なる故に之を辱しむることを願ず密に離緣せんと思へり <br>
-1:20斯て此事を思念せる時に主の使者かれが夢に現れて曰けるはダビデの裔ヨセフよ爾妻マリヤを娶ことを懼るる勿れその孕る所の者は聖靈に由なり。 <br>
-1:21かれ子を生ん其名をイエスと名くべし蓋その民を罪より救はんとすれば也 <br>
-1:22凡て此事は〔預言者｜預言者〕に託て主の曰たまひし言に<br> 
-1:23處女はらみて子を生ん其名をインマヌエルと稱べしと有に應せん爲なり其名を譯ば神われらと偕に在との義なり <br>
-1:24ヨセフ寐より起て主の使者の命ぜし言に遵ひ其妻を娶たれど <br>
-1:25 しかし、彼女が男の子を産むまでは彼女と関係を持たなかった。そしてその子の名をイエスと呼んだ。
-</p>
-    </div>
-    <div class="column">
-      <h2>Warera no shu Iyesu Kirisuto no shin yaku zen sho. The new testament in Japanese.
-	ローマ字聖書 	J. C. Hepburn 	1880</h2>
-      <p>
-1:1 Aburaham no ko naru Dabide no ko Iyesu Kirisuto no keidzu.<br>
-1:2 Aburaham Isaku wo umi; Isaku Yakobti wo umu; Yakobii Yuda to sono kiyōdai wo umeri.<br>
-1:3 Yuda Tamaru ni yorite Parestt to Zara wo umi; Paresu Ye-suron wo umi; Yesuron Aram wo umi;<br>
-1:4 Aram Aminadabu wo umi; Aminadabu Naason wo umi;Naason Sarumon wo umi; <br>
-1:5 Sarumon Rahabu ni yorite Boadzu wo umu; Boadzu Rutsu ni yorite Obede wo umi; Obede Yessai wo umi; <br>
-1:6 Yessai Dabide o wo umu; Dabide o Uriya no tsuma ni yorite Soromon wo umi; <br>
-1:7 Soromon Rehabeam wo umi; Rehabeam Abia wo umi; Abia Asa woumi; <br>
-1:8 Asa Yosapate wo umi; Yosapate Yoram wo umi; Yoram Uzzuya wo umi; <br>
-1:9 Uzzuya Yotam wo umi; Yotam Akadzu wo umi; Akadzu Hezekia wo umi; <br>
-1:10 Hezekia Manase wo umi; Manase Amon wo umi; Amon Yoshia wo umeri. <br>
-1:11 Babiron ni utsusaruru toki Yoshia Yehoyakin to sono kiyéddai wo umi;<br>
-1:12 Babiron ni utsusaretaru nochi Yehoyakin Shiateru wo umu; Shiateru Zerubaberu wo umi; <br>
-1:13 Zerubaberu Abiude wo umi; Abiude Yeriakin wo umi;Yeriakin <br>
-1:14 Azoru wo umi; “Azoru Zadoku wo umi ; Zadoku Akim wo umi; Akim Yeriude wo umi;<br>
-1:15 Yeriude Yeriazaru wo umi; Yeriazaru Mattan wo umi; Mattan Yakobu wo umi; <br>
-1:16 Yakobu Maria no  otto Yosefu wo umeri. Kono Maria yori Kirisuto to tonoru lyesu umare tamaiki. <br>
-1:17 Sono yotsugi wo kazoreba, Aburaham yori Dabide ni itaru made ju-yo dai; Dabide yori Babiron ni utsusaruru toki made ji-yo dai; Babiron ni utsusareshi yori Kirisuto made ju-yo dai nari.<br>
-1:18 Sore, Iyesu Kiristito no umare tamayeru koto sa no gotoshi. Sono haha Maria wa Yosefu to iinadzuke wo naseru nomi nite, imada tomo ni narazarishi toki, Seirei ni kanjite haramishi ga, sono haramitaru koto araware kereba, <br>
-1:19 otto Yosefu tadashiki hito naru yuye ni, kore wo hadzukashimuru koto wo konomadzu, hisoka ni ri-yen sen to omoyeri. <br>
-1:20 Kakute kono koto wo omoi-meguraseru ori ni, Shu no tstikai kare ga yume ni arawarete iikeru wa, Dabide no suye Yosefu yo, nanji tsuma Maria wo metoru koto wo osoruru nakare ; sono harameru; tokoro no mono wa Seirei ni yoru nari. <br>
-1:21 Kare ko Wo uman, sono na wo lyesu to nadzuku beshi; so wa sono tami wo tsumi yori sttkuwan to sureba nari. <br>
-1:22 Subete kono koto wa yogensha ni yorite Shu no ii tamaishi kotoba ni, <br>
-1:23 Otome haramite ko Wo uman; sono na wo Immanuyeru to tonou beshi to aru ni kanawasen tame nari: sono na wo tokeba, Kami warera to tomo ni oru, to no kokoro nari.<br>
-1:24 Yosefu nemuri yori okite, Shu no tstkai no meizeshi koto ni shitagai, sono tsuma wo metoritaredo; <br>
-1:25 Hajime no ko wo umaruru made majiwarazu, sono na wo Iyesu to tonaetari.
-</p>
-    </div>
-  </div>
+  <div id="bible-text">読み込み中...</div>
+
+  <script>
+    // Load the XML file
+    fetch("matthew_all_placeholder_fixed.xml")
+      .then(response => response.text())
+      .then(xmlText => {
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(xmlText, "application/xml");
+
+        // Get all <ab> elements
+        const verses = xml.getElementsByTagName("ab");
+        let html = "";
+
+        for (let i = 0; i < verses.length; i++) {
+          const verse = verses[i];
+          const n = verse.getAttribute("n") || "";
+          const seg = verse.getElementsByTagName("seg")[0];
+          let content = seg ? seg.textContent : "";
+
+          // Very simple ruby markup replacement (example only)
+          content = content.replace("義人", '<ruby>義人<rt>ただしいひと</rt></ruby>');
+
+          html += `<p><span style="color: gray; font-size: 0.8em;">${n}</span> ${content}</p>`;
+        }
+
+        document.getElementById("bible-text").innerHTML = html;
+      })
+      .catch(error => {
+        document.getElementById("bible-text").innerText = "XMLの読み込みに失敗しました。";
+        console.error(error);
+      });
+  </script>
 </body>
 </html>
-
-
-
-
-
