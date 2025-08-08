@@ -1,2 +1,6 @@
-# digital-meiji-bible
-A tool to compare pre-meiji and meiji translations of the Bible translated into Japanese.
+# Meiji Bible TEI Viewer
+
+This is a simple digital edition of the Book of Matthew using TEI Boilerplate.
+It displays the XML with ruby glosses and verse formatting.
+
+To view it, upload the contents of this folder to GitHub Pages.
