@@ -2,87 +2,30 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Digital Meiji Bible Viewer – Matthew</title>
+  <title>Test Ruby Viewer</title>
   <style>
-    /* 🔴 Ruby glosses in red */
+    body {
+      font-family: "Noto Serif JP", serif;
+      line-height: 2;
+      font-size: 1.2em;
+      padding: 2em;
+    }
     rt {
       color: red;
     }
-
-    /* ✨ Basic typography */
-    body {
-      font-family: "Noto Serif JP", serif;
-      font-size: 1.2em;
-      line-height: 1.8;
-      padding: 2em;
-      background-color: #fdfdfd;
-      color: #222;
-    }
-
-    /* 📖 Verse spacing */
-    ab {
-      display: block;
-      margin-bottom: 1em;
-    }
-
-    /* 📌 Superscript verse numbers */
-    hi[rend~="superscript"] {
-      vertical-align: super;
-      font-size: 0.7em;
-      color: #888;
-      padding-right: 0.4em;
-    }
-
-    /* 🔠 Ruby positioning */
     ruby {
       ruby-position: over;
     }
-
-    /* ✒ Optional: Red headings for chapters */
-    div[type="chapter"] > head {
-      color: #b11;
-      font-weight: bold;
-      font-size: 1.4em;
-      margin-top: 2em;
-      margin-bottom: 0.5em;
+    p {
+      margin-bottom: 1em;
     }
   </style>
 </head>
 <body>
-  <h1>明治訳聖書デジタルビューワー – マタイによる福音書</h1>
+  <h1>Ruby Gloss Test</h1>
 
-  <div id="bible-text">読み込み中...</div>
+  <p><ruby>義人<rt>ただしいひと</rt></ruby> は祝福される。</p>
+  <p><ruby>裔<rt>こ</rt></ruby> が出て行った。</p>
 
-  <script>
-    // Load the XML file
-    fetch("matthew_all_placeholder_fixed.xml")
-      .then(response => response.text())
-      .then(xmlText => {
-        const parser = new DOMParser();
-        const xml = parser.parseFromString(xmlText, "application/xml");
-
-        // Get all <ab> elements
-        const verses = xml.getElementsByTagName("ab");
-        let html = "";
-
-        for (let i = 0; i < verses.length; i++) {
-          const verse = verses[i];
-          const n = verse.getAttribute("n") || "";
-          const seg = verse.getElementsByTagName("seg")[0];
-          let content = seg ? seg.textContent : "";
-
-          // Very simple ruby markup replacement (example only)
-          content = content.replace("義人", '<ruby>義人<rt>ただしいひと</rt></ruby>');
-
-          html += `<p><span style="color: gray; font-size: 0.8em;">${n}</span> ${content}</p>`;
-        }
-
-        document.getElementById("bible-text").innerHTML = html;
-      })
-      .catch(error => {
-        document.getElementById("bible-text").innerText = "XMLの読み込みに失敗しました。";
-        console.error(error);
-      });
-  </script>
 </body>
 </html>
