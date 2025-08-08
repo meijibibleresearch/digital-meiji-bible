@@ -1,27 +1,3455 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Matthew Chapter 1 — Meiji Bible + Romaji</title>
-        <author>明治元訳翻訳チーム</author>
+        <title>The Gospel According to Matthew — Placeholder TEI Structure</title>
+        <author>Meiji Bible Digital Project</author>
       </titleStmt>
       <publicationStmt>
-        <publisher>Meiji Bible Digital Project</publisher>
+        <publisher>Meiji Bible Research Group</publisher>
         <date>2025</date>
       </publicationStmt>
       <sourceDesc>
-        <p>『明治元訳新約聖書』、マタイによる福音書 第一章</p>
+        <p>Placeholders for Matthew chapters 1–28.</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="book" xml:lang="ja" n="Matthew">
+      <div xml:lang="ja" n="Matthew" type="book">
         <div type="chapter" n="1">
-          <head>マタイによる福音書 第一章</head>
-          <ab n="1"><seg type="original">アブラハムの裔なるダビデの裔イエス・キリストの系圖。</seg></ab>
-          <ab n="2"><seg type="original">アブラハムはイサクを生み、イサクはヤコブを生み、ヤコブはユダとその兄弟たちを生んだ。</seg></ab>
+          <head>マタイによる福音書 第1章</head>
+         <ab n="1:1">
+  <seg type="original"><hi rend="superscript">1:1</hi> アブラハムの<ruby>裔<rt rend="colorred">こ</rt></ruby>
+なるダビデの<ruby>裔<rt rend="colorred">こ</rt></ruby>
+イエス・キリストの系圖。／</seg>
+</ab>
+
+<ab n="1:2">
+  <seg type="original"> <hi rend="superscript">1:2</hi> アブラハム、イサクを生イサク、ヤコブを生ヤコブ、ユダとその兄弟を生り </seg>
+</ab>
+
+<ab n="1:3">
+  <seg type="original"> <hi rend="superscript">1:3</hi> ユダ、タマルに由てパレスとザラとを生パレス、エスロンを生エスロン、アラムを生 </seg>
+</ab>
+
+<ab n="1:4">
+  <seg type="original"><hi rend="superscript">1:4</hi> アラム、アミナダブを生アミナダブ、ナアソンを生ナアソン、サルモンを生 </seg>
+</ab>
+
+<ab n="1:5">
+  <seg type="original"><hi rend="superscript">1:5</hi> サルモン、ラハブに由てボアズを生ボアズ、ルツに由てオベデを生オベデ、エツサイを生 </seg>
+</ab>
+
+<ab n="1:6">
+  <seg type="original"><hi rend="superscript">1:6</hi> エツサイ、ダビデ王を生ダビデ王ウリヤの妻に由てソロモンを生み </seg>
+</ab>
+
+<ab n="1:7">
+  <seg type="original"><hi rend="superscript">1:7</hi> ソロモン、レハベアムを生レハベアム、アビヤを生アビヤ、アサを生 </seg>
+</ab>
+
+<ab n="1:8">
+  <seg type="original"> <hi rend="superscript">1:8</hi> アサ、ヨサパテを生ヨサパテ、ヨラムを生ヨラム、ウッズヤを生 </seg>
+</ab>
+
+<ab n="1:9">
+  <seg type="original"> <hi rend="superscript">1:9</hi> ウッズヤ、ヨタムを生ヨタム、アカズを生アカズ、ヘゼキヤを生 </seg>
+</ab>
+
+<ab n="1:10">
+  <seg type="original"> <hi rend="superscript">1:10</hi> ヘゼキヤ、マナセを生マナセ、アモンを生みアモン、ヨシヤを生り </seg>
+</ab>
+
+<ab n="1:11">
+  <seg type="original"> <hi rend="superscript">1:11</hi> バビロンに徙さるる時ヨシヤ、エホヤキンと其兄弟を生 </seg>
+</ab>
+
+<ab n="1:12">
+  <seg type="original"> <hi rend="superscript">1:12</hi> バビロンに徙されたる後エホヤキン、シアテルを生シアテル、ゼルバベルを生 </seg>
+</ab>
+
+<ab n="1:13">
+  <seg type="original"> <hi rend="superscript">1:13</hi> ゼルバベル、アビウデを生アビウデ、エリヤキンを生エリヤキン、アゾルを生 </seg>
+</ab>
+
+<ab n="1:14">
+  <seg type="original"> <hi rend="superscript">1:14</hi> アゾル、ザドクを生ザドク、アキムを生アキム、エリウデを生 </seg>
+</ab>
+
+<ab n="1:15">
+  <seg type="original"> <hi rend="superscript">1:15</hi> エリウデ、エリアザルを生エリアザル、マツタンを生マツタン、ヤコブを生 </seg>
+</ab>
+
+<ab n="1:16">
+  <seg type="original"> <hi rend="superscript">1:16</hi> ヤコブ、マリヤの夫ヨセフを生り此マリヤよりキリストと稱るイエス生れ給ひき </seg>
+</ab>
+
+<ab n="1:17">
+  <seg type="original"> <hi rend="superscript">1:17</hi> 其世系を數ふればアブラハムよりダビデに至るまで十四代ダビデよりバビロンに徙さるる時まで十四代バビロンに徙されしよりキリストまで十四代なり／ </seg>
+</ab>
+
+<ab n="1:18">
+  <seg type="original"> <hi rend="superscript">1:18</hi> それイエス・キリストの生れ給ること左の如し其母マリアはヨセフと聘定を爲るのみにて未だ偕にならざりしとき聖靈に感じて孕しが其孕たること顯れければ </seg>
+</ab>
+
+<ab n="1:19">
+  <seg type="original"> <hi rend="superscript">1:19</hi> 夫ヨセフ<ruby>義人<rt rend="colorred">ただしいひと</rt></ruby>
+なる故に之を辱しむることを願ず密に離緣せんと思へり </seg>
+</ab>
+
+<ab n="1:20">
+  <seg type="original"> <hi rend="superscript">1:20</hi> 斯て此事を思念せる時に主の使者かれが夢に現れて曰けるはダビデの<ruby>裔<rt rend="colorred">こ</rt></ruby>
+ヨセフよ爾妻マリヤを娶ことを懼るる勿れその孕る所の者は聖靈に由なり。 </seg>
+</ab>
+
+<ab n="1:21">
+  <seg type="original"> <hi rend="superscript">1:21</hi> かれ子を生ん其名をイエスと名くべし蓋その民を罪より救はんとすれば也 </seg>
+</ab>
+
+<ab n="1:22">
+  <seg type="original"> <hi rend="superscript">1:22</hi> 凡て此事は〔預言者｜預言者〕に託て主の曰たまひし言に </seg>
+</ab>
+
+<ab n="1:23">
+  <seg type="original"> <hi rend="superscript">1:23</hi> 處女はらみて子を生ん其名をインマヌエルと稱べしと有に應せん爲なり其名を譯ば神われらと偕に在との義なり </seg>
+</ab>
+
+<ab n="1:24">
+  <seg type="original"> <hi rend="superscript">1:24</hi> ヨセフ寐より起て主の使者の命ぜし言に遵ひ其妻を娶たれど </seg>
+</ab>
+
+<ab n="1:25">
+  <seg type="original"> <hi rend="superscript">1:25</hi> 冢子の生るるまで牀を同にせざりき其生れし子をイエスと名けたり</seg>
+</ab>
+        </div>
+        <div type="chapter" n="2">
+          <head>マタイによる福音書 第2章</head>
+          <ab n="2:1">
+  <seg type="original"> <hi rend="superscript">2:1</hi> 夫イエスはヘロデ王の時ユダヤの〔ベテレヘム｜ベツレヘム〕に生れ給しが其とき博士たち東の方よりエルサレムに來り </seg>
+</ab>
+
+<ab n="2:2">
+  <seg type="original"> <hi rend="superscript">2:2</hi> 曰けるはユダヤ人の王とて生れ給る者は何處に在す乎われら東の方にて其星を見たれば彼を拜せん爲に來れり </seg>
+</ab>
+
+<ab n="2:3">
+  <seg type="original"> <hi rend="superscript">2:3</hi> ヘロデ王これを聞て痛む又エルサレムの民もみな然り </seg>
+</ab>
+
+<ab n="2:4">
+  <seg type="original"> <hi rend="superscript">2:4</hi> 凡の祭司の長と民の學者とを集てヘロデ問けるはキリストの生るべき處は何所なる乎 </seg>
+</ab>
+
+<ab n="2:5">
+  <seg type="original"> <hi rend="superscript">2:5</hi> 答けるはユダヤの〔ベテレヘム｜ベツレヘム〕なり蓋〔預言者｜預言者〕の錄されたる言に </seg>
+</ab>
+
+<ab n="2:6">
+  <seg type="original"><hi rend="superscript">2:6</hi> ユダヤの地〔ベテレヘム｜ベツレヘム〕よ爾はユダヤの郡中にて至小きものに非ず我イスラエルの民を牧ふべき君その中より出んと云ばなり </seg>
+</ab>
+
+<ab n="2:7">
+  <seg type="original"> <hi rend="superscript">2:7</hi> 是に於てヘロデ密に博士等を召星の現れし時を詳に問て </seg>
+</ab>
+
+<ab n="2:8">
+  <seg type="original"> <hi rend="superscript">2:8</hi> 彼等を〔ベテレヘム｜ベツレヘム〕に遣さんとして曰けるは往て嬰兒の事を細に尋これに遇ば我に告よ我も亦ゆきて拜すべし </seg>
+</ab>
+
+<ab n="2:9">
+  <seg type="original"> <hi rend="superscript">2:9</hi> かれら王の命を聞て往り前に東の方にて見たりし星かれらに先ちて嬰兒の居所にいたり其上に止りぬ </seg>
+</ab>
+
+<ab n="2:10">
+  <seg type="original"> <hi rend="superscript">2:10</hi> 彼等この星を見て甚く喜び </seg>
+</ab>
+
+<ab n="2:11">
+  <seg type="original"> <hi rend="superscript">2:11</hi> 既に室に入ければ嬰兒の其母マリアと偕に居を見ひれふして嬰兒を拜し寶の盒を開て黄金乳香沒藥など禮物を獻たり </seg>
+</ab>
+
+<ab n="2:12">
+  <seg type="original"> <hi rend="superscript">2:12</hi> 博士夢にヘロデへ返る勿との默示を蒙りて他の途より其國に歸れり／ </seg>
+</ab>
+
+<ab n="2:13">
+  <seg type="original"> <hi rend="superscript">2:13</hi> 彼等が去るのち主の使者ヨセフの夢に現れて曰けるはヘロデ嬰兒を索て殺んとする故に起て嬰兒と其母とを挈へエジプトに逃て復わが爾に示さん時まで彼處に止れ </seg>
+</ab>
+
+<ab n="2:14">
+  <seg type="original"> <hi rend="superscript">2:14</hi> ヨセフ起て夜嬰兒と其母とを挈へエジプトに往 </seg>
+</ab>
+
+<ab n="2:15">
+  <seg type="original"> <hi rend="superscript">2:15</hi> ヘロデの死るまで其所に止れり是主〔預言者｜預言者〕に託て我わが子をエジプトより召出せりと云給ひしに應せん爲也 </seg>
+</ab>
+
+<ab n="2:16">
+  <seg type="original"> <hi rend="superscript">2:16</hi> 是に於てヘロデ博士に欺かれたるをしり大にいかり人を遣して博士に詳く問たる時を度り〔ベテレヘム｜ベツレヘム〕と其境の内なる二歳以下の嬰兒を盡く殺せり </seg>
+</ab>
+
+<ab n="2:17">
+  <seg type="original"> <hi rend="superscript">2:17</hi> 即ち〔預言者｜預言者〕エレミヤの言に </seg>
+</ab>
+
+<ab n="2:18">
+  <seg type="original"> <hi rend="superscript">2:18</hi> 歎き悲み甚く憂る聲ラマに聞ゆラケル其兒子を歎き其兒子の無によりて慰を得ずと云しに應へり </seg>
+</ab>
+
+<ab n="2:19">
+  <seg type="original"> <hi rend="superscript">2:19</hi> 斯てヘロデ死しかば主の使者ヨセフの夢にエジプトにて現れ曰けるは </seg>
+</ab>
+
+<ab n="2:20">
+  <seg type="original"> <hi rend="superscript">2:20</hi> 起て嬰兒とその母とを挈へイスラエルの地にゆけ嬰兒の生命を索る者は已に死り </seg>
+</ab>
+
+<ab n="2:21">
+  <seg type="original"> <hi rend="superscript">2:21</hi> 彼おきて嬰兒と其母とを挈へてイスラエルの地に至しが </seg>
+</ab>
+
+<ab n="2:22">
+  <seg type="original"> <hi rend="superscript">2:22</hi> アクラヲ父ヘロデに代てユダヤの王たりと聞ければ彼處に往ことを懼る又夢に告を蒙りてガリラヤの内に避 </seg>
+</ab>
+
+<ab n="2:23">
+  <seg type="original"> <hi rend="superscript">2:23</hi> ナザレと云る邑に至りて居り彼はナザレ人と稱れんと〔預言者｜預言者〕に託て云れたる言に應せん爲なり</seg>
+</ab>
+
+
+        </div>
+        <div type="chapter" n="3">
+          <head>マタイによる福音書 第3章</head>
+<ab n="3:1">
+  <seg type="original"><hi rend="superscript">3:1</hi> 當時バプテスマのヨハネ來りてユダヤの野に宣傳へて </seg>
+</ab>
+<ab n="3:2">
+  <seg type="original"><hi rend="superscript">3:2</hi> 曰けるは天國は近けり悔改めよ </seg>
+</ab>
+<ab n="3:3">
+  <seg type="original"><hi rend="superscript">3:3</hi> 是は主の道を備その路線を直せよと野に呼る人の聲ありと〔預言者｜預言者〕イザヤが言し人なり </seg>
+</ab>
+<ab n="3:4">
+  <seg type="original"><hi rend="superscript">3:4</hi> 此ヨハネは身に駱駝の毛衣をき腰に皮の帶をつかね蝗蟲と野蜜を食物とせり </seg>
+</ab>
+<ab n="3:5">
+  <seg type="original"><hi rend="superscript">3:5</hi> 斯時エルサレム及びユダヤを擧またヨルダンの四方より人々出てヨハネに就 </seg>
+</ab>
+<ab n="3:6">
+  <seg type="original"><hi rend="superscript">3:6</hi> 己が罪を悔あらはしヨルダンにて彼よりバプテスマを授られたり </seg>
+</ab>
+<ab n="3:7">
+  <seg type="original"><hi rend="superscript">3:7</hi> バプテスマを受んとてパリサイ及サドカイの人々の多く來れるを見て彼等に曰けるは蝮の<ruby>裔<rt rend="colorred">こ</rt></ruby>
+よ誰なんぢらに來んとする怒を避べきことを告しや </seg>
+</ab>
+<ab n="3:8">
+  <seg type="original"><hi rend="superscript">3:8</hi> 然ば悔改に符ふ果を結べよ </seg>
+</ab>
+<ab n="3:9">
+  <seg type="original"><hi rend="superscript">3:9</hi> 爾曹われらが先祖にアブラハム有と云ことを意ふ勿れ我爾曹に告ん神は能この石をもアブラハムの子と爲しめ給ふなり </seg>
+</ab>
+<ab n="3:10">
+  <seg type="original"><hi rend="superscript">3:10</hi> 今や斧を樹の根に置る故に凡て善果を結ざる樹は斫れて火に投入らるべし </seg>
+</ab>
+<ab n="3:11">
+  <seg type="original"><hi rend="superscript">3:11</hi> 我は爾曹を悔改させんとて水を以て爾曹にバプテスマを授く我より後に來者は我に勝て能力あり我は其履を提にも足ず彼は聖靈と火をもて爾曹にバプテスマを授ん </seg>
+</ab>
+<ab n="3:12">
+  <seg type="original"><hi rend="superscript">3:12</hi> 手には箕を持て其禾場を淨め麥は斂て其倉にいれ糠は熄ざる火にて燬べし／ </seg>
+</ab>
+<ab n="3:13">
+  <seg type="original"><hi rend="superscript">3:13</hi> 斯時イエス、ヨハネにバプテスマを受んとてガリラヤよりヨルダンに來り給ふ </seg>
+</ab>
+<ab n="3:14">
+  <seg type="original"><hi rend="superscript">3:14</hi> ヨハネ辭て曰けるは我は爾よりバプテスマを受べき者なるに爾反て我に來る乎 </seg>
+</ab>
+<ab n="3:15">
+  <seg type="original"><hi rend="superscript">3:15</hi> イエス答けるは暫く許せ如此凡ての義き事は我儕盡す可なり是に於てヨハネ彼に許せり </seg>
+</ab>
+<ab n="3:16">
+  <seg type="original"><hi rend="superscript">3:16</hi> イエス、バプテスマを受て水より上れるとき天忽ち之が爲にひらけ神の靈の鴿の如く降て其上に來るを見る </seg>
+</ab>
+<ab n="3:17">
+  <seg type="original"><hi rend="superscript">3:17</hi> 又天より聲ありて此は我心に適わが愛子なりと云り</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="4">
+          <head>マタイによる福音書 第4章</head>
+          <ab n="4:1">
+  <seg type="original"><hi rend="superscript">4:1</hi> 偖イエス聖靈に導かれ惡魔に試られん爲に野に往り </seg>
+</ab>
+<ab n="4:2">
+  <seg type="original"><hi rend="superscript">4:2</hi> 四十日四十夜食ふ事をせず後うゑたり </seg>
+</ab>
+<ab n="4:3">
+  <seg type="original"><hi rend="superscript">4:3</hi> 試むる者かれに來りて曰けるは爾もし神の子ならば命じて此石をパンと爲よ </seg>
+</ab>
+<ab n="4:4">
+  <seg type="original"><hi rend="superscript">4:4</hi> イエス答けるは人はパンのみにて生るものに非ず唯神の口より出る凡の言に因と録されたり </seg>
+</ab>
+<ab n="4:5">
+  <seg type="original"><hi rend="superscript">4:5</hi> 是に於て惡魔かれを聖京に携へゆき殿の頂上に立せて曰けるは </seg>
+</ab>
+<ab n="4:6">
+  <seg type="original"><hi rend="superscript">4:6</hi> 爾もし神の子ならば己が身を下に投よ蓋なんぢが爲に神その使等に命ぜん彼等手にて支へ爾が足の石に觸ざるやうすべしと録されたり </seg>
+</ab>
+<ab n="4:7">
+  <seg type="original"><hi rend="superscript">4:7</hi> イエス彼に曰けるは主たる爾の神を試むべからずと亦録せり </seg>
+</ab>
+<ab n="4:8">
+  <seg type="original"><hi rend="superscript">4:8</hi> 惡魔また彼を最高き山に携へゆき世界の諸國とその榮華とを見せて </seg>
+</ab>
+<ab n="4:9">
+  <seg type="original"><hi rend="superscript">4:9</hi> 爾もし俯伏て我を拜せば此等を悉なんぢに與ふべしと曰 </seg>
+</ab>
+<ab n="4:10">
+  <seg type="original"><hi rend="superscript">4:10</hi> イエス彼に曰けるはサタンよ退け主たる爾の神を拜し惟之にのみ事ふべしと録されたり </seg>
+</ab>
+<ab n="4:11">
+  <seg type="original"><hi rend="superscript">4:11</hi> 終に惡魔かれを離れ天使たち來り事ふ／ </seg>
+</ab>
+<ab n="4:12">
+  <seg type="original"><hi rend="superscript">4:12</hi> イエス、ヨハネの囚れし事を聞てガリラヤに往 </seg>
+</ab>
+<ab n="4:13">
+  <seg type="original"><hi rend="superscript">4:13</hi> ナザレを去ゼブルンとナフタリの界なる海邊のカペナウンに至て此に居り </seg>
+</ab>
+<ab n="4:14">
+  <seg type="original"><hi rend="superscript">4:14</hi> これ〔預言者｜預言者〕イザヤの言に </seg>
+</ab>
+<ab n="4:15">
+  <seg type="original"><hi rend="superscript">4:15</hi> ゼブルンの地、ナフタリの地海に沿たる地ヨルダンの外の地異邦人のガリラヤ </seg>
+</ab>
+<ab n="4:16">
+  <seg type="original"><hi rend="superscript">4:16</hi> 此等の幽暗にをる民は大なる光をみ死地と死蔭に坐する者の上に光いでたりと云しに應せん爲なり／ </seg>
+</ab>
+<ab n="4:17">
+  <seg type="original"><hi rend="superscript">4:17</hi> 斯時よりイエス始て道を宣傳へ天國は近けり〔悔｜悔〕改めよと曰たまへり </seg>
+</ab>
+<ab n="4:18">
+  <seg type="original"><hi rend="superscript">4:18</hi> イエス、ガリラヤの海邊を歩て、ペテロと云シモンその兄弟アンデレと二人にて海に網うてるを見たり彼等は漁者なり </seg>
+</ab>
+<ab n="4:19">
+  <seg type="original"><hi rend="superscript">4:19</hi> 之に曰けるは我に從へ我〔爾曹｜なんぢら〕を人を漁る者と爲ん』 </seg>
+</ab>
+<ab n="4:20">
+  <seg type="original"><hi rend="superscript">4:20</hi> 彼等やがて網を棄てイエスに從ふ </seg>
+</ab>
+<ab n="4:21">
+  <seg type="original"><hi rend="superscript">4:21</hi> 此より進けるに又他の兄弟二人即ちゼベダイの子ヤコブと其兄弟ヨハネ父ゼベダイと偕に舟にて網を補へるを見て之を召しに </seg>
+</ab>
+<ab n="4:22">
+  <seg type="original"><hi rend="superscript">4:22</hi> 彼等も頓て舟と父とを置てイエスに從へり／ </seg>
+</ab>
+<ab n="4:23">
+  <seg type="original"><hi rend="superscript">4:23</hi> イエス、ガリラヤを徧く巡り其會堂にて教をなし天國の福音を宣傳かつ民の中なる諸の病もろもろの疾を醫しぬ </seg>
+</ab>
+<ab n="4:24">
+  <seg type="original"><hi rend="superscript">4:24</hi> 〔其｜その〕聲名あまねくスリヤに播りしかば人々すべての患へる者萬殊の病また痛惱めるもの鬼に憑たるもの癲癇癱瘋の病に罹れる者を彼に携來ければ之を醫せり </seg>
+</ab>
+<ab n="4:25">
+  <seg type="original"><hi rend="superscript">4:25</hi> ガリラヤとデカポリス、エルサレム、ユダヤ、ヨルダンの外より、多の人々きたり從ふ</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="5">
+          <head>マタイによる福音書 第5章</head>
+          <ab n="5:1">
+  <seg type="original"><hi rend="superscript">5:1</hi> イエス許多の人を見て山に登り坐し給ければ弟子等も其下に來れり </seg>
+</ab>
+<ab n="5:2">
+  <seg type="original"><hi rend="superscript">5:2</hi> イエス口を啓て彼等に教へ曰けるは </seg>
+</ab>
+<ab n="5:3">
+  <seg type="original"><hi rend="superscript">5:3</hi> 心の貧しき者は福なり天國は即ち其人の有なれば也 </seg>
+</ab>
+<ab n="5:4">
+  <seg type="original"><hi rend="superscript">5:4</hi> 哀む者は福なり其人は安慰を得べければ也 </seg>
+</ab>
+<ab n="5:5">
+  <seg type="original"><hi rend="superscript">5:5</hi> 柔和なる者は福なり其人は地を嗣ことを得べければ也 </seg>
+</ab>
+<ab n="5:6">
+  <seg type="original"><hi rend="superscript">5:6</hi> 餓渇ごとく義を慕者は福なり其人は飽ことを得べければ也 </seg>
+</ab>
+<ab n="5:7">
+  <seg type="original"><hi rend="superscript">5:7</hi> 矜恤ある者は福なり其人は矜恤を得べければ也 </seg>
+</ab>
+<ab n="5:8">
+  <seg type="original"><hi rend="superscript">5:8</hi> 心の清き者は福なり其人は神を見ことを得べければ也 </seg>
+</ab>
+<ab n="5:9">
+  <seg type="original"><hi rend="superscript">5:9</hi> 和平を求る者は福なり其人は神の子と稱らる可ればなり </seg>
+</ab>
+<ab n="5:10">
+  <seg type="original"><hi rend="superscript">5:10</hi> 義ことの爲に責らるる者は福なり天國は即ち其人の有なれば也 </seg>
+</ab>
+<ab n="5:11">
+  <seg type="original"><hi rend="superscript">5:11</hi> 我ために人なんぢらを詬誶また迫害いつはりて各樣の惡言をいはん其時は爾曹福なり </seg>
+</ab>
+<ab n="5:12">
+  <seg type="original"><hi rend="superscript">5:12</hi> 喜び樂め天に於て爾曹の報賞おほければ也そは爾曹より前の〔預言者｜預言者〕をも如此せめたりき／ </seg>
+</ab>
+<ab n="5:13">
+  <seg type="original"><hi rend="superscript">5:13</hi> 爾曹は地の鹽なり鹽もし其味を失はば何を以か故の味に復さん後は用なし外に棄られて人に踐るる而已 </seg>
+</ab>
+<ab n="5:14">
+  <seg type="original"><hi rend="superscript">5:14</hi> 爾曹は世の光なり山の上に建られたる城は隱ることを得ず </seg>
+</ab>
+<ab n="5:15">
+  <seg type="original"><hi rend="superscript">5:15</hi> 燈を燃して斗の下におく者なし燈臺に置て家に在すべての物を照さん </seg>
+</ab>
+<ab n="5:16">
+  <seg type="original"><hi rend="superscript">5:16</hi> 此の如く人々の前に爾曹の光を耀かせ然れば人々なんぢらの善行を見て天に在す爾曹の父を榮むべし／ </seg>
+</ab>
+<ab n="5:17">
+  <seg type="original"><hi rend="superscript">5:17</hi> われ律法と〔預言者｜預言者〕を廢る爲に來れりと意ふ勿われ來て之を廢るに非ず成就せん爲なり </seg>
+</ab>
+<ab n="5:18">
+  <seg type="original"><hi rend="superscript">5:18</hi> われ誠に爾曹に告ん天地の盡ざる中に律法の一點一畫も遂つくさずして廢ることなし </seg>
+</ab>
+<ab n="5:19">
+  <seg type="original"><hi rend="superscript">5:19</hi> 是故に人もし誡の至微き一を壞り又その如く人に教なば天國に於て至微き者と謂れん凡そ之を行ひ且人に教る者は天國に於て大なる者と謂るべし </seg>
+</ab>
+<ab n="5:20">
+  <seg type="original"><hi rend="superscript">5:20</hi> 我なんぢらに告ん學者とパリサイの人の義よりも爾曹の義こと勝ずば必ず天國に入こと能じ／ </seg>
+</ab>
+<ab n="5:21">
+  <seg type="original"><hi rend="superscript">5:21</hi> 古への人に告て殺こと勿れ殺す者は審判に干らんと言ること有は爾曹が聞し所なり </seg>
+</ab>
+<ab n="5:22">
+  <seg type="original"><hi rend="superscript">5:22</hi> 然ど我なんぢらに告ん凡て故なくして其兄弟を怒る者は審判に干らん又その兄弟を愚者よといふ者は集議に干らん又狂妄よといふ者は地獄の火に干るべし </seg>
+</ab>
+<ab n="5:23">
+  <seg type="original"><hi rend="superscript">5:23</hi> 是の故に爾〔｜曹〕もし禮物を携へて壇に往たる時かしこにて兄弟に恨るることあるを憶起さば </seg>
+</ab>
+<ab n="5:24">
+  <seg type="original"><hi rend="superscript">5:24</hi> その供物を壇の前に留まづ往て爾の兄弟と和ぎ後きたりて爾の禮物を獻よ </seg>
+</ab>
+<ab n="5:25">
+  <seg type="original"><hi rend="superscript">5:25</hi> 爾を訟ふる者と偕に途間にある時はやく和げよ恐くは訟ふる者なんぢを審官に付し審官また爾を下吏に付し遂に爾は獄に入られん </seg>
+</ab>
+<ab n="5:26">
+  <seg type="original"><hi rend="superscript">5:26</hi> 我まことに爾に告ん分釐までも償はざれば必ず其處を出ること能ざる也／ </seg>
+</ab>
+<ab n="5:27">
+  <seg type="original"><hi rend="superscript">5:27</hi> 古の人に告て姦淫すること勿と言ることあるは爾曹が聞し所なり </seg>
+</ab>
+<ab n="5:28">
+  <seg type="original"><hi rend="superscript">5:28</hi> 然ど我なんぢらに告ん凡そ婦を見て色情を起す者は中心すでに姦淫したる也 </seg>
+</ab>
+<ab n="5:29">
+  <seg type="original"><hi rend="superscript">5:29</hi> もし右の眼なんぢを罪に陷さば抉出して之を棄よ蓋五體の一を失ふは全身を地獄に投入らるるよりは勝れり </seg>
+</ab>
+<ab n="5:30">
+  <seg type="original"><hi rend="superscript">5:30</hi> もし右の手なんぢを罪に陷さば之を斷て棄よ蓋五體の一を失ふは全身を地獄に投入らるるよりは勝れり／ </seg>
+</ab>
+<ab n="5:31">
+  <seg type="original"><hi rend="superscript">5:31</hi> また曰ることあり凡そ人その妻を出さんとせば之に離縁状を與ふべしと </seg>
+</ab>
+<ab n="5:32">
+  <seg type="original"><hi rend="superscript">5:32</hi> 然ど我爾曹に告ん姦淫の故ならで其妻を出す者は之に姦淫なさしむる〔也｜なり〕又出されたる婦を娶る者も姦淫を行ふなり／ </seg>
+</ab>
+<ab n="5:33">
+  <seg type="original"><hi rend="superscript">5:33</hi> また古の人に告て僞の誓を立ること勿なんぢ誓ふ所は必ず主に遂べしと言ること有は爾曹が聞し所なり </seg>
+</ab>
+<ab n="5:34">
+  <seg type="original"><hi rend="superscript">5:34</hi> 然ど我汝らに告ん更に誓こと勿れ天を指て誓ふ勿れ是神の座位なれば也 </seg>
+</ab>
+<ab n="5:35">
+  <seg type="original"><hi rend="superscript">5:35</hi> 地を指し誓ふこと勿これ神の足凳なれば也エルサレムを指て誓ふこと勿これ大王の京城なれば也 </seg>
+</ab>
+<ab n="5:36">
+  <seg type="original"><hi rend="superscript">5:36</hi> 爾の首を指て誓ふ勿そは一すぢの髮だに白し黒すること能ざれば也 </seg>
+</ab>
+<ab n="5:37">
+  <seg type="original"><hi rend="superscript">5:37</hi> 爾曹ただ是々否々といへ此より過るは惡より出るなり／ </seg>
+</ab>
+<ab n="5:38">
+  <seg type="original"><hi rend="superscript">5:38</hi> 目にて目を償ひ齒にて齒を償へと言ること有は爾曹が聞し所なり </seg>
+</ab>
+<ab n="5:39">
+  <seg type="original"><hi rend="superscript">5:39</hi> 然ど我なんぢらに告ん惡に敵すること勿れ人なんぢの右の頬を批ば亦ほかの頬をも轉して之に向よ </seg>
+</ab>
+<ab n="5:40">
+  <seg type="original"><hi rend="superscript">5:40</hi> 爾を訟て裏衣を取んとする者には外服をも亦とらせよ </seg>
+</ab>
+<ab n="5:41">
+  <seg type="original"><hi rend="superscript">5:41</hi> 人なんぢに一里の公役を強なば之と偕に二里ゆけ </seg>
+</ab>
+<ab n="5:42">
+  <seg type="original"><hi rend="superscript">5:42</hi> 爾に求る者には予へ借んとする者を卻くる勿れ／ </seg>
+</ab>
+<ab n="5:43">
+  <seg type="original"><hi rend="superscript">5:43</hi> 爾の隣を愛みて其敵を憾べしと言ること有は爾曹が聞し所なり </seg>
+</ab>
+<ab n="5:44">
+  <seg type="original"><hi rend="superscript">5:44</hi> 然ど我なんぢらに告ん爾曹の敵を愛み爾曹を詛ふ者を祝し爾曹を憎む者を善視し虐遇迫害ものの爲に祈禱せよ </seg>
+</ab>
+<ab n="5:45">
+  <seg type="original"><hi rend="superscript">5:45</hi> 如此するは天に在す爾曹の父の子とならん爲なり夫天の父は其日を善者にも惡者にも照し雨を義き者にも義からざる者にも降せ給へり </seg>
+</ab>
+<ab n="5:46">
+  <seg type="original"><hi rend="superscript">5:46</hi> 爾曹おのれを愛する者を愛するは何の報賞かあらん税吏も然せざらん乎 </seg>
+</ab>
+<ab n="5:47">
+  <seg type="original"><hi rend="superscript">5:47</hi> 安否を兄弟にのみ問は人より何の過たる事かあらん税吏も然せざらん乎 </seg>
+</ab>
+<ab n="5:48">
+  <seg type="original"><hi rend="superscript">5:48</hi> 是故に天に在す爾曹の父の完全が如く爾曹も完全すべし</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="6">
+          <head>マタイによる福音書 第6章</head>
+        <ab n="6:1">
+  <seg type="original"><hi rend="superscript">6:1</hi> なんぢら人に見せんために其義を人の前に行ことを愼もし然ずば天に在す爾曹の父より報賞を得じ </seg>
+</ab>
+<ab n="6:2">
+  <seg type="original"><hi rend="superscript">6:2</hi> 是故に施濟を行とき人の榮を得ん爲に會堂や街衙にて僞善者の如く箛を己が前に吹しむる勿れ我まことに爾曹に告ん彼等は既にその報賞を得たり。 </seg>
+</ab>
+<ab n="6:3">
+  <seg type="original"><hi rend="superscript">6:3</hi> なんぢ〔｜ら〕施濟をするとき右の手の爲ことを左の手に知する勿れ </seg>
+</ab>
+<ab n="6:4">
+  <seg type="original"><hi rend="superscript">6:4</hi> 如此するは其施濟の隱れんが爲なり然ば隱たるに鑒たまふ汝の父は明顯に報たまふべし／ </seg>
+</ab>
+<ab n="6:5">
+  <seg type="original"><hi rend="superscript">6:5</hi> なんぢ祈る時に僞善者の如する勿れ彼等は人に見られんが爲に會堂や街衙の隅に立て祈ことを好われ誠に爾曹に告ん彼等は既にその報賞を得たり </seg>
+</ab>
+<ab n="6:6">
+  <seg type="original"><hi rend="superscript">6:6</hi> なんぢ祈ときは嚴密なる室にいり戸を閉て隱微たるに在す爾の父に祈れ然ば隱微れたるに鑒たまふ爾の父は明顯に報たまふべし </seg>
+</ab>
+<ab n="6:7">
+  <seg type="original"><hi rend="superscript">6:7</hi> 爾曹祈る時は異邦人の如く重複語を言なかれ彼等は言おほきを以て聽れんと意へり </seg>
+</ab>
+<ab n="6:8">
+  <seg type="original"><hi rend="superscript">6:8</hi> 是故に彼等に效こと勿れ爾曹の父は求ざる先に其需要物を知たまへば也 </seg>
+</ab>
+<ab n="6:9">
+  <seg type="original"><hi rend="superscript">6:9</hi> 然ば爾曹かく祈るべし天に在ます我儕の父よ願くは爾名を尊崇させ給へ </seg>
+</ab>
+<ab n="6:10">
+  <seg type="original"><hi rend="superscript">6:10</hi> 爾國を臨らせ給へ爾言の天に成ごとく地にも成せ給へ </seg>
+</ab>
+<ab n="6:11">
+  <seg type="original"><hi rend="superscript">6:11</hi> 我儕の日用の糧を今日も與たまへ </seg>
+</ab>
+<ab n="6:12">
+  <seg type="original"><hi rend="superscript">6:12</hi> 我儕に〔負債ある｜罪を犯す〕者を〔我儕が｜我〕ゆるす如く我儕の〔負債｜罪〕をも〔免し給へ｜免たまへ〕。 </seg>
+</ab>
+<ab n="6:13">
+  <seg type="original"><hi rend="superscript">6:13</hi> 我儕らを試探に遇せず惡より拯出し給へ國と權と榮は〔窮りなく爾の有なればなりアメン｜爾の窮なく有たまふ所なりアーメン〕 </seg>
+</ab>
+<ab n="6:14">
+  <seg type="original"><hi rend="superscript">6:14</hi> 爾曹もし人の罪を免さば天に在ます爾曹の父も亦なんぢらを免し給はん </seg>
+</ab>
+<ab n="6:15">
+  <seg type="original"><hi rend="superscript">6:15</hi> 然どもし人の罪を免さずば爾曹の父も爾曹の罪を免し給はざるべし／ </seg>
+</ab>
+<ab n="6:16">
+  <seg type="original"><hi rend="superscript">6:16</hi> なんぢら斷食するとき僞善者の如き憂容をする勿れ彼等は斷食を人に見ん爲に顏色を損ふ我まことに爾曹に告ん彼等は既に其報賞を得たり </seg>
+</ab>
+<ab n="6:17">
+  <seg type="original"><hi rend="superscript">6:17</hi> なんぢ斷食する時は首に膏をぬり面を洗へ </seg>
+</ab>
+<ab n="6:18">
+  <seg type="original"><hi rend="superscript">6:18</hi> 如此するは爾の斷食人に見ずして隱微たるに在す爾の父に現れん爲なり然ば隱微たるに鑒たまふ爾の父は明顯に報たまふべし／ </seg>
+</ab>
+<ab n="6:19">
+  <seg type="original"><hi rend="superscript">6:19</hi> 蠧くひ銹くさり盜うがちて竊む所の地に財を蓄ふること勿れ </seg>
+</ab>
+<ab n="6:20">
+  <seg type="original"><hi rend="superscript">6:20</hi> 蠧くひ銹くさり盜穿て竊ざる所の天に財を蓄ふべし </seg>
+</ab>
+<ab n="6:21">
+  <seg type="original"><hi rend="superscript">6:21</hi> 蓋なんぢらの財の在ところに心も亦ある可れば也／ </seg>
+</ab>
+<ab n="6:22">
+  <seg type="original"><hi rend="superscript">6:22</hi> 身の光は目なり若なんぢの目瞭かならば全身も亦明なるべし </seg>
+</ab>
+<ab n="6:23">
+  <seg type="original"><hi rend="superscript">6:23</hi> 若なんぢの目眊らば全身暗かるべし是故に爾の中の光もし暗からば其暗こと如何に大ならず乎 </seg>
+</ab>
+<ab n="6:24">
+  <seg type="original"><hi rend="superscript">6:24</hi> 人は二人の主に事ること能ず蓋これを惡かれを愛み此を親み彼を疎べければ也なんぢら神と財に兼事ること能はず </seg>
+</ab>
+<ab n="6:25">
+  <seg type="original"><hi rend="superscript">6:25</hi> 是故に我なんぢらに告ん生命の爲に何を食ひ何を飮また身體の爲に何を衣んと憂慮こと勿れ生命は糧より優り身體は衣よりも優れる者ならず乎 </seg>
+</ab>
+<ab n="6:26">
+  <seg type="original"><hi rend="superscript">6:26</hi> なんぢら天空の鳥を見よ稼ことなく穡ことを爲ず倉に蓄ふることなし然るに爾曹の天の父は之を養ひ給へり爾曹之よりも大に勝るる者ならず乎 </seg>
+</ab>
+<ab n="6:27">
+  <seg type="original"><hi rend="superscript">6:27</hi> 爾曹のうち誰か能おもひ煩ひて其生命を寸陰も延得んや </seg>
+</ab>
+<ab n="6:28">
+  <seg type="original"><hi rend="superscript">6:28</hi> また何故に衣のことを思わづらふや野の百合花は如何して長かを思へ勞ず紡がざる也 </seg>
+</ab>
+<ab n="6:29">
+  <seg type="original"><hi rend="superscript">6:29</hi> われ爾曹に告んソロモンの榮華の極の時だにも其裝この花の一にも及ざりき </seg>
+</ab>
+<ab n="6:30">
+  <seg type="original"><hi rend="superscript">6:30</hi> 神は今日野に在て明日爐に投入らるる草をも如此よそはせ給へば況て爾曹をや嗚呼信仰うすき者よ </seg>
+</ab>
+<ab n="6:31">
+  <seg type="original"><hi rend="superscript">6:31</hi> 然ば何を食ひ何を飮なにを衣んとて思わづらふ勿れ </seg>
+</ab>
+<ab n="6:32">
+  <seg type="original"><hi rend="superscript">6:32</hi> 此みな異邦人の求る者なり爾曹の天の父は凡て此等のものの必需ことを知たまへり </seg>
+</ab>
+<ab n="6:33">
+  <seg type="original"><hi rend="superscript">6:33</hi> 爾曹まづ神の國と其義とを求よ然ば此等のものは皆なんぢらに加らるべし </seg>
+</ab>
+<ab n="6:34">
+  <seg type="original"><hi rend="superscript">6:34</hi> 是故に明日の事を憂慮なかれ明日は明日の事を思わづらへ一日の苦勞は一日にて足り</seg>
+</ab>
+
+
+        </div>
+        <div type="chapter" n="7">
+          <head>マタイによる福音書 第7章</head>
+        <ab n="7:1">
+  <seg type="original"><hi rend="superscript">7:1</hi> 〔人を議する｜人の罪を定る〕こと勿れ恐くは爾曹もまた〔議せ｜罪に定〕られん </seg>
+</ab>
+<ab n="7:2">
+  <seg type="original"><hi rend="superscript">7:2</hi> 爾曹が人を〔議する｜罪に定る〕如く〔己も議せ｜己が罪をも定〕らるべし爾曹が人を量るごとく己も量らるべし </seg>
+</ab>
+<ab n="7:3">
+  <seg type="original"><hi rend="superscript">7:3</hi> なんぢ兄弟の目にある物屑を視て己が目にある梁木を知ざるは何ぞや </seg>
+</ab>
+<ab n="7:4">
+  <seg type="original"><hi rend="superscript">7:4</hi> 己の目に梁木のあるに如何で兄弟にむかひて爾が目にある物屑を我に取せよと曰ことを得んや </seg>
+</ab>
+<ab n="7:5">
+  <seg type="original"><hi rend="superscript">7:5</hi> 僞善者よ先おのれの目より梁木をとれ然ば兄弟の目より物屑を取得るやう明かに見べし </seg>
+</ab>
+<ab n="7:6">
+  <seg type="original"><hi rend="superscript">7:6</hi> 犬に聖物を與ふる勿また豕の前に爾曹の眞珠を投與る勿れ恐くは足にて之を踐ふりかへりて爾曹を噬やぶらん </seg>
+</ab>
+<ab n="7:7">
+  <seg type="original"><hi rend="superscript">7:7</hi> 求めよ然ば與られ尋よ然ばあひ門を叩よ然ば開かるることを得ん </seg>
+</ab>
+<ab n="7:8">
+  <seg type="original"><hi rend="superscript">7:8</hi> 蓋すべて求る者はえ尋る者はあひ門を叩く者は開かる可ればなり </seg>
+</ab>
+<ab n="7:9">
+  <seg type="original"><hi rend="superscript">7:9</hi> 爾曹のうち誰か其子パンを求んに石を予んや </seg>
+</ab>
+<ab n="7:10">
+  <seg type="original"><hi rend="superscript">7:10</hi> また魚を求んに蛇を予んや </seg>
+</ab>
+<ab n="7:11">
+  <seg type="original"><hi rend="superscript">7:11</hi> 然ば爾曹惡き者ながら善賜を其子に予ふるを知まして天に在す爾曹の父は求る者に善物を予ざらん乎 </seg>
+</ab>
+<ab n="7:12">
+  <seg type="original"><hi rend="superscript">7:12</hi> 是故に凡て人に爲られんと欲ことは爾曹また人にも其ごとく爲よ是律法と〔預言者｜預言者〕なる也／ </seg>
+</ab>
+<ab n="7:13">
+  <seg type="original"><hi rend="superscript">7:13</hi> 窄き門より入よ沈淪に至る路は濶その門は大なり此より入もの多し </seg>
+</ab>
+<ab n="7:14">
+  <seg type="original"><hi rend="superscript">7:14</hi> 生に至る路は窄その門は小し其路を得もの少なり／ </seg>
+</ab>
+<ab n="7:15">
+  <seg type="original"><hi rend="superscript">7:15</hi> 僞の〔預言者｜預言者〕を謹めよ彼等は綿羊の姿にて爾曹に來れども内は殘狼なり </seg>
+</ab>
+<ab n="7:16">
+  <seg type="original"><hi rend="superscript">7:16</hi> 是その果に由て知べし誰か荊棘より葡萄をとり蒺藜より無花果を採ことをせん </seg>
+</ab>
+<ab n="7:17">
+  <seg type="original"><hi rend="superscript">7:17</hi> 凡て善樹は善果を結び惡樹は惡果を結べり </seg>
+</ab>
+<ab n="7:18">
+  <seg type="original"><hi rend="superscript">7:18</hi> 善樹は惡果を結ばず惡樹は善果を結ぶこと能ざる也 </seg>
+</ab>
+<ab n="7:19">
+  <seg type="original"><hi rend="superscript">7:19</hi> 凡そ善果を結ざる樹は斫れて火に投入らる </seg>
+</ab>
+<ab n="7:20">
+  <seg type="original"><hi rend="superscript">7:20</hi> 是故に其果に由て之を知べし／ </seg>
+</ab>
+<ab n="7:21">
+  <seg type="original"><hi rend="superscript">7:21</hi> 我を召て主よ主よと曰もの盡く天國に入に非ず唯これに入者は我天に在す父の旨に遵ふ者のみ〔なり｜也〕 </seg>
+</ab>
+<ab n="7:22">
+  <seg type="original"><hi rend="superscript">7:22</hi> 其日われに語て主よ主よ主の名に託てをしへ主の名に託て鬼をおひ主の名に託て多く異能を行しに非ずやと云もの多からん </seg>
+</ab>
+<ab n="7:23">
+  <seg type="original"><hi rend="superscript">7:23</hi> 其時かれらに告われ甞て爾曹を知ず惡をなす者よ我を離去と曰ん </seg>
+</ab>
+<ab n="7:24">
+  <seg type="original"><hi rend="superscript">7:24</hi> 是故に凡て我この言を聽て行ふ者を磐の上に家を建たる智人に譬ん </seg>
+</ab>
+<ab n="7:25">
+  <seg type="original"><hi rend="superscript">7:25</hi> 雨ふり大水いで風ふきて其家を撞ども倒ることなし是磐を基礎と爲たれば也 </seg>
+</ab>
+<ab n="7:26">
+  <seg type="original"><hi rend="superscript">7:26</hi> 凡て我この言を聽て行はざる者を沙の上に家を建たる愚なる人に譬ん </seg>
+</ab>
+<ab n="7:27">
+  <seg type="original"><hi rend="superscript">7:27</hi> 雨ふり大水いで風ふきて其家を撞ば終には倒てその傾覆おほいなり </seg>
+</ab>
+<ab n="7:28">
+  <seg type="original"><hi rend="superscript">7:28</hi> イエス此等の言を語竟たまへるとき集りたる人々〔其｜その〕教を駭きあへり </seg>
+</ab>
+<ab n="7:29">
+  <seg type="original"><hi rend="superscript">7:29</hi> そは學者の如ならず權威を有る者の如く教たまへば也</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="8">
+          <head>マタイによる福音書 第8章</head>
+         <ab n="8:1">
+  <seg type="original"><hi rend="superscript">8:1</hi> イエス山を下しとき多の人々これに從へり </seg>
+</ab>
+<ab n="8:2">
+  <seg type="original"><hi rend="superscript">8:2</hi> 癩病の者きたり拜して曰けるは主もし旨に適ときは我を潔なし得べし </seg>
+</ab>
+<ab n="8:3">
+  <seg type="original"><hi rend="superscript">8:3</hi> イエス手を伸かれに按て我旨に適へり潔なれと曰ければ癩病ただちに潔れり </seg>
+</ab>
+<ab n="8:4">
+  <seg type="original"><hi rend="superscript">8:4</hi> イエス彼に曰けるは愼て人に告る勿れ唯ゆきて己を祭司に見せ且モーセが命ぜし禮物を献て彼等に證據をせよ／ </seg>
+</ab>
+<ab n="8:5">
+  <seg type="original"><hi rend="superscript">8:5</hi> イエス、カペナウンに入しとき百夫の長きたり願て曰けるは </seg>
+</ab>
+<ab n="8:6">
+  <seg type="original"><hi rend="superscript">8:6</hi> 主よ我僕癱瘋をやみ家に臥ゐて甚だ惱めり </seg>
+</ab>
+<ab n="8:7">
+  <seg type="original"><hi rend="superscript">8:7</hi> イエス曰けるは我ゆきて之を醫すべし </seg>
+</ab>
+<ab n="8:8">
+  <seg type="original"><hi rend="superscript">8:8</hi> 百夫の長こたへけるは主よ我なんぢを我が屋下に入奉るは恐れ多し唯一言を出し給はば我僕は愈ん </seg>
+</ab>
+<ab n="8:9">
+  <seg type="original"><hi rend="superscript">8:9</hi> 蓋よれ人の權威の下にある者なるに我下に亦兵卒ありて此に往と曰ばゆき彼に來れと曰ば來る我僕に此を行と曰ば則ち行が故なり </seg>
+</ab>
+<ab n="8:10">
+  <seg type="original"><hi rend="superscript">8:10</hi> イエスこれを聞て奇み從へる人々に曰けるは我まことに爾曹に告んイスラエルの中にだに未だ斯る篤信に遇ざる也 </seg>
+</ab>
+<ab n="8:11">
+  <seg type="original"><hi rend="superscript">8:11</hi> われ爾曹に告ん多の人々東より西より來てアブラハム、イサク、ヤコブと偕に天國に坐し </seg>
+</ab>
+<ab n="8:12">
+  <seg type="original"><hi rend="superscript">8:12</hi> 國の諸子は外の幽暗に逐出され其處にて哀哭切齒すること有ん </seg>
+</ab>
+<ab n="8:13">
+  <seg type="original"><hi rend="superscript">8:13</hi> イエス百夫の長に往なんぢが信仰の如く爾に成べしと曰たまへる其時に僕は愈たり </seg>
+</ab>
+<ab n="8:14">
+  <seg type="original"><hi rend="superscript">8:14</hi> イエス、ペテロの家に入その岳母の熱を煩ひ臥ゐたるを見て </seg>
+</ab>
+<ab n="8:15">
+  <seg type="original"><hi rend="superscript">8:15</hi> その手に捫ければ即ち熱されり婦おきて彼等に事ふ </seg>
+</ab>
+<ab n="8:16">
+  <seg type="original"><hi rend="superscript">8:16</hi> 日暮たるとき人々鬼に憑れたる者を多く携來ければイエス言にて鬼を逐出し病ある者を悉く醫せり </seg>
+</ab>
+<ab n="8:17">
+  <seg type="original"><hi rend="superscript">8:17</hi> 〔預言者｜預言者〕イザヤに托て自ら我儕の恙を受われらの病を負と曰たまひしに應せんが爲なり／ </seg>
+</ab>
+<ab n="8:18">
+  <seg type="original"><hi rend="superscript">8:18</hi> 偖イエス多の人々の己を環るを見て弟子に命じ向の岸に往んとし給しに </seg>
+</ab>
+<ab n="8:19">
+  <seg type="original"><hi rend="superscript">8:19</hi> ある學者きたりて曰けるは師よ何處へ往給ふとも我從はん </seg>
+</ab>
+<ab n="8:20">
+  <seg type="original"><hi rend="superscript">8:20</hi> イエス之に曰けるは狐は穴あり天空の鳥は巣あり然ど人の子は枕する所なし </seg>
+</ab>
+<ab n="8:21">
+  <seg type="original"><hi rend="superscript">8:21</hi> また弟子の一人いひけるは主よ先ゆきて父を葬ることを我に容せ </seg>
+</ab>
+<ab n="8:22">
+  <seg type="original"><hi rend="superscript">8:22</hi> イエス曰けるは我に從へ死たる者に其死し者を葬らせよ／ </seg>
+</ab>
+<ab n="8:23">
+  <seg type="original"><hi rend="superscript">8:23</hi> イエス舟に登ければ弟子等も之に從ふ </seg>
+</ab>
+<ab n="8:24">
+  <seg type="original"><hi rend="superscript">8:24</hi> 此とき大なる颶風おこりて舟を蔽ばかりなる浪たちしにイエスは寢たり </seg>
+</ab>
+<ab n="8:25">
+  <seg type="original"><hi rend="superscript">8:25</hi> 弟子等これに近きて醒し曰けるは主よ救たまへ我儕亡んとす </seg>
+</ab>
+<ab n="8:26">
+  <seg type="original"><hi rend="superscript">8:26</hi> イエス彼等に曰けるは信仰うすき者よ何ぞ懼るや遂に起て風と海とを斥ければ大に平息になりぬ </seg>
+</ab>
+<ab n="8:27">
+  <seg type="original"><hi rend="superscript">8:27</hi> 人々奇みて曰けるは此は如何なる人ぞ風も海も之に從ひたり／ </seg>
+</ab>
+<ab n="8:28">
+  <seg type="original"><hi rend="superscript">8:28</hi> イエス向の岸なるガダラ人の地に至れるとき鬼に憑れたる二人のもの墓より出て彼を迎ふ猛こと甚しくして其途を人の過ること能はざりしほど也 </seg>
+</ab>
+<ab n="8:29">
+  <seg type="original"><hi rend="superscript">8:29</hi> かれら呼叫て曰けるは神の子イエスよ我儕なんぢと何の與あらん乎いまだ時いたらざるに我儕を責んとて此處に來るか </seg>
+</ab>
+<ab n="8:30">
+  <seg type="original"><hi rend="superscript">8:30</hi> 遙はなれて豕の多のむれ食し居ければ </seg>
+</ab>
+<ab n="8:31">
+  <seg type="original"><hi rend="superscript">8:31</hi> 鬼イエスに求て曰けるは若われらを逐出さんとならば豕の羣に入ことを容せ </seg>
+</ab>
+<ab n="8:32">
+  <seg type="original"><hi rend="superscript">8:32</hi> 彼等に往と曰ければ鬼いでて豕の羣に入しに惣のむれ山坡より逸て海にいり水に死たり </seg>
+</ab>
+<ab n="8:33">
+  <seg type="original"><hi rend="superscript">8:33</hi> 牧者ども邑に逃走て此事と鬼に憑れたりし者の事を告ければ </seg>
+</ab>
+<ab n="8:34">
+  <seg type="original"><hi rend="superscript">8:34</hi> イエスに逢んとて邑の者擧て出きたり彼を見て此境を出んことを願へり</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="9">
+          <head>マタイによる福音書 第9章</head>
+          <ab n="9:1">
+  <seg type="original"><hi rend="superscript">9:1</hi> イエス舟に登わたりて故邑に至ければ </seg>
+</ab>
+<ab n="9:2">
+  <seg type="original"><hi rend="superscript">9:2</hi> 癱瘋にて床に臥たる者を人々舁來れりイエス彼等が信ずるを見て癱瘋の者に曰けるは子よ心安かれ爾の罪赦れたり </seg>
+</ab>
+<ab n="9:3">
+  <seg type="original"><hi rend="superscript">9:3</hi> ある學者たち心の中に謂けるは此人は褻涜を言り </seg>
+</ab>
+<ab n="9:4">
+  <seg type="original"><hi rend="superscript">9:4</hi> イエスその意を知て曰けるは爾曹いかなれば心に惡を懷ふや </seg>
+</ab>
+<ab n="9:5">
+  <seg type="original"><hi rend="superscript">9:5</hi> 爾の罪赦されたりと言と起て歩めと言と孰か易き </seg>
+</ab>
+<ab n="9:6">
+  <seg type="original"><hi rend="superscript">9:6</hi> それ人の子地にて罪を赦すの權あることを爾曹に知せんとて遂に癱瘋の者に起て床をとり家に歸れと曰ければ </seg>
+</ab>
+<ab n="9:7">
+  <seg type="original"><hi rend="superscript">9:7</hi> 起て其家に歸りぬ </seg>
+</ab>
+<ab n="9:8">
+  <seg type="original"><hi rend="superscript">9:8</hi> 人々これを見て奇み此の如き權を人に賜し神を崇たり／ </seg>
+</ab>
+<ab n="9:9">
+  <seg type="original"><hi rend="superscript">9:9</hi> イエス此より進往マタイと名くる人の税關に坐し居けるを見て我に從へと曰ければ起て從へり </seg>
+</ab>
+<ab n="9:10">
+  <seg type="original"><hi rend="superscript">9:10</hi> イエス彼が家に食するとこき税吏罪ある人おほく〔來り｜來〕てイエス及その弟子と偕に坐しければ </seg>
+</ab>
+<ab n="9:11">
+  <seg type="original"><hi rend="superscript">9:11</hi> パリサイの人これを見て其弟子に曰けるは爾曹の師は何故税吏や罪ある人と偕に食する乎 </seg>
+</ab>
+<ab n="9:12">
+  <seg type="original"><hi rend="superscript">9:12</hi> イエス聞て彼等に曰けるは康強なる者は醫者の助を需ず唯病ある者これを需 </seg>
+</ab>
+<ab n="9:13">
+  <seg type="original"><hi rend="superscript">9:13</hi> われ矜恤を欲て祭祀を欲ずといふ此は如何なる意か往て學ぶべし夫わが來るは<ruby>義人<rt rend="colorred">ただしいひと</rt></ruby>
+を招ために非ず罪ある人を招きて悔改させんが爲なり／ </seg>
+</ab>
+<ab n="9:14">
+  <seg type="original"><hi rend="superscript">9:14</hi> 其時ヨハネの弟子イエスに來て曰けるは我儕とパリサイの人はしばしば斷食するに師の弟子の斷食せざるは何故ぞ </seg>
+</ab>
+<ab n="9:15">
+  <seg type="original"><hi rend="superscript">9:15</hi> イエス彼等に曰けるは新郎の友その新郎と偕に居うちは哀むことを得んや將來新郎をひきとらるる日きたらん其時は斷食すべき也 </seg>
+</ab>
+<ab n="9:16">
+  <seg type="original"><hi rend="superscript">9:16</hi> 新き布を以て舊き衣を補ふ者はあらじ蓋つくろふ所のもの反て之を壞その綻び尤も甚だしからん </seg>
+</ab>
+<ab n="9:17">
+  <seg type="original"><hi rend="superscript">9:17</hi> また新き酒を舊き革嚢に盛る者はあらじ若しかせば嚢はりさけ酒もれいでて其嚢も亦壞らん新嚢に新酒を盛なば兩ながら存べし／ </seg>
+</ab>
+<ab n="9:18">
+  <seg type="original"><hi rend="superscript">9:18</hi> イエス彼等に此事を言る時ある宰きたり拜して曰けるは我女いま既に死り來て彼に手を按たまはば生べし </seg>
+</ab>
+<ab n="9:19">
+  <seg type="original"><hi rend="superscript">9:19</hi> イエス起て彼に從ひ其弟子と偕に往 </seg>
+</ab>
+<ab n="9:20">
+  <seg type="original"><hi rend="superscript">9:20</hi> 十二年血漏を患へる婦うしろに來て其衣の裾に捫れり </seg>
+</ab>
+<ab n="9:21">
+  <seg type="original"><hi rend="superscript">9:21</hi> 蓋もし衣だにも捫らば愈んと意へばなり </seg>
+</ab>
+<ab n="9:22">
+  <seg type="original"><hi rend="superscript">9:22</hi> イエスふりかへり婦を見て曰けるは女よ心安かれ爾の信仰なんぢを愈せり即ち婦この時より愈 </seg>
+</ab>
+<ab n="9:23">
+  <seg type="original"><hi rend="superscript">9:23</hi> イエス宰の家に入りしに笛ふく者および多の人の泣咷を見て </seg>
+</ab>
+<ab n="9:24">
+  <seg type="original"><hi rend="superscript">9:24</hi> 之に曰けるは退け女は死るに非ずただ寢たるのみ人々イエスを哂笑ふ </seg>
+</ab>
+<ab n="9:25">
+  <seg type="original"><hi rend="superscript">9:25</hi> 彼等を出しし後いりて其手を執しに女起たり </seg>
+</ab>
+<ab n="9:26">
+  <seg type="original"><hi rend="superscript">9:26</hi> 〔此｜この〕聲名あまねく其地に播りぬ </seg>
+</ab>
+<ab n="9:27">
+  <seg type="original"><hi rend="superscript">9:27</hi> イエス此を去とき二人の聾者したがひて呼〔曰｜いひ〕けるはダビデの<ruby>裔<rt rend="colorred">こ</rt></ruby>
+よ我儕を憐み給へ </seg>
+</ab>
+<ab n="9:28">
+  <seg type="original"><hi rend="superscript">9:28</hi> イエス家に入しに聾者きたりければ彼等に曰たまひけるは我〔此｜この〕事を行得ると信ずるや答けるは主よ然り </seg>
+</ab>
+<ab n="9:29">
+  <seg type="original"><hi rend="superscript">9:29</hi> イエス彼等の目に手を按て爾曹の信ずる如く爾曹に成べしと曰ければ </seg>
+</ab>
+<ab n="9:30">
+  <seg type="original"><hi rend="superscript">9:30</hi> 其目ひらけたりイエス嚴く戒て之に曰けるは愼て人に知する勿れ </seg>
+</ab>
+<ab n="9:31">
+  <seg type="original"><hi rend="superscript">9:31</hi> 然ども彼等いでて遍く其地にイエスの名を播めたり／ </seg>
+</ab>
+<ab n="9:32">
+  <seg type="original"><hi rend="superscript">9:32</hi> 聾者の出るとき人々鬼に憑れたる暗唖をイエスに携來りしに </seg>
+</ab>
+<ab n="9:33">
+  <seg type="original"><hi rend="superscript">9:33</hi> 鬼おひ〔出｜いだ〕されて暗唖ものいへり衆人あやしみ曰けるはイスラエルの中にも未だ斯る事は見ざりき </seg>
+</ab>
+<ab n="9:34">
+  <seg type="original"><hi rend="superscript">9:34</hi> パリサイの人〔曰｜いひ〕けるは彼鬼の王に藉て鬼を逐出せる也／ </seg>
+</ab>
+<ab n="9:35">
+  <seg type="original"><hi rend="superscript">9:35</hi> イエス遍く郷邑を廻〔其｜その〕會堂にて教をなし天國の福音を宣傳へ民の中なる諸の病すべての疾を愈せり </seg>
+</ab>
+<ab n="9:36">
+  <seg type="original"><hi rend="superscript">9:36</hi> 牧者なき羊の如く衆人なやみ又流離になりし故に之を見て憫みたまふ </seg>
+</ab>
+<ab n="9:37">
+  <seg type="original"><hi rend="superscript">9:37</hi> 其とき弟子等に曰給けるは收稼は多く工人は少し </seg>
+</ab>
+<ab n="9:38">
+  <seg type="original"><hi rend="superscript">9:38</hi> 故に其稼主に工人を收稼場に送らんことを願ふべし</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="10">
+          <head>マタイによる福音書 第10章</head>
+         <ab n="10:1">
+  <seg type="original"><hi rend="superscript">10:1</hi> 偖イエスその十二弟子を〔よび｜召〕彼等に汚たる鬼を逐いだし又すべての病すべての〔疾ひ｜疾〕を醫す權を賜へり </seg>
+</ab>
+<ab n="10:2">
+  <seg type="original"><hi rend="superscript">10:2</hi> その十二使徒の名は左の〔如とし｜如し〕首にはペテロと名け給ひしシモンその兄弟アンデレ、ゼベタイの子ヤコブその兄弟ヨハネ </seg>
+</ab>
+<ab n="10:3">
+  <seg type="original"><hi rend="superscript">10:3</hi> ピリポ、バルトロマイ、トマス税吏マタイ、アルバイの子なるヤコブ、タッダイと名くるレッバイ </seg>
+</ab>
+<ab n="10:4">
+  <seg type="original"><hi rend="superscript">10:4</hi> カナンのシモン、イスカリオテのユダ是すなはちイエスを賣しし者なり／ </seg>
+</ab>
+<ab n="10:5">
+  <seg type="original"><hi rend="superscript">10:5</hi> イエスこの十二を遣さんとして命じ曰けるは異邦の途に往なかれ又サマリア人の邑にも入なかれ </seg>
+</ab>
+<ab n="10:6">
+  <seg type="original"><hi rend="superscript">10:6</hi> 惟イスラエルの家の迷へる羊に往 </seg>
+</ab>
+<ab n="10:7">
+  <seg type="original"><hi rend="superscript">10:7</hi> 往て天國近に在と宣傳よ </seg>
+</ab>
+<ab n="10:8">
+  <seg type="original"><hi rend="superscript">10:8</hi> 病の者を醫し癩病を潔し死たる者を甦らせ鬼を逐出すことをせよ爾曹價なしに受たれば又價なしに施すべし </seg>
+</ab>
+<ab n="10:9">
+  <seg type="original"><hi rend="superscript">10:9</hi> 爾曹金または銀または錢を貯へ帶る勿れ </seg>
+</ab>
+<ab n="10:10">
+  <seg type="original"><hi rend="superscript">10:10</hi> 行嚢二の裏衣履杖も亦然そは工人の其食物を得は宜なり </seg>
+</ab>
+<ab n="10:11">
+  <seg type="original"><hi rend="superscript">10:11</hi> 凡そ郷邑に至らば其中の好人を訪て出るまでは其處に留れ </seg>
+</ab>
+<ab n="10:12">
+  <seg type="original"><hi rend="superscript">10:12</hi> 人の家にいらば其平安を問 </seg>
+</ab>
+<ab n="10:13">
+  <seg type="original"><hi rend="superscript">10:13</hi> その家もし平安を得べき者ならば爾曹の願ふ平安は其家に至らん若し平安を受べからざる者ならば爾曹の願ふ平安は爾曹に歸るべし </seg>
+</ab>
+<ab n="10:14">
+  <seg type="original"><hi rend="superscript">10:14</hi> もし爾曹を接ず爾曹の言を聽ざる者あらば其家または其邑を去とき足の塵を拂へ </seg>
+</ab>
+<ab n="10:15">
+  <seg type="original"><hi rend="superscript">10:15</hi> われ誠に爾曹に告ん審判の日到ばソドムとゴモラの地は此邑よりも却て易からん／ </seg>
+</ab>
+<ab n="10:16">
+  <seg type="original"><hi rend="superscript">10:16</hi> われ爾曹を遣すは羊を狼の中に入るが如し故に蛇の如く智く鴿の如く馴良かれ </seg>
+</ab>
+<ab n="10:17">
+  <seg type="original"><hi rend="superscript">10:17</hi> 愼みて人に戒心せよ蓋人なんぢらを集議所に解し又その會堂にて鞭つべければ也 </seg>
+</ab>
+<ab n="10:18">
+  <seg type="original"><hi rend="superscript">10:18</hi> 又わが縁故に因て侯伯および王の前に曳るべし是かれらと異邦人に證をなさんが爲なり </seg>
+</ab>
+<ab n="10:19">
+  <seg type="original"><hi rend="superscript">10:19</hi> 人なんぢらを解さば如何なにを言んと思ひ煩らふ勿れ其とき言べき事は爾曹に賜るべし </seg>
+</ab>
+<ab n="10:20">
+  <seg type="original"><hi rend="superscript">10:20</hi> 是なんぢら自ら言に非ず爾曹の父の靈その裏に在て言なり </seg>
+</ab>
+<ab n="10:21">
+  <seg type="original"><hi rend="superscript">10:21</hi> 兄弟は兄弟を死に付し父は子を付し子は兩親を訴へ且これを殺さしむべし </seg>
+</ab>
+<ab n="10:22">
+  <seg type="original"><hi rend="superscript">10:22</hi> 又なんぢら我名の爲に凡の人に憾れん然ど終まで忍ぶ者は救はるべし </seg>
+</ab>
+<ab n="10:23">
+  <seg type="original"><hi rend="superscript">10:23</hi> この邑にて人なんぢらを責なば他の邑に逃れよ我まことに爾曹に告ん爾曹イスラエルの諸邑を廻盡さざる間に人の子は來るべし </seg>
+</ab>
+<ab n="10:24">
+  <seg type="original"><hi rend="superscript">10:24</hi> 弟子は師より優らず僕は主より優らざる也 </seg>
+</ab>
+<ab n="10:25">
+  <seg type="original"><hi rend="superscript">10:25</hi> 弟子は其師の如く僕は其主の如ならば足ぬべし若し人主を呼てベルゼブルと云ば況て其家の者をや </seg>
+</ab>
+<ab n="10:26">
+  <seg type="original"><hi rend="superscript">10:26</hi> 是故に彼等を懼るること勿そは掩れて露れざる者なく隱て知れざる者なければ也 </seg>
+</ab>
+<ab n="10:27">
+  <seg type="original"><hi rend="superscript">10:27</hi> われ幽暗に於て爾曹に告しことを光明に述よ耳をつけて聽しことを屋上に宣播めよ </seg>
+</ab>
+<ab n="10:28">
+  <seg type="original"><hi rend="superscript">10:28</hi> 身を殺して魂を殺すことを能はざる者を懼るる勿れ唯なんぢら魂と身とを地獄に滅し得る者を懼れよ </seg>
+</ab>
+<ab n="10:29">
+  <seg type="original"><hi rend="superscript">10:29</hi> 二羽の雀は一錢にて售に非ずや然るに爾曹の父の許なくば其一羽も地に隕ること有じ </seg>
+</ab>
+<ab n="10:30">
+  <seg type="original"><hi rend="superscript">10:30</hi> 爾曹の頭の髮また皆かぞへらる </seg>
+</ab>
+<ab n="10:31">
+  <seg type="original"><hi rend="superscript">10:31</hi> 故に懼るる勿れ爾曹は多の雀よりも優れり </seg>
+</ab>
+<ab n="10:32">
+  <seg type="original"><hi rend="superscript">10:32</hi> 然ば凡そ人の前に我を識と言ん者を我も亦天に在す我父の前に之を識と言ん </seg>
+</ab>
+<ab n="10:33">
+  <seg type="original"><hi rend="superscript">10:33</hi> 人の前に我を識ずと言ん者を我も亦天に在す我父の前に之を識ずと言べし／ </seg>
+</ab>
+<ab n="10:34">
+  <seg type="original"><hi rend="superscript">10:34</hi> 地に泰平を〔出｜出さ〕ん爲に我來れりと意なかれ泰平を出さんとに非ず刃を出さん爲に來れり </seg>
+</ab>
+<ab n="10:35">
+  <seg type="original"><hi rend="superscript">10:35</hi> 夫わが來るは人を其父に背かせ女を其母に背かせ媳を其姑に背かせんが爲なり </seg>
+</ab>
+<ab n="10:36">
+  <seg type="original"><hi rend="superscript">10:36</hi> 人の敵は其家の者なるべし </seg>
+</ab>
+<ab n="10:37">
+  <seg type="original"><hi rend="superscript">10:37</hi> 我よりも父母を愛む者は我に協ざる者なり我よりも子女を愛む者は我に協ざる者なり </seg>
+</ab>
+<ab n="10:38">
+  <seg type="original"><hi rend="superscript">10:38</hi> その十字架を任て我に從はざる者も我に協ざる者なり </seg>
+</ab>
+<ab n="10:39">
+  <seg type="original"><hi rend="superscript">10:39</hi> その生命を得る者は之を失ひ我ために生命を失ふ者は之を得べし </seg>
+</ab>
+<ab n="10:40">
+  <seg type="original"><hi rend="superscript">10:40</hi> 爾曹を接る者は我を接る也また我を接る者は我を遣しし者を接るなり </seg>
+</ab>
+<ab n="10:41">
+  <seg type="original"><hi rend="superscript">10:41</hi> 〔預言者｜預言者〕なるを以その〔預言者｜預言者〕を接る者は〔預言者｜預言者〕の報賞をうけ<ruby>義人<rt rend="colorred">ただしいひと</rt></ruby>
+なるを以その<ruby>義人<rt rend="colorred">ただしいひと</rt></ruby>
+を接る者は<ruby>義人<rt rend="colorred">ただしいひと</rt></ruby>
+の報賞を受 </seg>
+</ab>
+<ab n="10:42">
+  <seg type="original"><hi rend="superscript">10:42</hi> わが弟子なるをもて小き一人の者に冷なる水一杯にても飮する者は誠に爾曹に告ん必ず其報賞を失はじ</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="11">
+          <head>マタイによる福音書 第11章</head>
+         <ab n="11:1">
+  <seg type="original"><hi rend="superscript">11:1</hi> イエスその十二弟子に示畢しとき此處をさり道を教へ廣んが爲に彼等の諸邑に往り／ </seg>
+</ab>
+<ab n="11:2">
+  <seg type="original"><hi rend="superscript">11:2</hi> 偖ヨハネ獄にてキリストの行し業を聞その弟子二人を彼に遣して </seg>
+</ab>
+<ab n="11:3">
+  <seg type="original"><hi rend="superscript">11:3</hi> 曰せけるは來べき者は爾なるか又われら他に待べき乎 </seg>
+</ab>
+<ab n="11:4">
+  <seg type="original"><hi rend="superscript">11:4</hi> イエス彼等に答て曰けるは爾曹が聞ところ見ところの事をヨハネに往て告よ </seg>
+</ab>
+<ab n="11:5">
+  <seg type="original"><hi rend="superscript">11:5</hi> 瞽者はみ跛者はあゆみ癩病人は潔まり聾者はきき死たる者は復活され貧者は福音を聞せらる </seg>
+</ab>
+<ab n="11:6">
+  <seg type="original"><hi rend="superscript">11:6</hi> 凡そ我ために躓かざる者は福なり／ </seg>
+</ab>
+<ab n="11:7">
+  <seg type="original"><hi rend="superscript">11:7</hi> 彼等の歸れる後イエス、ヨハネの事を人々に曰けるは爾曹何を見んとて野に出しや風に動さるる葦なる乎 </seg>
+</ab>
+<ab n="11:8">
+  <seg type="original"><hi rend="superscript">11:8</hi> 然ば爾曹何を見んとて出しや美服を着たる人なるか美服を着たる者は王宮に在 </seg>
+</ab>
+<ab n="11:9">
+  <seg type="original"><hi rend="superscript">11:9</hi> 然ば何を見んとて出しや〔預言者｜預言者〕なるか然われ爾曹に告ん彼は〔預言者｜預言者〕よりも卓越たる者なり </seg>
+</ab>
+<ab n="11:10">
+  <seg type="original"><hi rend="superscript">11:10</hi> 夫なんぢに先ちて道を備る我が使者を我なんぢの前に遺んと録されたるは即ち是なり </seg>
+</ab>
+<ab n="11:11">
+  <seg type="original"><hi rend="superscript">11:11</hi> 誠に爾曹に告ん婦の生たる者の中いまだバプテスマのヨハネより大なる者は起らざりき然ど天國の最小き者も彼よりは大なる也 </seg>
+</ab>
+<ab n="11:12">
+  <seg type="original"><hi rend="superscript">11:12</hi> バプテスマのヨハネの時より今に至るまで人々勵て天國を取んとす勵たる者は之を取り </seg>
+</ab>
+<ab n="11:13">
+  <seg type="original"><hi rend="superscript">11:13</hi> それ凡の〔預言者｜預言者〕と律法の預言したるはヨハネの時までなれば也 </seg>
+</ab>
+<ab n="11:14">
+  <seg type="original"><hi rend="superscript">11:14</hi> 若なんぢら我言を承ることを好まば來べきエリヤは是なり </seg>
+</ab>
+<ab n="11:15">
+  <seg type="original"><hi rend="superscript">11:15</hi> 耳ありて聽ゆる者は聽べし／ </seg>
+</ab>
+<ab n="11:16">
+  <seg type="original"><hi rend="superscript">11:16</hi> 我この世を何に譬んや童子街に坐し其侶を呼て </seg>
+</ab>
+<ab n="11:17">
+  <seg type="original"><hi rend="superscript">11:17</hi> われら笛ふけども爾曹をどらず哀をすれども爾曹胸うたずと云に似たり </seg>
+</ab>
+<ab n="11:18">
+  <seg type="original"><hi rend="superscript">11:18</hi> 蓋ヨハネ來て食ふこと飮ことを爲ざれば鬼に憑れたる者なりと人々言り </seg>
+</ab>
+<ab n="11:19">
+  <seg type="original"><hi rend="superscript">11:19</hi> 人の子きたりて食ふことをし飮ことを爲れば又食を嗜み酒を好む人税吏罪ある者の友〔也｜なり〕といふ然ども智慧は智慧の子に義と爲らるる也／ </seg>
+</ab>
+<ab n="11:20">
+  <seg type="original"><hi rend="superscript">11:20</hi> 厥時イエス多の異能を行たまひたる諸邑の悔改めざるに由て責いひけるは </seg>
+</ab>
+<ab n="11:21">
+  <seg type="original"><hi rend="superscript">11:21</hi> ああ禍なる哉コラジンよ噫禍なる哉〔ベテサイダ｜ベツサイダ〕よ爾曹の中に行し異能を若ツロとシドンに行しならば彼等は早く麻をき灰を蒙りて悔改しなるべし </seg>
+</ab>
+<ab n="11:22">
+  <seg type="original"><hi rend="superscript">11:22</hi> われ爾曹に告ん審判の日にはツロとシドンの刑罰は爾曹よりも却て易からん </seg>
+</ab>
+<ab n="11:23">
+  <seg type="original"><hi rend="superscript">11:23</hi> 既に天にまで擧られしカペナウンよ又陰府に落さるべし蓋なんぢに行し異能を若ソドムに行しならば今日までも尚保存しならん </seg>
+</ab>
+<ab n="11:24">
+  <seg type="original"><hi rend="superscript">11:24</hi> われなんぢらに告ん審判の日にはソドムの地は爾よりも却て易かるべし／ </seg>
+</ab>
+<ab n="11:25">
+  <seg type="original"><hi rend="superscript">11:25</hi> 其ときイエス答て曰けるは天地の主なる父よ此事を智者達者に隱して赤子に顯したまふを謝す </seg>
+</ab>
+<ab n="11:26">
+  <seg type="original"><hi rend="superscript">11:26</hi> 父よ然それ此の如は聖旨に適るなり </seg>
+</ab>
+<ab n="11:27">
+  <seg type="original"><hi rend="superscript">11:27</hi> 父は我に萬物を予たまへり父の外に子を識もの無また子および子の顯す所の者の外に父を識者なし／ </seg>
+</ab>
+<ab n="11:28">
+  <seg type="original"><hi rend="superscript">11:28</hi> 凡て勞たる者また重を負る者は我に來れ我〔爾曹｜なんぢら〕を息ません </seg>
+</ab>
+<ab n="11:29">
+  <seg type="original"><hi rend="superscript">11:29</hi> 我は心柔和にして謙遜者なれば我軛を負て我に學なんぢら心に平安を獲べし </seg>
+</ab>
+<ab n="11:30">
+  <seg type="original"><hi rend="superscript">11:30</hi> 蓋わが軛は易わが荷は輕ければ也</seg>
+</ab>
+
+
+        </div>
+        <div type="chapter" n="12">
+          <head>マタイによる福音書 第12章</head>
+<ab n="?.?">
+           <seg type="original">當時イエス安息日に麥の畑を過しが其弟子たち飢て穗を適〔食｜〕はじめたり </seg>
+</ab>
+<ab n="12:2">
+  <seg type="original"><hi rend="superscript">12:2</hi> パリサイの人これを見てイエスに曰けるは爾の弟子は安息日に爲まじき事を行り </seg>
+</ab>
+<ab n="12:3">
+  <seg type="original"><hi rend="superscript">12:3</hi> 之に答けるはダビデおよび從に在し者の饑しとき行し事を未だ讀ざる乎 </seg>
+</ab>
+<ab n="12:4">
+  <seg type="original"><hi rend="superscript">12:4</hi> 即ち神の殿に入て祭司の他は己および從にをる者も食ふまじき供のパンを食へり </seg>
+</ab>
+<ab n="12:5">
+  <seg type="original"><hi rend="superscript">12:5</hi> また安息日に祭司は殿の内にて安息日を犯せども罪なき事を律法に於て讀ざる乎 </seg>
+</ab>
+<ab n="12:6">
+  <seg type="original"><hi rend="superscript">12:6</hi> われ爾曹に告ん殿より大なるもの茲に在 </seg>
+</ab>
+<ab n="12:7">
+  <seg type="original"><hi rend="superscript">12:7</hi> われ矜恤を欲て祭祀を欲ずとは如何なることか之を知ば罪なき者を罪せざるべし </seg>
+</ab>
+<ab n="12:8">
+  <seg type="original"><hi rend="superscript">12:8</hi> それ人の子は安息日の主たるなり／ </seg>
+</ab>
+<ab n="12:9">
+  <seg type="original"><hi rend="superscript">12:9</hi> 此を去て彼等の會堂に入しに </seg>
+</ab>
+<ab n="12:10">
+  <seg type="original"><hi rend="superscript">12:10</hi> 一手なへたる人ありければ彼等イエスを訴へんとて之に問けるは安息日には醫すことを行べき乎 </seg>
+</ab>
+<ab n="12:11">
+  <seg type="original"><hi rend="superscript">12:11</hi> 彼等に曰けるは爾曹の中に一の羊を有る者あらんに若その羊安息日に坑に陷らば之を挈上ざる乎 </seg>
+</ab>
+<ab n="12:12">
+  <seg type="original"><hi rend="superscript">12:12</hi> 人は羊より優ること幾何ぞや然ば安息日に善を行は宜 </seg>
+</ab>
+<ab n="12:13">
+  <seg type="original"><hi rend="superscript">12:13</hi> 遂にその人に爾が手を伸よと曰ければ伸せり即ち他の手の如く愈 </seg>
+</ab>
+<ab n="12:14">
+  <seg type="original"><hi rend="superscript">12:14</hi> パリサイの人いでてイエスを殺さんと謀れり </seg>
+</ab>
+<ab n="12:15">
+  <seg type="original"><hi rend="superscript">12:15</hi> イエス之を知て此を去しに多の人々これに從ふ凡て疾病ある者をみな愈し </seg>
+</ab>
+<ab n="12:16">
+  <seg type="original"><hi rend="superscript">12:16</hi> 我を人に露すこと勿れと戒たり </seg>
+</ab>
+<ab n="12:17">
+  <seg type="original"><hi rend="superscript">12:17</hi> これ〔預言者｜預言者〕イザヤの云し言に </seg>
+</ab>
+<ab n="12:18">
+  <seg type="original"><hi rend="superscript">12:18</hi> 視よ我が選し我僕すなはち我心に適たる我が愛む者われ之に我靈を賦ん彼異邦人に〔審判｜道〕を示すべし </seg>
+</ab>
+<ab n="12:19">
+  <seg type="original"><hi rend="superscript">12:19</hi> 彼は競ことなく喧ことなし人街に於て其聲を聞ことなし </seg>
+</ab>
+<ab n="12:20">
+  <seg type="original"><hi rend="superscript">12:20</hi> 〔審判｜眞道〕をして勝とげしむるまでは傷る葦を折ことなく煙れる麻を熄ことなし </seg>
+</ab>
+<ab n="12:21">
+  <seg type="original"><hi rend="superscript">12:21</hi> 異邦人も亦その名に頼べしと有に應せん爲なり／ </seg>
+</ab>
+<ab n="12:22">
+  <seg type="original"><hi rend="superscript">12:22</hi> 爰に鬼に憑たる瞽の瘖なる者をイエスの所に携來りければ此瞽の瘖を醫して言ひ見るやうに爲り </seg>
+</ab>
+<ab n="12:23">
+  <seg type="original"><hi rend="superscript">12:23</hi> 衆人みな奇みて曰けるは此はダビデの<ruby>裔<rt rend="colorred">こ</rt></ruby>
+に非ざる乎 </seg>
+</ab>
+<ab n="12:24">
+  <seg type="original"><hi rend="superscript">12:24</hi> パリサイの人ききて曰けるは此人は鬼の王ベルゼブルを役ふに非ざれば鬼を逐出ことなし </seg>
+</ab>
+<ab n="12:25">
+  <seg type="original"><hi rend="superscript">12:25</hi> イエスその意を知て彼等に曰けるは凡て相爭ふ國は亡び凡て相爭ふ邑や家は立べからず </seg>
+</ab>
+<ab n="12:26">
+  <seg type="original"><hi rend="superscript">12:26</hi> サタン若サタンを逐出さば自ら相爭ふなり然ば其國いかで立んや </seg>
+</ab>
+<ab n="12:27">
+  <seg type="original"><hi rend="superscript">12:27</hi> 若われベルゼブルに由て惡鬼を逐出さば爾曹の子弟は誰に由て之を逐出すや夫かれらは爾曹の裁判人となるべし </seg>
+</ab>
+<ab n="12:28">
+  <seg type="original"><hi rend="superscript">12:28</hi> 若われ神の靈に由て鬼を逐出ししならば神の國はもはや爾曹に至れり </seg>
+</ab>
+<ab n="12:29">
+  <seg type="original"><hi rend="superscript">12:29</hi> また勇士をまづ縛らざれば如何で其家に入その家具を奪ふことを得んや縛て後に其家を奪ふべし </seg>
+</ab>
+<ab n="12:30">
+  <seg type="original"><hi rend="superscript">12:30</hi> 我と偕ならざる者は我に背き我と偕に斂ざる者は散すなり </seg>
+</ab>
+<ab n="12:31">
+  <seg type="original"><hi rend="superscript">12:31</hi> 是故に爾曹に告ん人々の凡て犯す所の罪を神を涜ことは赦れん然ど人々の聖靈を涜ことは赦るべからず </seg>
+</ab>
+<ab n="12:32">
+  <seg type="original"><hi rend="superscript">12:32</hi> 言を以て人の子に背く者は赦るべし然ど言をもて聖靈に背く者は今世に於ても亦來世に於ても赦るべからず </seg>
+</ab>
+<ab n="12:33">
+  <seg type="original"><hi rend="superscript">12:33</hi> 或は樹をも善とし其果をも善とせよ或は樹をも惡とし其果をも惡とせよ夫樹は其果に由て知るるなり </seg>
+</ab>
+<ab n="12:34">
+  <seg type="original"><hi rend="superscript">12:34</hi> ああ蝮の<ruby>裔<rt rend="colorred">こ</rt></ruby>
+よ爾曹惡にして何で善を言ことを得んや夫心に充るより口に言るる者なれば也 </seg>
+</ab>
+<ab n="12:35">
+  <seg type="original"><hi rend="superscript">12:35</hi> 善人は心の善庫より善ものを出し惡人はその惡庫より惡ものを出せり </seg>
+</ab>
+<ab n="12:36">
+  <seg type="original"><hi rend="superscript">12:36</hi> われ爾曹に告ん凡て人のいふ所の虚言は審判の日に之を訴へざるを得じ </seg>
+</ab>
+<ab n="12:37">
+  <seg type="original"><hi rend="superscript">12:37</hi> それ爾その曰ところの言に由て義とせられ又其いふ言に由て罪ありとせらるる也／ </seg>
+</ab>
+<ab n="12:38">
+  <seg type="original"><hi rend="superscript">12:38</hi> 此時ある學者とパリサイの人答て曰けるは師よ休徴をなして我儕に見せんことを爾に請ふ </seg>
+</ab>
+<ab n="12:39">
+  <seg type="original"><hi rend="superscript">12:39</hi> 答て彼等に曰けるは奸惡なる世は休徴を求されど〔預言者｜預言者〕ヨナの休徴の外は之に休徴を與られじ </seg>
+</ab>
+<ab n="12:40">
+  <seg type="original"><hi rend="superscript">12:40</hi> 夫ヨナが三日三夜魚の腹の中に在し如く人の子も三日三夜地の中に在べし </seg>
+</ab>
+<ab n="12:41">
+  <seg type="original"><hi rend="superscript">12:41</hi> ニネベの人審判の日に共に起て今の世の罪を定めん彼等はヨナの誨に由て悔改たり夫ヨナより大なる者ここに在 </seg>
+</ab>
+<ab n="12:42">
+  <seg type="original"><hi rend="superscript">12:42</hi> 南の女王さばきの日に共に起て今の世の罪を定めん彼は地の極よりソロモンの智慧を聽んとて來れり夫ソロモンより大なる者此にあり </seg>
+</ab>
+<ab n="12:43">
+  <seg type="original"><hi rend="superscript">12:43</hi> 惡鬼人より出て旱たる地を巡り安息を求れども得ずして曰けるは </seg>
+</ab>
+<ab n="12:44">
+  <seg type="original"><hi rend="superscript">12:44</hi> 我が出し家に歸らん既に來しに空虚にして掃淨り飾れるを見 </seg>
+</ab>
+<ab n="12:45">
+  <seg type="original"><hi rend="superscript">12:45</hi> 遂に往て己よりも惡き七の惡鬼を携へ偕に入て此に居ばその人の後の患状は前よりも更に惡かるべし此あしき世もまた此の如ならん </seg>
+</ab>
+<ab n="12:46">
+  <seg type="original"><hi rend="superscript">12:46</hi> イエス人々に語をる時その母と兄弟かれに言はんとて外に立ければ </seg>
+</ab>
+<ab n="12:47">
+  <seg type="original"><hi rend="superscript">12:47</hi> 或人イエスに曰けるは爾の母と兄弟なんぢに言はんとて外に立り </seg>
+</ab>
+<ab n="12:48">
+  <seg type="original"><hi rend="superscript">12:48</hi> イエス告し者に答て曰けるは我母は誰ぞ我兄弟は誰ぞや </seg>
+</ab>
+<ab n="12:49">
+  <seg type="original"><hi rend="superscript">12:49</hi> 手を伸その弟子を指て曰けるは是わが母わが兄弟なり </seg>
+</ab>
+<ab n="12:50">
+  <seg type="original"><hi rend="superscript">12:50</hi> 蓋すべて我が天に在す父の旨を行ふ者は是わが兄弟わが姉妹わが母なれば也</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="13">
+          <head>マタイによる福音書 第13章</head>
+        <ab n="13:1">
+  <seg type="original"><hi rend="superscript">13:1</hi> 當日イエス家を出て海邊に坐せしに </seg>
+</ab>
+<ab n="13:2">
+  <seg type="original"><hi rend="superscript">13:2</hi> 多の人々彼に集來ければイエスは舟に登て坐し凡の人々は岸に立り </seg>
+</ab>
+<ab n="13:3">
+  <seg type="original"><hi rend="superscript">13:3</hi> イエス譬を以て多端の言を人々に語ぬ種まく者播に出しが </seg>
+</ab>
+<ab n="13:4">
+  <seg type="original"><hi rend="superscript">13:4</hi> 播るとき路の旁に遺し種あり空中の鳥きたりて啄み盡せり </seg>
+</ab>
+<ab n="13:5">
+  <seg type="original"><hi rend="superscript">13:5</hi> また土うすき磽地に遺し種あり直に萠出たれど </seg>
+</ab>
+<ab n="13:6">
+  <seg type="original"><hi rend="superscript">13:6</hi> 日の出しとき灼れしかば根なきが故に槁たり </seg>
+</ab>
+<ab n="13:7">
+  <seg type="original"><hi rend="superscript">13:7</hi> また棘の中に遺し種あり棘そだちて之を蔽げり </seg>
+</ab>
+<ab n="13:8">
+  <seg type="original"><hi rend="superscript">13:8</hi> また沃壤に遺し種あり實を結べること或は百倍あるひは六十倍あるひは三十倍せり </seg>
+</ab>
+<ab n="13:9">
+  <seg type="original"><hi rend="superscript">13:9</hi> 耳ありて聽ゆる者は聽べし </seg>
+</ab>
+<ab n="13:10">
+  <seg type="original"><hi rend="superscript">13:10</hi> 弟子等きたりて彼に曰けるは何故に譬をもて彼等に語り給ふや </seg>
+</ab>
+<ab n="13:11">
+  <seg type="original"><hi rend="superscript">13:11</hi> 答て曰けるは爾曹には天國の奧義を知ことを予たまへど彼等には予へ給ざれば也 </seg>
+</ab>
+<ab n="13:12">
+  <seg type="original"><hi rend="superscript">13:12</hi> それ有る者は予られてなほ餘あり無有者はその有る物をも奪るる也 </seg>
+</ab>
+<ab n="13:13">
+  <seg type="original"><hi rend="superscript">13:13</hi> 彼等は視ても見ず聽ても〔聽｜聞〕ず悟ざるが故に我譬を以て彼等に語れり </seg>
+</ab>
+<ab n="13:14">
+  <seg type="original"><hi rend="superscript">13:14</hi> イザヤの預言に爾曹は聽ども悟らず視ども見ず </seg>
+</ab>
+<ab n="13:15">
+  <seg type="original"><hi rend="superscript">13:15</hi> 蓋この民目にて見耳にて〔聽｜きき〕心にて悟り改めて我に醫されんことを恐その心を頑し耳を蔽ひ目を閉たりと云しに應へり </seg>
+</ab>
+<ab n="13:16">
+  <seg type="original"><hi rend="superscript">13:16</hi> 然ど爾曹の目は見爾曹の耳は聞が故に福なり </seg>
+</ab>
+<ab n="13:17">
+  <seg type="original"><hi rend="superscript">13:17</hi> われ誠に爾曹に告ん多の〔預言者｜預言者〕と<ruby>義人<rt rend="colorred">ただしいひと</rt></ruby>
+は爾曹が見ところを見んとしたりしが見ことを得ず爾曹が聞ところを聞んとしたりしが聞ことを得ざりき </seg>
+</ab>
+<ab n="13:18">
+  <seg type="original"><hi rend="superscript">13:18</hi> 故に爾曹播種の譬を聽 </seg>
+</ab>
+<ab n="13:19">
+  <seg type="original"><hi rend="superscript">13:19</hi> 天國の教を聞て悟らざれば惡鬼きたりて其心に播れたる種を奪ふ是路の旁に播たる種なり </seg>
+</ab>
+<ab n="13:20">
+  <seg type="original"><hi rend="superscript">13:20</hi> 磽地に播れたる種は是教を聽て速かに喜び受れども </seg>
+</ab>
+<ab n="13:21">
+  <seg type="original"><hi rend="superscript">13:21</hi> 己に根なければ暫時のみ教の爲に患難あるひは迫らるる事の起る時は忽ち道に礙く者なり </seg>
+</ab>
+<ab n="13:22">
+  <seg type="original"><hi rend="superscript">13:22</hi> また棘の中に播れたる種は是教を聽ども此世の思慮と貨財の惑に教えを蔽れて實らざる者なり </seg>
+</ab>
+<ab n="13:23">
+  <seg type="original"><hi rend="superscript">13:23</hi> 沃壤に播れたる種は是教を聽て悟り實を結こと或は百倍あるひは六十倍あるひは三十倍する者なり／ </seg>
+</ab>
+<ab n="13:24">
+  <seg type="original"><hi rend="superscript">13:24</hi> また譬を彼等に示して曰けるは天國は人畑に美種を播に似たり </seg>
+</ab>
+<ab n="13:25">
+  <seg type="original"><hi rend="superscript">13:25</hi> 人々の寢たる間に其敵きたり麥の中に稗子を播て去り </seg>
+</ab>
+<ab n="13:26">
+  <seg type="original"><hi rend="superscript">13:26</hi> 苗はえ出て實たるとき稗子も現れたり </seg>
+</ab>
+<ab n="13:27">
+  <seg type="original"><hi rend="superscript">13:27</hi> 主人の僕きたりて曰けるは主よ畑には美種を播ざりしか如何して稗子ある乎 </seg>
+</ab>
+<ab n="13:28">
+  <seg type="original"><hi rend="superscript">13:28</hi> 僕に曰けるは敵人これを行り僕主人に曰けるは然らば我儕ゆきて之を拔あつむるは宜か </seg>
+</ab>
+<ab n="13:29">
+  <seg type="original"><hi rend="superscript">13:29</hi> 否おそらくは爾曹稗子を拔あつめんとて麥をも共に拔べし </seg>
+</ab>
+<ab n="13:30">
+  <seg type="original"><hi rend="superscript">13:30</hi> 收穫まで二ながら長おけ我かりいれの時まづ稗子を拔〔集｜あつめ〕て焚ん爲に之を束ね麥をば我倉に收よと刈者に言ん／ </seg>
+</ab>
+<ab n="13:31">
+  <seg type="original"><hi rend="superscript">13:31</hi> また譬を彼等に示し曰けるは天國は芥種の如し人これを取て畑に播ば </seg>
+</ab>
+<ab n="13:32">
+  <seg type="original"><hi rend="superscript">13:32</hi> 萬の種よりは小けれども長ては他の草より大にして天空の鳥きたり其枝に宿ほどの樹となる也／ </seg>
+</ab>
+<ab n="13:33">
+  <seg type="original"><hi rend="superscript">13:33</hi> また譬を彼等に語けるは天國は麫種の如し婦これをとり三斗の粉の中に藏せば悉く脹發すなり </seg>
+</ab>
+<ab n="13:34">
+  <seg type="original"><hi rend="superscript">13:34</hi> イエス譬をもて凡て此等の事を衆人に語たまへり譬にあらざれば語り給はず </seg>
+</ab>
+<ab n="13:35">
+  <seg type="original"><hi rend="superscript">13:35</hi> これ〔預言者｜預言者〕に託て我譬を設て口を啓き世の始より隱たる事を言出さんと云れたるに應せん爲なり／ </seg>
+</ab>
+<ab n="13:36">
+  <seg type="original"><hi rend="superscript">13:36</hi> 遂にイエス衆人を歸して室に入り其弟子きたりて曰けるは畑の稗子の譬を我儕に解たまへ </seg>
+</ab>
+<ab n="13:37">
+  <seg type="original"><hi rend="superscript">13:37</hi> 之に答て曰けるは美種を播者は人の子なり </seg>
+</ab>
+<ab n="13:38">
+  <seg type="original"><hi rend="superscript">13:38</hi> 畑はこの世界なり美種は是天國の諸子なり稗子は惡魔の子類なり </seg>
+</ab>
+<ab n="13:39">
+  <seg type="original"><hi rend="superscript">13:39</hi> 之をまく敵は惡魔なり收穫は世の末なり刈者は天の使等なり </seg>
+</ab>
+<ab n="13:40">
+  <seg type="original"><hi rend="superscript">13:40</hi> 稗子の斂て火に焚る如く此世の末に於ても此の如くなるべし </seg>
+</ab>
+<ab n="13:41">
+  <seg type="original"><hi rend="superscript">13:41</hi> 人の子その使者たちを遣して其國の中より凡て躓礙となる者また惡をなす人を斂て </seg>
+</ab>
+<ab n="13:42">
+  <seg type="original"><hi rend="superscript">13:42</hi> 之を爐の火に投入べし其處にて哀哭切齒すること有ん </seg>
+</ab>
+<ab n="13:43">
+  <seg type="original"><hi rend="superscript">13:43</hi> 此とき<ruby>義人<rt rend="colorred">ただしいひと</rt></ruby>
+は其父の國に於て日の如く輝かん耳ありて聽ゆる者は聽べし／ </seg>
+</ab>
+<ab n="13:44">
+  <seg type="original"><hi rend="superscript">13:44</hi> また天國は畑に藏たる寶の如し人みいださば之を祕し喜び歸り其所有を盡く賣てその畑を買なり／ </seg>
+</ab>
+<ab n="13:45">
+  <seg type="original"><hi rend="superscript">13:45</hi> また天國は好眞珠を求んとする商人の如し </seg>
+</ab>
+<ab n="13:46">
+  <seg type="original"><hi rend="superscript">13:46</hi> 一の値たかき眞珠を見出さばその所有を盡く賣て之を買なり／ </seg>
+</ab>
+<ab n="13:47">
+  <seg type="original"><hi rend="superscript">13:47</hi> また天國は海に投て各樣の魚をとる網の如し </seg>
+</ab>
+<ab n="13:48">
+  <seg type="original"><hi rend="superscript">13:48</hi> 既に盈れば岸に曳あげ坐て嘉ものを器にいれ惡ものを棄るなり </seg>
+</ab>
+<ab n="13:49">
+  <seg type="original"><hi rend="superscript">13:49</hi> 世の末に於ても此の如ならん天の使等いでて義者の中より惡者を取わけ </seg>
+</ab>
+<ab n="13:50">
+  <seg type="original"><hi rend="superscript">13:50</hi> 之を爐の火に投入べし其處にて哀哭切齒すること有ん／ </seg>
+</ab>
+<ab n="13:51">
+  <seg type="original"><hi rend="superscript">13:51</hi> イエス彼等に曰けるは此事を皆悟しや彼に曰けるは主よ然 </seg>
+</ab>
+<ab n="13:52">
+  <seg type="original"><hi rend="superscript">13:52</hi> イエス彼等に曰けるは然ば天國について教られたる學者は新き物と舊き物とを其庫より出す家の主の如し／ </seg>
+</ab>
+<ab n="13:53">
+  <seg type="original"><hi rend="superscript">13:53</hi> イエス此譬を言畢て此を去ぬ </seg>
+</ab>
+<ab n="13:54">
+  <seg type="original"><hi rend="superscript">13:54</hi> 〔其｜その〕故土にいたり會堂にて教しに人々奇み曰けるは此人の智慧と異なる能は何處より來るや </seg>
+</ab>
+<ab n="13:55">
+  <seg type="original"><hi rend="superscript">13:55</hi> これ木匠の子に非ずや其母はマリア其兄弟はヤコブ、ヨセ、シモン、ユダに非ずや </seg>
+</ab>
+<ab n="13:56">
+  <seg type="original"><hi rend="superscript">13:56</hi> 其妹等は〔皆｜みな〕我儕と偕に在に非ずや然るに此人の凡て此等の事は何處より來しや </seg>
+</ab>
+<ab n="13:57">
+  <seg type="original"><hi rend="superscript">13:57</hi> 遂に厭て之を棄イエス彼等に曰けるは〔預言者｜預言者〕は其故土〔其｜その〕家の外に於て尊まれざることなし </seg>
+</ab>
+<ab n="13:58">
+  <seg type="original"><hi rend="superscript">13:58</hi> 彼等が信ずることなきに由て多の異なる能を此に行給はざりき</seg>
+</ab>
+
+
+        </div>
+        <div type="chapter" n="14">
+          <head>マタイによる福音書 第14章</head>
+        <ab n="14:1">
+  <seg type="original"><hi rend="superscript">14:1</hi> 其ころ分封の君ヘロデ、イエスの聲名を聞て </seg>
+</ab>
+<ab n="14:2">
+  <seg type="original"><hi rend="superscript">14:2</hi> その僕に曰けるは是バプテスマのヨハネなり彼死より甦りたり故に異なる能を行ふなり </seg>
+</ab>
+<ab n="14:3">
+  <seg type="original"><hi rend="superscript">14:3</hi> 前にヘロデその兄弟ピリポの妻ヘロデヤの事に由てヨハネを捕へ縛て獄に入たり </seg>
+</ab>
+<ab n="14:4">
+  <seg type="original"><hi rend="superscript">14:4</hi> 此はヨハネ、ヘロデに此女を娶るは宜しからずと云しに因 </seg>
+</ab>
+<ab n="14:5">
+  <seg type="original"><hi rend="superscript">14:5</hi> 彼ヨハネを殺さんと欲ど民これを〔預言者｜預言者〕とするにより彼等を懼たりしが </seg>
+</ab>
+<ab n="14:6">
+  <seg type="original"><hi rend="superscript">14:6</hi> ヘロデ誕生の日を祝へる時ヘロデヤの女その座上にて舞をなしヘロデを悦ばせければ </seg>
+</ab>
+<ab n="14:7">
+  <seg type="original"><hi rend="superscript">14:7</hi> 何なる物にても求に任て予んとヘロデ之に誓たり </seg>
+</ab>
+<ab n="14:8">
+  <seg type="original"><hi rend="superscript">14:8</hi> 女その母の勸ありしに因バプテスマのヨハネの首を盆に載て此に賜れと曰 </seg>
+</ab>
+<ab n="14:9">
+  <seg type="original"><hi rend="superscript">14:9</hi> 王憂けれども既に誓たると席に列れる者の爲に予ることを命じ </seg>
+</ab>
+<ab n="14:10">
+  <seg type="original"><hi rend="superscript">14:10</hi> 即ち人を遣し獄に於てヨハネの首を斬せ </seg>
+</ab>
+<ab n="14:11">
+  <seg type="original"><hi rend="superscript">14:11</hi> その首を盆に載て女に予ければ女は之を其母に捧たり </seg>
+</ab>
+<ab n="14:12">
+  <seg type="original"><hi rend="superscript">14:12</hi> ヨハネの弟子等來りて屍を取てこれを葬り往てイエスに告 </seg>
+</ab>
+<ab n="14:13">
+  <seg type="original"><hi rend="superscript">14:13</hi> イエスこれを聞て人をさけ舟に登て其處を去さびしき處に往給ひしが衆人ききて歩行にて彼に從へり／ </seg>
+</ab>
+<ab n="14:14">
+  <seg type="original"><hi rend="superscript">14:14</hi> イエス出て多の人を見て之を憫み其病る者を醫せり </seg>
+</ab>
+<ab n="14:15">
+  <seg type="original"><hi rend="superscript">14:15</hi> 日くるる時〔其｜その〕弟子きたりて曰けるは此は寂寞ところにして時もはや過し諸邑に往て自ら食を求させん爲に人々を去しめよ </seg>
+</ab>
+<ab n="14:16">
+  <seg type="original"><hi rend="superscript">14:16</hi> イエス彼等に曰けるは人々往ずとも可〔爾曹｜なんぢら〕之に食を予よ </seg>
+</ab>
+<ab n="14:17">
+  <seg type="original"><hi rend="superscript">14:17</hi> 答けるは我儕此にただ五のパンと二の魚あるのみ </seg>
+</ab>
+<ab n="14:18">
+  <seg type="original"><hi rend="superscript">14:18</hi> イエス曰けるは其を此に携來れ </seg>
+</ab>
+<ab n="14:19">
+  <seg type="original"><hi rend="superscript">14:19</hi> 遂に衆人に命じて〔草の上に｜〕坐しめ五のパンと二の魚をとり天を仰て謝しパンを擘て弟子にあたふ弟子〔之｜これ〕を衆人に予ぬ </seg>
+</ab>
+<ab n="14:20">
+  <seg type="original"><hi rend="superscript">14:20</hi> みな食て飽〔其｜その〕餘たる屑を拾しに十二の筐に盈たり </seg>
+</ab>
+<ab n="14:21">
+  <seg type="original"><hi rend="superscript">14:21</hi> 食し者は婦と幼童の外〔凡｜おほよ〕そ五千人なりき／ </seg>
+</ab>
+<ab n="14:22">
+  <seg type="original"><hi rend="superscript">14:22</hi> 頓てイエス衆人を歸さんとして其弟子を強て〔船｜舟〕にのせ向の岸へ先に渡しむ </seg>
+</ab>
+<ab n="14:23">
+  <seg type="original"><hi rend="superscript">14:23</hi> 斯て衆人を歸しければ祈禱せんとて密に山に上り日〔暮｜くれ〕て獨そこに在せり </seg>
+</ab>
+<ab n="14:24">
+  <seg type="original"><hi rend="superscript">14:24</hi> 舟は海中に在て逆風の爲に浪に漂はさる </seg>
+</ab>
+<ab n="14:25">
+  <seg type="original"><hi rend="superscript">14:25</hi> 夜の四時ごろイエス海の上を歩て之に至しに </seg>
+</ab>
+<ab n="14:26">
+  <seg type="original"><hi rend="superscript">14:26</hi> 弟子〔其｜その〕海の上を歩るを見て驚き此は變化の物ならんと曰て懼れ叫たり </seg>
+</ab>
+<ab n="14:27">
+  <seg type="original"><hi rend="superscript">14:27</hi> イエス頓て彼等に曰けるは心安かれ我なり懼るる勿れ </seg>
+</ab>
+<ab n="14:28">
+  <seg type="original"><hi rend="superscript">14:28</hi> ペテロ答て曰けるは主よ若し爾ならば我に命じ水を履て爾の所に至しめよ </seg>
+</ab>
+<ab n="14:29">
+  <seg type="original"><hi rend="superscript">14:29</hi> 來と曰給ひければペテロ舟より下てイエスの所に至んとて浪の上を歩たれど </seg>
+</ab>
+<ab n="14:30">
+  <seg type="original"><hi rend="superscript">14:30</hi> 風の烈きを見て懼れ沈かかりければ主よ我を救たまへと曰 </seg>
+</ab>
+<ab n="14:31">
+  <seg type="original"><hi rend="superscript">14:31</hi> イエス頓て手を伸〔之｜これ〕を執て曰けるは信仰うすき者よ何ぞ疑ふや </seg>
+</ab>
+<ab n="14:32">
+  <seg type="original"><hi rend="superscript">14:32</hi> 偕に舟に登ければ風しづまりぬ </seg>
+</ab>
+<ab n="14:33">
+  <seg type="original"><hi rend="superscript">14:33</hi> 舟に居し者ちかよりて彼を拜し曰けるは誠に爾は神の子なり／ </seg>
+</ab>
+<ab n="14:34">
+  <seg type="original"><hi rend="superscript">14:34</hi> 遂に渡てゲネサレの地に到しかば </seg>
+</ab>
+<ab n="14:35">
+  <seg type="original"><hi rend="superscript">14:35</hi> 其處の人々イエスを識て遍く四方に人を遣し凡て病の者を携へ來らしむ </seg>
+</ab>
+<ab n="14:36">
+  <seg type="original"><hi rend="superscript">14:36</hi> 只〔其｜その〕衣の裾に捫らんことをイエスに願へり捫し者は即ちみな愈されたり</seg>
+</ab>
+
+
+        </div>
+        <div type="chapter" n="15">
+          <head>マタイによる福音書 第15章</head>
+        <ab n="15:1">
+  <seg type="original"><hi rend="superscript">15:1</hi> 時にエルサレムの學者とパリサイの人イエスに來て曰けるは </seg>
+</ab>
+<ab n="15:2">
+  <seg type="original"><hi rend="superscript">15:2</hi> 爾の弟子古の人の遺傳を犯は何故ぞ蓋食する時に其手を洗ざれば也 </seg>
+</ab>
+<ab n="15:3">
+  <seg type="original"><hi rend="superscript">15:3</hi> 答て彼等に曰けるは爾曹は亦なんぢらの遺傳によりて神の誡を犯は何故ぞ </seg>
+</ab>
+<ab n="15:4">
+  <seg type="original"><hi rend="superscript">15:4</hi> それ神いましめて爾の父母を敬へ又父母を詈る者は殺さるべしと宣給へり </seg>
+</ab>
+<ab n="15:5">
+  <seg type="original"><hi rend="superscript">15:5</hi> 然るに爾曹は曰て凡て人父母に對なんぢを養ふ可ものは禮物なりと云ば </seg>
+</ab>
+<ab n="15:6">
+  <seg type="original"><hi rend="superscript">15:6</hi> その父母を敬はずとも可とす斯て爾曹遺傳により神の誡を廢くせり </seg>
+</ab>
+<ab n="15:7">
+  <seg type="original"><hi rend="superscript">15:7</hi> 僞善者よイザヤは能なんぢらに就て預言し </seg>
+</ab>
+<ab n="15:8">
+  <seg type="original"><hi rend="superscript">15:8</hi> 此民は口にて我に近き唇にて我を敬へども其心は我に遠かり </seg>
+</ab>
+<ab n="15:9">
+  <seg type="original"><hi rend="superscript">15:9</hi> 人の誡を教となして徒らに我を拜すと云り </seg>
+</ab>
+<ab n="15:10">
+  <seg type="original"><hi rend="superscript">15:10</hi> イエス人々を召て彼等に曰けるは聽て悟れ </seg>
+</ab>
+<ab n="15:11">
+  <seg type="original"><hi rend="superscript">15:11</hi> 口に入ものは人を汚さず口より出るものは是人を汚すなり </seg>
+</ab>
+<ab n="15:12">
+  <seg type="original"><hi rend="superscript">15:12</hi> 弟子きたりてイエスに曰けるはパリサイの人この言を聞て厭棄るを爾知か </seg>
+</ab>
+<ab n="15:13">
+  <seg type="original"><hi rend="superscript">15:13</hi> 答て曰けるは我が天の父の植ざる者はみな拔るべし </seg>
+</ab>
+<ab n="15:14">
+  <seg type="original"><hi rend="superscript">15:14</hi> 彼等を棄おけ瞽者の相する瞽者なり若めしひのもの瞽者の相せば二人とも溝に落べし </seg>
+</ab>
+<ab n="15:15">
+  <seg type="original"><hi rend="superscript">15:15</hi> ペテロ、イエスに答て曰けるは此譬を我儕に解たまへ </seg>
+</ab>
+<ab n="15:16">
+  <seg type="original"><hi rend="superscript">15:16</hi> イエス曰けるは爾曹も未だ悟ざる乎 </seg>
+</ab>
+<ab n="15:17">
+  <seg type="original"><hi rend="superscript">15:17</hi> 凡て口に入ものは腹を運て厠に落るを未だ知ざるか </seg>
+</ab>
+<ab n="15:18">
+  <seg type="original"><hi rend="superscript">15:18</hi> 口より出るものは心より出これ人を汚すもの也 </seg>
+</ab>
+<ab n="15:19">
+  <seg type="original"><hi rend="superscript">15:19</hi> 蓋心より出る所の惡念凶殺姦淫苟口盜竊妄證謗讟 </seg>
+</ab>
+<ab n="15:20">
+  <seg type="original"><hi rend="superscript">15:20</hi> 此等は人を汚すものなり然ども手を洗ずして食ふは人を汚さず </seg>
+</ab>
+<ab n="15:21">
+  <seg type="original"><hi rend="superscript">15:21</hi> イエス此を去てツロとシドンの地に往けるに </seg>
+</ab>
+<ab n="15:22">
+  <seg type="original"><hi rend="superscript">15:22</hi> 其地に住るカナンの婦いでて呼はり曰けるは主よダビデの<ruby>裔<rt rend="colorred">こ</rt></ruby>
+よ我を憫み給へ我むすめ鬼に憑れて甚く苦めり </seg>
+</ab>
+<ab n="15:23">
+  <seg type="original"><hi rend="superscript">15:23</hi> イエス一言も彼に答ざりしかば其弟子きたり請て曰けるは我儕の後より呼はるが故に彼を去せ給へ </seg>
+</ab>
+<ab n="15:24">
+  <seg type="original"><hi rend="superscript">15:24</hi> 答て曰けるはイスラエルの家の迷へる羊の外に我は遣されず </seg>
+</ab>
+<ab n="15:25">
+  <seg type="original"><hi rend="superscript">15:25</hi> 婦きたり拜して曰けるは主よ我を助たまへ </seg>
+</ab>
+<ab n="15:26">
+  <seg type="original"><hi rend="superscript">15:26</hi> 答けるは兒女のパンを取てに犬に投與ふるは宜からず </seg>
+</ab>
+<ab n="15:27">
+  <seg type="original"><hi rend="superscript">15:27</hi> 婦いひけるは主よ然されど犬もその主人の膳より落る屑を食なり </seg>
+</ab>
+<ab n="15:28">
+  <seg type="original"><hi rend="superscript">15:28</hi> 遂にイエス答て曰けるは婦よ爾の信仰大なり願の如く爾に成べし此時より其女いえたり／ </seg>
+</ab>
+<ab n="15:29">
+  <seg type="original"><hi rend="superscript">15:29</hi> イエス此を去ガリラヤの海邊にゆき山に登りて坐せり </seg>
+</ab>
+<ab n="15:30">
+  <seg type="original"><hi rend="superscript">15:30</hi> 多の人々跛者瞽者瘖者殘缺者および各樣の疾病ある者を伴ひたりイエスの足下に置ければ即ち之を醫しぬ </seg>
+</ab>
+<ab n="15:31">
+  <seg type="original"><hi rend="superscript">15:31</hi> 是に於て瘖者はものいひ殘缺はいえ跛者はあゆみ瞽者は見たるを人々見て奇みイスラエルの神を榮たり／ </seg>
+</ab>
+<ab n="15:32">
+  <seg type="original"><hi rend="superscript">15:32</hi> イエスその弟子を呼て曰けるは我この衆人を憫む彼等われと偕に居こと三日にして食ふものなし飢させて去しむることを欲ず恐くは途間にて惱ん </seg>
+</ab>
+<ab n="15:33">
+  <seg type="original"><hi rend="superscript">15:33</hi> 〔其｜その〕弟子かれに曰けるは野にて此〔多｜おほ〕くの人に飽するほどのパンを何處より得んや </seg>
+</ab>
+<ab n="15:34">
+  <seg type="original"><hi rend="superscript">15:34</hi> イエス彼等に曰けるはパン幾何あるや答けるは七と些少の魚あり </seg>
+</ab>
+<ab n="15:35">
+  <seg type="original"><hi rend="superscript">15:35</hi> イエス人々に命じて地に坐しめ </seg>
+</ab>
+<ab n="15:36">
+  <seg type="original"><hi rend="superscript">15:36</hi> 七のパンと魚を取て謝し之を擘て其弟子に予しかば弟子これを人々に予ふ </seg>
+</ab>
+<ab n="15:37">
+  <seg type="original"><hi rend="superscript">15:37</hi> 食てみな飽たり餘の屑を拾しに七の籃に盈り </seg>
+</ab>
+<ab n="15:38">
+  <seg type="original"><hi rend="superscript">15:38</hi> 之を食るもの婦と孩子の外に四千人ありき </seg>
+</ab>
+<ab n="15:39">
+  <seg type="original"><hi rend="superscript">15:39</hi> イエス人々を去しめ舟に登てマグダラの境に至れり</seg>
+</ab>
+
+
+        </div>
+        <div type="chapter" n="16">
+          <head>マタイによる福音書 第16章</head>
+         <ab n="16:1">
+  <seg type="original"><hi rend="superscript">16:1</hi> パリサイとサドカイの人きたりてイエスを試んとて天の休徴を我儕に見せよと曰ければ </seg>
+</ab>
+<ab n="16:2">
+  <seg type="original"><hi rend="superscript">16:2</hi> 彼等に答けるは爾曹暮には夕紅に由て晴ならんと言 </seg>
+</ab>
+<ab n="16:3">
+  <seg type="original"><hi rend="superscript">16:3</hi> 晨には朝紅また曇に由て今日は雨ならんといふ僞善者よ空の景色を別ことを知て時の休徴を別ち能はざる乎 </seg>
+</ab>
+<ab n="16:4">
+  <seg type="original"><hi rend="superscript">16:4</hi> 姦惡なる世は休徴を求るとも〔預言者｜預言者〕ヨナの休徴のほか休徴を予られじ遂に彼等を離れて去ぬ／ </seg>
+</ab>
+<ab n="16:5">
+  <seg type="original"><hi rend="superscript">16:5</hi> その弟子むかふの岸に到しにパンを携ふることを忘たり </seg>
+</ab>
+<ab n="16:6">
+  <seg type="original"><hi rend="superscript">16:6</hi> イエス彼等に曰けるは戒心してパリサイとサドカイの人の麪酵を愼めよ </seg>
+</ab>
+<ab n="16:7">
+  <seg type="original"><hi rend="superscript">16:7</hi> 弟子たがひに論じて曰けるは是パンを携へざりし故ならん </seg>
+</ab>
+<ab n="16:8">
+  <seg type="original"><hi rend="superscript">16:8</hi> イエスこれを知て曰けるは信仰うすき者よ何ぞ互にパンを携へざりしことを論ずる乎 </seg>
+</ab>
+<ab n="16:9">
+  <seg type="original"><hi rend="superscript">16:9</hi> 未だ悟らざるか五千人に五のパンを予しとき幾筐ひろひし乎 </seg>
+</ab>
+<ab n="16:10">
+  <seg type="original"><hi rend="superscript">16:10</hi> また四千人に七のパンを予しとき幾籃ひろひしや爾曹これを記ざるか </seg>
+</ab>
+<ab n="16:11">
+  <seg type="original"><hi rend="superscript">16:11</hi> パリサイとサドカイの人の麪酵を愼めとはパンにつきて言るに非るを何ぞ悟らざる </seg>
+</ab>
+<ab n="16:12">
+  <seg type="original"><hi rend="superscript">16:12</hi> 是に於て弟子その麪酵にはあらでパリサイとサドカイの人の教を謹めと言るなるを悟れり／ </seg>
+</ab>
+<ab n="16:13">
+  <seg type="original"><hi rend="superscript">16:13</hi> イエス、カイザリヤ、ピリピの方に到しとき其弟子に問て曰けるは人々は人の子を誰と言や </seg>
+</ab>
+<ab n="16:14">
+  <seg type="original"><hi rend="superscript">16:14</hi> 彼等いひけるは或人はバプテスマのヨハネ或人はエレミヤまた〔預言者｜預言者〕の一人なりと言り </seg>
+</ab>
+<ab n="16:15">
+  <seg type="original"><hi rend="superscript">16:15</hi> 彼等に曰けるは爾曹は我を言て誰とする乎 </seg>
+</ab>
+<ab n="16:16">
+  <seg type="original"><hi rend="superscript">16:16</hi> シモン、ペテロ答けるは爾はキリスト活神の子なり </seg>
+</ab>
+<ab n="16:17">
+  <seg type="original"><hi rend="superscript">16:17</hi> イエス答て彼に曰けるはヨナの子シモン爾は福なり蓋血肉なんぢに示せるに非ず天に在す吾父なり </seg>
+</ab>
+<ab n="16:18">
+  <seg type="original"><hi rend="superscript">16:18</hi> 我また爾に告ん爾はペテロなり我が教會をこの磐の上に建べし陰府の門は之に勝べからず </seg>
+</ab>
+<ab n="16:19">
+  <seg type="original"><hi rend="superscript">16:19</hi> 又われ天國の鑰を爾に予へん爾が地に於て繋ことは天に於ても繋なんぢが地に於て釋ことは天に於ても釋べし </seg>
+</ab>
+<ab n="16:20">
+  <seg type="original"><hi rend="superscript">16:20</hi> 遂に其弟子を戒めけるは我をキリストと人に告ること勿れ／ </seg>
+</ab>
+<ab n="16:21">
+  <seg type="original"><hi rend="superscript">16:21</hi> 此時よりイエス其弟子に己のエルサレムに往て長老祭司の長學者等より多の苦みを受かつ殺され第三日に甦る等なすべき事を示し始む </seg>
+</ab>
+<ab n="16:22">
+  <seg type="original"><hi rend="superscript">16:22</hi> ペテロ、イエスを援とめて主よ宜らず此事〔爾｜なんぢ〕に來るまじと曰ければ </seg>
+</ab>
+<ab n="16:23">
+  <seg type="original"><hi rend="superscript">16:23</hi> イエス反顧てペテロに曰たまひけるはサタンよ我後に退け爾は我に礙く者なり夫〔爾｜なんぢ〕は神の事を思はず人の事を思へり </seg>
+</ab>
+<ab n="16:24">
+  <seg type="original"><hi rend="superscript">16:24</hi> 此時イエス〔其｜その〕弟子に曰けるは若〔我｜われ〕に從はんと欲ふ者は己を棄その十字架を負て我に從へ </seg>
+</ab>
+<ab n="16:25">
+  <seg type="original"><hi rend="superscript">16:25</hi> 〔蓋｜そは〕生命を保全せんとする者は之を失ひ我ために其生命を失ふ者は之を得べければ也 </seg>
+</ab>
+<ab n="16:26">
+  <seg type="original"><hi rend="superscript">16:26</hi> もし人全世界を得とも其生命を失はば何の益あらん乎また人なにを以て其生命に易んや </seg>
+</ab>
+<ab n="16:27">
+  <seg type="original"><hi rend="superscript">16:27</hi> それ人の子は父の榮光を以て其使等と偕に來らん其時おのおのの行に由て報ゆべし </seg>
+</ab>
+<ab n="16:28">
+  <seg type="original"><hi rend="superscript">16:28</hi> 誠に爾曹に告ん人の子其國を以て來るを見までは此に立ものの中に死ざる者あるべし</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="17">
+          <head>マタイによる福音書 第17章</head>
+          <ab n="17:1">
+  <seg type="original"><hi rend="superscript">17:1</hi> 六日の後イエス、ペテロ、ヤコブその兄弟ヨハネを伴ひ人を避て高山に登り給しが </seg>
+</ab>
+<ab n="17:2">
+  <seg type="original"><hi rend="superscript">17:2</hi> 彼等の前にて其容貌かはり其面日の如く輝き其衣は白く光れり </seg>
+</ab>
+<ab n="17:3">
+  <seg type="original"><hi rend="superscript">17:3</hi> モーセとエリヤ現れイエスと偕に語ぬ </seg>
+</ab>
+<ab n="17:4">
+  <seg type="original"><hi rend="superscript">17:4</hi> ペテロ答てイエスに曰けるは主よ我儕ここに居は善もし尊旨に適はば我儕に三の廬を建せたまへ一は主のため一はモーセのため一はエリヤの爲にせん </seg>
+</ab>
+<ab n="17:5">
+  <seg type="original"><hi rend="superscript">17:5</hi> 如此いへる時かがやける雲かれらを蔽ふ聲雲より出て言けるは此は我旨に適ふわが愛子なり爾曹これに聽べし </seg>
+</ab>
+<ab n="17:6">
+  <seg type="original"><hi rend="superscript">17:6</hi> 弟子これを聞て大におそれ倒れ伏たり </seg>
+</ab>
+<ab n="17:7">
+  <seg type="original"><hi rend="superscript">17:7</hi> イエス來りて彼等に手を按おきよ懼るる勿れと曰ければ </seg>
+</ab>
+<ab n="17:8">
+  <seg type="original"><hi rend="superscript">17:8</hi> 其目を擧しに惟イエスのほか一人をも見ざりき／ </seg>
+</ab>
+<ab n="17:9">
+  <seg type="original"><hi rend="superscript">17:9</hi> 山を下るときにイエス彼等に命じて人の子の死より甦るまでは爾曹の見し事を人に告べからずと言り </seg>
+</ab>
+<ab n="17:10">
+  <seg type="original"><hi rend="superscript">17:10</hi> 〔其｜その〕弟子とふて曰けるは然ばエリヤは先に來るべしと學者の云るは何ぞや </seg>
+</ab>
+<ab n="17:11">
+  <seg type="original"><hi rend="superscript">17:11</hi> イエス答て曰けるは實にエリヤは來て萬事を改むべし </seg>
+</ab>
+<ab n="17:12">
+  <seg type="original"><hi rend="superscript">17:12</hi> 然ど我なんぢらに告んエリヤは既に來しに人これを知ずただ意の任に彼を待へり此の如く人の子もまた彼等より苦難を受べし </seg>
+</ab>
+<ab n="17:13">
+  <seg type="original"><hi rend="superscript">17:13</hi> 是に於て弟子バプテスマのヨハネを指て曰たまへるを悟れり／ </seg>
+</ab>
+<ab n="17:14">
+  <seg type="original"><hi rend="superscript">17:14</hi> 彼等おほくの人の居ところに來しに或人イエスの所にきたり跪き </seg>
+</ab>
+<ab n="17:15">
+  <seg type="original"><hi rend="superscript">17:15</hi> 曰けるは主よ我子を憫みたまへ癲癇にて屡々火に倒れ水に倒れ甚だ苦めり </seg>
+</ab>
+<ab n="17:16">
+  <seg type="original"><hi rend="superscript">17:16</hi> 之を爾の弟子に携往たれど醫すことを得ざりき </seg>
+</ab>
+<ab n="17:17">
+  <seg type="original"><hi rend="superscript">17:17</hi> イエス答て曰けるは噫信なき曲れる世なる哉われ何時まで爾曹と偕に居んや我いつまで爾曹を忍んや彼を我もとに携來れ </seg>
+</ab>
+<ab n="17:18">
+  <seg type="original"><hi rend="superscript">17:18</hi> 遂にイエス鬼を斥め給へば鬼いでて其子この時より愈たり </seg>
+</ab>
+<ab n="17:19">
+  <seg type="original"><hi rend="superscript">17:19</hi> 其とき弟子ひそかにイエスに來り曰けるは我儕これを逐出すこと能はざりしは何故ぞ </seg>
+</ab>
+<ab n="17:20">
+  <seg type="original"><hi rend="superscript">17:20</hi> イエス彼等に曰けるは爾曹信なきが故なり我まことに爾曹に告んもし芥種の如き信あらば此山に此處より彼處に移れと命とも必ず移らん又なんぢらに能ざること無るべし </seg>
+</ab>
+<ab n="17:21">
+  <seg type="original"><hi rend="superscript">17:21</hi> 然ど此類は祈禱と斷食に非ざれば出ることなし／ </seg>
+</ab>
+<ab n="17:22">
+  <seg type="original"><hi rend="superscript">17:22</hi> ガリラヤを周流ときイエス彼等に曰けるは人の子人の手に解され </seg>
+</ab>
+<ab n="17:23">
+  <seg type="original"><hi rend="superscript">17:23</hi> かつ殺されて第三日に甦るべし弟子これを聞て甚だ哀めり／ </seg>
+</ab>
+<ab n="17:24">
+  <seg type="original"><hi rend="superscript">17:24</hi> 彼等カペナウンに來れるとき納金を集る者どもペテロに來て曰けるは爾曹の師は納金を出さざる乎 </seg>
+</ab>
+<ab n="17:25">
+  <seg type="original"><hi rend="superscript">17:25</hi> 然ずと曰てペテロ家に入しときイエスまづ彼に曰けるはシモン爾は如何おもふや世界の王たちは税および貢を誰より徴か己の子よりか他の者よりか </seg>
+</ab>
+<ab n="17:26">
+  <seg type="original"><hi rend="superscript">17:26</hi> ペテロ彼に曰けるは他の人より徴なりイエス彼に曰けるは然ば子は與ることなし </seg>
+</ab>
+<ab n="17:27">
+  <seg type="original"><hi rend="superscript">17:27</hi> 然どかれらを礙かせざる爲に爾海に往て釣を垂よ初につる魚を取てその口を啓かば金一を得べし其を取て我と爾の爲に彼等に納よ</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="18">
+          <head>マタイによる福音書 第18章</head>
+         <ab n="18:1">
+  <seg type="original"><hi rend="superscript">18:1</hi> 其とき弟子イエスに來て曰けるは天國に於て大なる者は誰ぞや </seg>
+</ab>
+<ab n="18:2">
+  <seg type="original"><hi rend="superscript">18:2</hi> イエス嬰兒を召かれらの中に立て </seg>
+</ab>
+<ab n="18:3">
+  <seg type="original"><hi rend="superscript">18:3</hi> 曰けるは我まことに爾曹に告んもし改まりて嬰兒の若くならずば天國に入ることを得じ </seg>
+</ab>
+<ab n="18:4">
+  <seg type="original"><hi rend="superscript">18:4</hi> 然ば凡そこの嬰兒の若く自ら謙る者はこれ天國に於て大なる者なり </seg>
+</ab>
+<ab n="18:5">
+  <seg type="original"><hi rend="superscript">18:5</hi> 又わが名の爲に此の如き一人の嬰兒を接る者は我を接るなり </seg>
+</ab>
+<ab n="18:6">
+  <seg type="original"><hi rend="superscript">18:6</hi> 然ど我を信ずる此小子の一人を礙かする者は磨石をその頸に懸られて海の深に沈られん方なほ益なるべし </seg>
+</ab>
+<ab n="18:7">
+  <seg type="original"><hi rend="superscript">18:7</hi> 此世は禍なる哉そは礙かする事をすればなり礙く事は必ず來らん然ど礙を來らす者は禍なる哉 </seg>
+</ab>
+<ab n="18:8">
+  <seg type="original"><hi rend="superscript">18:8</hi> 若し爾の手なんぢの足おのれを礙かさば斷て之を棄よ兩手兩足ありて盡ざる火に投入られんよりは跛または殘缺にて生に入は善なり </seg>
+</ab>
+<ab n="18:9">
+  <seg type="original"><hi rend="superscript">18:9</hi> 若し爾の眼おのれを礙かさば拔出して之を棄よ兩眼ありて地獄の火に投入れられんよりは一眼にて生に入は善なり／ </seg>
+</ab>
+<ab n="18:10">
+  <seg type="original"><hi rend="superscript">18:10</hi> 爾曹この小子の一人をも愼みて輕視なかれ我なんぢらに告ん彼等が天の使者は天にありて天に在す吾父の面を恆に視ばなり </seg>
+</ab>
+<ab n="18:11">
+  <seg type="original"><hi rend="superscript">18:11</hi> それ人の子は亡たる者を救はん爲に來れり </seg>
+</ab>
+<ab n="18:12">
+  <seg type="original"><hi rend="superscript">18:12</hi> 爾曹いかに意ふや人もし百匹の羊あらんに其一匹まよはば九十九を山に置ゆきて迷し一を尋ざる乎 </seg>
+</ab>
+<ab n="18:13">
+  <seg type="original"><hi rend="superscript">18:13</hi> 若たづねて之に遇ば我まことに爾曹に告ん迷ざる九十九の者よりも尚その一を喜ん </seg>
+</ab>
+<ab n="18:14">
+  <seg type="original"><hi rend="superscript">18:14</hi> 是の如くこの小子の一人の亡るは天に在す爾曹が父の尊旨に非ず </seg>
+</ab>
+<ab n="18:15">
+  <seg type="original"><hi rend="superscript">18:15</hi> もし兄弟なんぢに罪を犯ばその獨ある時に往て諫よもし爾の言を聽ばその兄弟を獲べし </seg>
+</ab>
+<ab n="18:16">
+  <seg type="original"><hi rend="superscript">18:16</hi> もし聽ずば兩三人の口に由て證をなし凡の言を定んが爲に一人二人を伴ひ往 </seg>
+</ab>
+<ab n="18:17">
+  <seg type="original"><hi rend="superscript">18:17</hi> もし彼等にも聽ずば教會に告よもし教會に聽ずば之を異邦人かつ税吏のごとき者とすべし </seg>
+</ab>
+<ab n="18:18">
+  <seg type="original"><hi rend="superscript">18:18</hi> 我まことに爾曹に告ん凡そ爾曹が地に於いて繋ことは天に於もつなぎ爾曹が地に於て釋ことは天に於も釋べし </seg>
+</ab>
+<ab n="18:19">
+  <seg type="original"><hi rend="superscript">18:19</hi> 我また爾曹に告んもし爾曹のうち二人のもの地に於て心を合せ何事にても求ば天に在す吾父は彼等の爲に之を成たまふべし </seg>
+</ab>
+<ab n="18:20">
+  <seg type="original"><hi rend="superscript">18:20</hi> 蓋わが名の爲に二三人の集れる處には我も其中に在ばなり／ </seg>
+</ab>
+<ab n="18:21">
+  <seg type="original"><hi rend="superscript">18:21</hi> 厥時ペテロ、イエスに來りて曰けるは主よ幾次まで我兄弟の我に罪を犯を赦べきか七次まで乎 </seg>
+</ab>
+<ab n="18:22">
+  <seg type="original"><hi rend="superscript">18:22</hi> イエス彼に曰けるは爾に七次とは言じ七次を七十倍せよ </seg>
+</ab>
+<ab n="18:23">
+  <seg type="original"><hi rend="superscript">18:23</hi> 是故に天國は王その臣と會計を調んとするが如し </seg>
+</ab>
+<ab n="18:24">
+  <seg type="original"><hi rend="superscript">18:24</hi> 調べ始しとき千萬金の負債したる者を王に曳來りしに </seg>
+</ab>
+<ab n="18:25">
+  <seg type="original"><hi rend="superscript">18:25</hi> 償ひ方なかりければ之に命じて其身その妻孥とあらゆる所有をみな鬻て償へと曰り </seg>
+</ab>
+<ab n="18:26">
+  <seg type="original"><hi rend="superscript">18:26</hi> その臣ひれふして拜し曰けるは請われを寛し給はば皆償ふべし </seg>
+</ab>
+<ab n="18:27">
+  <seg type="original"><hi rend="superscript">18:27</hi> 是に於てその臣の主憐みて之を釋その負債を免したり </seg>
+</ab>
+<ab n="18:28">
+  <seg type="original"><hi rend="superscript">18:28</hi> 其臣いでて己より銀一百の負債したる友に遇ければ之を執へ喉をとり負債を返せと曰 </seg>
+</ab>
+<ab n="18:29">
+  <seg type="original"><hi rend="superscript">18:29</hi> その友足下に俯伏て求いひけるは我を寛し給はば皆償ふべし </seg>
+</ab>
+<ab n="18:30">
+  <seg type="original"><hi rend="superscript">18:30</hi> 然るに之を肯はずして往その負債を償ふまで彼を獄に入ぬ </seg>
+</ab>
+<ab n="18:31">
+  <seg type="original"><hi rend="superscript">18:31</hi> 外の友その爲る事を見て甚だ哀み往て此事を皆その主に告しかば </seg>
+</ab>
+<ab n="18:32">
+  <seg type="original"><hi rend="superscript">18:32</hi> 主かれを召て曰けるは惡き臣よ爾われに求しに因て我その負債を悉く免したり </seg>
+</ab>
+<ab n="18:33">
+  <seg type="original"><hi rend="superscript">18:33</hi> 我なんぢを憐みし如く爾も亦友を憐むべきに非ずや </seg>
+</ab>
+<ab n="18:34">
+  <seg type="original"><hi rend="superscript">18:34</hi> その主いかりて負債をみな償ふまで彼を獄吏に付せり </seg>
+</ab>
+<ab n="18:35">
+  <seg type="original"><hi rend="superscript">18:35</hi> 若おのおの其心より兄弟を赦ずば我が天の父も亦なんぢらに此の如く行給ふべし</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="19">
+          <head>マタイによる福音書 第19章</head>
+          <ab n="19:1">
+  <seg type="original"><hi rend="superscript">19:1</hi> イエス此等の事を言畢りしときガリラヤを去てヨルダンの外ユダヤの境に至りけるに </seg>
+</ab>
+<ab n="19:2">
+  <seg type="original"><hi rend="superscript">19:2</hi> 多の人々從ひしかば此處にて彼等を醫し給へり </seg>
+</ab>
+<ab n="19:3">
+  <seg type="original"><hi rend="superscript">19:3</hi> パリサイの人きたりてイエスを試み曰けるは人なにの故に係らず其妻を出すは宜か </seg>
+</ab>
+<ab n="19:4">
+  <seg type="original"><hi rend="superscript">19:4</hi> 答て彼等に曰けるは元始に人を造り給ひし者は之を男女に造れり </seg>
+</ab>
+<ab n="19:5">
+  <seg type="original"><hi rend="superscript">19:5</hi> 是故に人父母を離れて其妻に合二人のもの一體と爲なりと云るを未だ讀ざるか </seg>
+</ab>
+<ab n="19:6">
+  <seg type="original"><hi rend="superscript">19:6</hi> 然ばはや二には非ず一體なり神の合せ給へる者は人これを離すべからず </seg>
+</ab>
+<ab n="19:7">
+  <seg type="original"><hi rend="superscript">19:7</hi> イエスに曰けるは然ば離縁状を予て妻を出せとモーセが命ぜしは何ぞや </seg>
+</ab>
+<ab n="19:8">
+  <seg type="original"><hi rend="superscript">19:8</hi> 彼等に曰けるはモーセは爾曹の心の不情に因て妻を出すことを容したる也されど元始は如此あらざりき </seg>
+</ab>
+<ab n="19:9">
+  <seg type="original"><hi rend="superscript">19:9</hi> 我なんぢらに告んもし姦淫の故ならで其妻を出し他の婦を娶る者は姦淫を行ふなり又いだされる婦人を娶る者も姦淫を行ふなり </seg>
+</ab>
+<ab n="19:10">
+  <seg type="original"><hi rend="superscript">19:10</hi> 弟子等イエスに曰けるは若し人妻に於て此の如くば娶らざるに若ず </seg>
+</ab>
+<ab n="19:11">
+  <seg type="original"><hi rend="superscript">19:11</hi> 彼等に曰けるは此言は人みな受納ること能はず唯賦られたる者のみ之を爲うべし </seg>
+</ab>
+<ab n="19:12">
+  <seg type="original"><hi rend="superscript">19:12</hi> それ母の腹より生來たる寺人あり又人にせられたる寺人あり又天國の爲に自らなれる寺人あり之を受納ることを得ものは受納べし／ </seg>
+</ab>
+<ab n="19:13">
+  <seg type="original"><hi rend="superscript">19:13</hi> 其とき人々イエスの手を按て祈らんことを求ひ嬰兒を彼に携來りければ弟子是を阻たり </seg>
+</ab>
+<ab n="19:14">
+  <seg type="original"><hi rend="superscript">19:14</hi> イエス曰けるは嬰兒を容せ我に來ることを禁しむる勿れ天國にをる者は此の如き者なり </seg>
+</ab>
+<ab n="19:15">
+  <seg type="original"><hi rend="superscript">19:15</hi> 即ち彼等に手を按て此を去ぬ／ </seg>
+</ab>
+<ab n="19:16">
+  <seg type="original"><hi rend="superscript">19:16</hi> 或人きたりて彼に曰けるは善師よ我かぎりなき生を得んが爲には何の善事を行べきか </seg>
+</ab>
+<ab n="19:17">
+  <seg type="original"><hi rend="superscript">19:17</hi> 彼に曰けるは何故われを善と稱や一人の外に善者はなし即ち神なり若し生命に入んと欲はば誡を守るべし </seg>
+</ab>
+<ab n="19:18">
+  <seg type="original"><hi rend="superscript">19:18</hi> 彼こたへけるは何かイエス曰けるは殺す勿れ姦淫する勿れ盜む勿れ妄りの證を立る勿れ </seg>
+</ab>
+<ab n="19:19">
+  <seg type="original"><hi rend="superscript">19:19</hi> 爾の父と母を敬へ又己の如く爾の隣を愛すべし </seg>
+</ab>
+<ab n="19:20">
+  <seg type="original"><hi rend="superscript">19:20</hi> 少者かれに曰けるは是みな我いとけなきより守れるものなり何の虧たるところ我にある乎 </seg>
+</ab>
+<ab n="19:21">
+  <seg type="original"><hi rend="superscript">19:21</hi> イエス彼に曰けるは全からん事を欲はば往て爾が所有を售て貧者に施せ然れば天に於て財あらん而して來り我に從へ </seg>
+</ab>
+<ab n="19:22">
+  <seg type="original"><hi rend="superscript">19:22</hi> 少者この言を聞て憂へ去ぬ彼の産業おほいなりければ也／ </seg>
+</ab>
+<ab n="19:23">
+  <seg type="original"><hi rend="superscript">19:23</hi> イエスその弟子に曰けるは誠に爾曹に告ん富者は天國に入こと難し </seg>
+</ab>
+<ab n="19:24">
+  <seg type="original"><hi rend="superscript">19:24</hi> また爾曹に告ん富者の神の國に入よりは駱駝の針の孔を穿るは却て易し </seg>
+</ab>
+<ab n="19:25">
+  <seg type="original"><hi rend="superscript">19:25</hi> 弟子之を聞て甚く驚き曰けるは然ば誰か救を受べき乎 </seg>
+</ab>
+<ab n="19:26">
+  <seg type="original"><hi rend="superscript">19:26</hi> イエス彼等を見て曰けるは是人には能はざる所なり然ど神には能はざる所なし／ </seg>
+</ab>
+<ab n="19:27">
+  <seg type="original"><hi rend="superscript">19:27</hi> 此ときペテロ答てイエスに曰けるは我儕一切を棄て爾に從へり然ば何を得べき乎 </seg>
+</ab>
+<ab n="19:28">
+  <seg type="original"><hi rend="superscript">19:28</hi> イエス彼等に曰けるは我まことに爾曹に告ん我に從へる爾曹は世あらたまり人の子榮光の位に坐する時なんぢらも十二の位に坐してイスラエルの十二の支派を鞫べし </seg>
+</ab>
+<ab n="19:29">
+  <seg type="original"><hi rend="superscript">19:29</hi> 凡て我名の爲に家宅あるひは兄弟あるひは姉妹あるひは父あるひは母あるひは妻あるひは子あるひは田疇を棄る者は百倍を受かつ窮なき生を嗣ん </seg>
+</ab>
+<ab n="19:30">
+  <seg type="original"><hi rend="superscript">19:30</hi> 多の先なる者は後になり後なる者は先になるべし</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="20">
+          <head>マタイによる福音書 第20章</head>
+          <ab n="20:1">
+  <seg type="original"><hi rend="superscript">20:1</hi> それ天國は朝はやく出て葡萄園に工人を雇ふ主人の如し </seg>
+</ab>
+<ab n="20:2">
+  <seg type="original"><hi rend="superscript">20:2</hi> 工人には一日に銀一枚を予へんと約束をなし彼等を葡萄園に遣せり </seg>
+</ab>
+<ab n="20:3">
+  <seg type="original"><hi rend="superscript">20:3</hi> また九時ごろ出て街に徒く立る者を見て </seg>
+</ab>
+<ab n="20:4">
+  <seg type="original"><hi rend="superscript">20:4</hi> 爾曹も葡萄園にゆけ相當の價を予んと彼等に曰ければ即ち往り </seg>
+</ab>
+<ab n="20:5">
+  <seg type="original"><hi rend="superscript">20:5</hi> また十二時と三時ごろ出て前の如く行り </seg>
+</ab>
+<ab n="20:6">
+  <seg type="original"><hi rend="superscript">20:6</hi> 五時ごろ出て又ほかの立る者に遇て曰けるは何ゆゑ終日ここに徒く立や </seg>
+</ab>
+<ab n="20:7">
+  <seg type="original"><hi rend="superscript">20:7</hi> 之に答て曰けるは我儕を雇ふ物なきに因てなり彼等に曰ける爾曹も葡萄園にゆけ相當の價を得べし </seg>
+</ab>
+<ab n="20:8">
+  <seg type="original"><hi rend="superscript">20:8</hi> 日暮るとき葡萄園の主人その家宰に曰けるは勞力たる者等を呼て後に雇へる者を始とし先の者にまで價を給へよ </seg>
+</ab>
+<ab n="20:9">
+  <seg type="original"><hi rend="superscript">20:9</hi> 五時ごろ雇はれし者ども來りて銀一枚づつを受たり </seg>
+</ab>
+<ab n="20:10">
+  <seg type="original"><hi rend="superscript">20:10</hi> 先の者ども來りて我儕は多く受るならんと意ひしに亦銀一枚づつを受 </seg>
+</ab>
+<ab n="20:11">
+  <seg type="original"><hi rend="superscript">20:11</hi> これを受て主人を怨みつぶやきけるは </seg>
+</ab>
+<ab n="20:12">
+  <seg type="original"><hi rend="superscript">20:12</hi> この後至者の勞力たるは一時ばかりなるに終日くるしみ任あつさに當る我儕と均しく之をなせり </seg>
+</ab>
+<ab n="20:13">
+  <seg type="original"><hi rend="superscript">20:13</hi> 主人その一人に答て曰けるは友よ我なんぢに不義をせず爾と銀一枚の約束をなしたるに非ずや </seg>
+</ab>
+<ab n="20:14">
+  <seg type="original"><hi rend="superscript">20:14</hi> 爾のものを取て往われ亦この後至者にも爾の如く予ふべし </seg>
+</ab>
+<ab n="20:15">
+  <seg type="original"><hi rend="superscript">20:15</hi> 我物を以て我おもふ如く行は宜らず乎わが善に因て爾の目あしき乎 </seg>
+</ab>
+<ab n="20:16">
+  <seg type="original"><hi rend="superscript">20:16</hi> 此の如く後の者は先に先の者は後になるべし夫よばるる者し多しと雖も選るる者は少なし／ </seg>
+</ab>
+<ab n="20:17">
+  <seg type="original"><hi rend="superscript">20:17</hi> イエス、エルサレムに上るとき途間にて人を離れ十二弟子を伴ひて彼等に曰けるは </seg>
+</ab>
+<ab n="20:18">
+  <seg type="original"><hi rend="superscript">20:18</hi> 我儕エルサレムに上り人の子は祭司の長と學者等に賣されん彼等これを死罪に定め </seg>
+</ab>
+<ab n="20:19">
+  <seg type="original"><hi rend="superscript">20:19</hi> また凌辱鞭ち十字架に釘ん爲に異邦人に解すべし又第三日に甦へるべし／ </seg>
+</ab>
+<ab n="20:20">
+  <seg type="original"><hi rend="superscript">20:20</hi> 其時ゼベタイの子等の母その子と偕にイエスに來り拜して彼に求ること有ければ </seg>
+</ab>
+<ab n="20:21">
+  <seg type="original"><hi rend="superscript">20:21</hi> 之に曰けるは何を欲ふかイエスに曰けるは此二人の我子を爾の國に於て一人は爾の右一人は爾の左に坐ることを命ぜよ </seg>
+</ab>
+<ab n="20:22">
+  <seg type="original"><hi rend="superscript">20:22</hi> イエス答て曰けるは爾曹は求ところを知ず爾曹は我が飮んとする杯をのみ又わが受んとするバプテスマを受得るや彼等いひけるは能すべし </seg>
+</ab>
+<ab n="20:23">
+  <seg type="original"><hi rend="superscript">20:23</hi> イエス彼等に曰けるは誠に爾曹は我が杯を飮また我うくるバプテスマを受べし然ど我が右左に坐ることは我が賜べきに非ず只わが父に備られたる者は賜らるべし </seg>
+</ab>
+<ab n="20:24">
+  <seg type="original"><hi rend="superscript">20:24</hi> 十人の弟子これを聞て二人の兄弟を憤れり </seg>
+</ab>
+<ab n="20:25">
+  <seg type="original"><hi rend="superscript">20:25</hi> イエス彼等を召て曰けるは異邦の領主はその民を主どり大人どもは彼等の上に權を操これ爾曹が知ところ也 </seg>
+</ab>
+<ab n="20:26">
+  <seg type="original"><hi rend="superscript">20:26</hi> 然ど爾曹の中にては然すべからず爾曹のうち大ならんと欲ふ者は爾曹に役るる者となるべし </seg>
+</ab>
+<ab n="20:27">
+  <seg type="original"><hi rend="superscript">20:27</hi> また爾曹のうち首たらんと欲ふ者は爾曹の僕となるべし </seg>
+</ab>
+<ab n="20:28">
+  <seg type="original"><hi rend="superscript">20:28</hi> 此の如く人の子の來るも人を役ふ爲には非ず反て人に役はれ又おほくの人に代て生命を予その贖とならん爲なり／ </seg>
+</ab>
+<ab n="20:29">
+  <seg type="original"><hi rend="superscript">20:29</hi> 彼等エリコを出し時おほくの人々イエスに從へり </seg>
+</ab>
+<ab n="20:30">
+  <seg type="original"><hi rend="superscript">20:30</hi> 二人の瞽者路の旁に坐をりしがイエスの過ると聞て呼叫いひけるはダビデの<ruby>裔<rt rend="colorred">こ</rt></ruby>
+主よ我儕を憫み給へ </seg>
+</ab>
+<ab n="20:31">
+  <seg type="original"><hi rend="superscript">20:31</hi> 衆人これに默れと戒むれども愈さけび曰けるはダビデの<ruby>裔<rt rend="colorred">こ</rt></ruby>
+主よ我儕を憫みたまへ </seg>
+</ab>
+<ab n="20:32">
+  <seg type="original"><hi rend="superscript">20:32</hi> イエス立止て之を呼いひけるは爾曹われに何を爲られんと願ふや </seg>
+</ab>
+<ab n="20:33">
+  <seg type="original"><hi rend="superscript">20:33</hi> イエスに曰けるは主よ我儕目を啓んことを願ふ </seg>
+</ab>
+<ab n="20:34">
+  <seg type="original"><hi rend="superscript">20:34</hi> イエス憫みて其目に手を按ければ直に見ことを得イエスに從へり</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="21">
+          <head>マタイによる福音書 第21章</head>
+          <ab n="21:1">
+  <seg type="original"><hi rend="superscript">21:1</hi> かれら橄欖山のベテパゲに至りエルサレムに近ける時イエス二人の弟子を遣さんとして </seg>
+</ab>
+<ab n="21:2">
+  <seg type="original"><hi rend="superscript">21:2</hi> 彼等に曰けるは爾曹むかふの村に往やがて繋たる驢馬の其子と偕にあるに遇ん夫を解て我に牽きたれ </seg>
+</ab>
+<ab n="21:3">
+  <seg type="original"><hi rend="superscript">21:3</hi> 若なんぢらに何とか言ものあらば主の用なりと曰さらば直に之を遣すべし </seg>
+</ab>
+<ab n="21:4">
+  <seg type="original"><hi rend="superscript">21:4</hi> 〔預言者｜預言者〕の言に視よ爾の王は柔和にして驢馬すなはち驢馬の子に乘なんぢに來るとシヲンの女に告よと </seg>
+</ab>
+<ab n="21:5">
+  <seg type="original"><hi rend="superscript">21:5</hi> 云るに應せん爲に如此なせる也 </seg>
+</ab>
+<ab n="21:6">
+  <seg type="original"><hi rend="superscript">21:6</hi> 弟子ゆきてイエスの命ぜし如くなし </seg>
+</ab>
+<ab n="21:7">
+  <seg type="original"><hi rend="superscript">21:7</hi> 驢馬と其子を牽きたり己の衣をその上に置ければイエスこれに乘り </seg>
+</ab>
+<ab n="21:8">
+  <seg type="original"><hi rend="superscript">21:8</hi> 衆人おほくは其衣を途に布あるひは樹枝を伐て途に布ぬ </seg>
+</ab>
+<ab n="21:9">
+  <seg type="original"><hi rend="superscript">21:9</hi> かつ前にゆき後に從ふ人々呼いひけるはダビデの<ruby>裔<rt rend="colorred">こ</rt></ruby>
+ホザナよ主の名に託て來る者は福なり至上處にホザナよ／ </seg>
+</ab>
+<ab n="21:10">
+  <seg type="original"><hi rend="superscript">21:10</hi> イエス、エルサレムに至れるとき都城こぞりて竦動いひけるは是誰ぞや </seg>
+</ab>
+<ab n="21:11">
+  <seg type="original"><hi rend="superscript">21:11</hi> 衆人いひけるは此はガリラヤのナザレより出たる〔預言者｜預言者〕イエスなり／ </seg>
+</ab>
+<ab n="21:12">
+  <seg type="original"><hi rend="superscript">21:12</hi> イエス神の殿に入て其中なる凡の賣買する者を逐出し兌銀者の案鴿をうる者の椅子を倒し </seg>
+</ab>
+<ab n="21:13">
+  <seg type="original"><hi rend="superscript">21:13</hi> 彼等に曰けるは我家は祈禱の家と稱らるべしと録さる然るに爾曹これを盜人の巣となせり </seg>
+</ab>
+<ab n="21:14">
+  <seg type="original"><hi rend="superscript">21:14</hi> 瞽者跛者の人々殿に入てイエスに來りければ之を醫しぬ </seg>
+</ab>
+<ab n="21:15">
+  <seg type="original"><hi rend="superscript">21:15</hi> 祭司の長と學者たち其行たまへる奇事を見また兒童輩の殿にて呼はりダビデの<ruby>裔<rt rend="colorred">こ</rt></ruby>
+ホザナよと云を聞て怒を含 </seg>
+</ab>
+<ab n="21:16">
+  <seg type="original"><hi rend="superscript">21:16</hi> イエスに曰けるは彼等が言ことを聞やイエス答て曰けるは然り嬰兒乳哺者の口に讚美を備たりと録されしを未だ讀ざる乎 </seg>
+</ab>
+<ab n="21:17">
+  <seg type="original"><hi rend="superscript">21:17</hi> 遂に彼等を離れ都城を出てベタニヤに往そこに宿れり／ </seg>
+</ab>
+<ab n="21:18">
+  <seg type="original"><hi rend="superscript">21:18</hi> 翌あさ都城へ返るとき飢ければ </seg>
+</ab>
+<ab n="21:19">
+  <seg type="original"><hi rend="superscript">21:19</hi> 路の旁にある一の無花果の樹を見て其處に來りしに葉の他に何も見ざりしかば今よりのち永久も果を結ぶことを得ざれと之に曰たまひければ無花果立刻に枯ぬ </seg>
+</ab>
+<ab n="21:20">
+  <seg type="original"><hi rend="superscript">21:20</hi> 弟子これを見て奇み曰けるは無花果の枯ることを何に速や </seg>
+</ab>
+<ab n="21:21">
+  <seg type="original"><hi rend="superscript">21:21</hi> イエス答て彼等に曰けるは我まことに爾曹に告んもし信仰ありて疑はずば此無花果に於るが如耳ならず此山に命じ此より移されて海に入よと云とも亦成ん </seg>
+</ab>
+<ab n="21:22">
+  <seg type="original"><hi rend="superscript">21:22</hi> 且なんぢら信じて祈らば求ふ所ことごとく得べし </seg>
+</ab>
+<ab n="21:23">
+  <seg type="original"><hi rend="superscript">21:23</hi> イエス殿に入て教たるとき祭司の長および民の長老たち來り曰けるは何の權威を以て此事をなすや誰この權威を爾に予しや </seg>
+</ab>
+<ab n="21:24">
+  <seg type="original"><hi rend="superscript">21:24</hi> イエス答て彼等に曰けるは我も一言なんぢらに問ん我にその事を告なば我も何の權威をもて之を行といふことを爾曹に曰べし </seg>
+</ab>
+<ab n="21:25">
+  <seg type="original"><hi rend="superscript">21:25</hi> ヨハネのバプテスマは何處よりぞ天よりか人よりか彼等たがひに論じ曰けるは若し天よりと云ば然ば何ゆゑ信ぜざるかと云ん </seg>
+</ab>
+<ab n="21:26">
+  <seg type="original"><hi rend="superscript">21:26</hi> もし人よりと云ば我儕民を畏る蓋みなヨハネを〔預言者｜預言者〕と爲ばなり </seg>
+</ab>
+<ab n="21:27">
+  <seg type="original"><hi rend="superscript">21:27</hi> 遂に答て知ずと曰イエス彼等に曰けるは我も何の權威を以て之を行か爾曹に語らじ </seg>
+</ab>
+<ab n="21:28">
+  <seg type="original"><hi rend="superscript">21:28</hi> 爾曹いかに意ふや或人二人の子ありしが長子に來りて曰けるは子よ今日わが葡萄園に往て働け </seg>
+</ab>
+<ab n="21:29">
+  <seg type="original"><hi rend="superscript">21:29</hi> 答て否と曰しがのち悔て往たり </seg>
+</ab>
+<ab n="21:30">
+  <seg type="original"><hi rend="superscript">21:30</hi> また次子にも前の如く曰けるに答て君よ我往べしと曰しが遂に往ざりき </seg>
+</ab>
+<ab n="21:31">
+  <seg type="original"><hi rend="superscript">21:31</hi> 此二人のもの孰か父の旨に遵ひし彼等いひけるは長子なりイエス彼等に曰けるは誠に爾曹に告ん税吏および娼妓は爾曹より先に神の國に入べし </seg>
+</ab>
+<ab n="21:32">
+  <seg type="original"><hi rend="superscript">21:32</hi> 夫ヨハネ義道をもて來りしに爾曹これを信ぜず税吏娼妓は之を信じたり爾曹これを見てなほ悔改めず彼を信ぜざりき／ </seg>
+</ab>
+<ab n="21:33">
+  <seg type="original"><hi rend="superscript">21:33</hi> また一の譬を聞ある家の主人葡萄園を樹り籬を環らし其中に酒榨をほり塔をたて農夫に貸て他の國へ往しが </seg>
+</ab>
+<ab n="21:34">
+  <seg type="original"><hi rend="superscript">21:34</hi> 果期ちかづきければ其果を收ん爲に僕を農夫のもとに遣せり </seg>
+</ab>
+<ab n="21:35">
+  <seg type="original"><hi rend="superscript">21:35</hi> 農夫ども其僕等を執へ一人を鞭ち一人を殺し一人を石にて撃り </seg>
+</ab>
+<ab n="21:36">
+  <seg type="original"><hi rend="superscript">21:36</hi> また他の僕を前よりも多く遣しけるに之にも前の如くなせり </seg>
+</ab>
+<ab n="21:37">
+  <seg type="original"><hi rend="superscript">21:37</hi> 我子は敬ふならんと謂て終に其子を遣ししに </seg>
+</ab>
+<ab n="21:38">
+  <seg type="original"><hi rend="superscript">21:38</hi> 農夫等その子を見て互に曰けるは此は嗣子なり率これを殺して其産業をも奪べしと </seg>
+</ab>
+<ab n="21:39">
+  <seg type="original"><hi rend="superscript">21:39</hi> 即ち之を執へ葡萄園より逐出して殺せり </seg>
+</ab>
+<ab n="21:40">
+  <seg type="original"><hi rend="superscript">21:40</hi> 然ば葡萄園の主人きたらん時にこの農夫に何を爲べき乎 </seg>
+</ab>
+<ab n="21:41">
+  <seg type="original"><hi rend="superscript">21:41</hi> 彼等イエスに曰けるは此等の惡人を甚く討滅し期に及てその果を納る他の農夫に葡萄園を貸予ふべし </seg>
+</ab>
+<ab n="21:42">
+  <seg type="original"><hi rend="superscript">21:42</hi> イエス彼等に曰けるは聖書に工匠の棄たる石は家の隅の首石となれり是主の行給ることにして我儕の目に奇とするところなりと録されしを未だ讀ざる乎 </seg>
+</ab>
+<ab n="21:43">
+  <seg type="original"><hi rend="superscript">21:43</hi> 是故に我なんぢらに告ん神の國を爾曹より奪その果を結ぶ民に予らるべし </seg>
+</ab>
+<ab n="21:44">
+  <seg type="original"><hi rend="superscript">21:44</hi> この石の上に墜るものは壞この石上に墜れば其もの碎かるべし </seg>
+</ab>
+<ab n="21:45">
+  <seg type="original"><hi rend="superscript">21:45</hi> 祭司の長等およびパリサイの人かれの譬を聞おのれらを指て言るを識 </seg>
+</ab>
+<ab n="21:46">
+  <seg type="original"><hi rend="superscript">21:46</hi> イエスを執へんと欲ひ謀しかど唯民を畏たり蓋人々かれを〔預言者｜預言者〕とすれば也</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="22">
+          <head>マタイによる福音書 第22章</head>
+         <ab n="22:1">
+  <seg type="original"><hi rend="superscript">22:1</hi> イエス彼等に答てまた譬を語りけるは </seg>
+</ab>
+<ab n="22:2">
+  <seg type="original"><hi rend="superscript">22:2</hi> 天國は或王その子の爲に婚筵を設るが如し </seg>
+</ab>
+<ab n="22:3">
+  <seg type="original"><hi rend="superscript">22:3</hi> 婚筵に請おける者を迎ん爲に僕たちを遣ししかど彼等きたることを好まず </seg>
+</ab>
+<ab n="22:4">
+  <seg type="original"><hi rend="superscript">22:4</hi> 又ほかの僕を遣さんとして曰けるは我が筵すでに備れり我が牛また肥畜をも宰りて盡く備りたれば婚筵に來れと請たる者に言 </seg>
+</ab>
+<ab n="22:5">
+  <seg type="original"><hi rend="superscript">22:5</hi> 然ども彼等かへりみずして去ぬ其一人は己の田にゆき一人は己の貿易に往り </seg>
+</ab>
+<ab n="22:6">
+  <seg type="original"><hi rend="superscript">22:6</hi> 他の者等はその僕を執へ辱しめて殺せり </seg>
+</ab>
+<ab n="22:7">
+  <seg type="original"><hi rend="superscript">22:7</hi> 王これを聞て怒り軍勢を遣して其殺せる者を亡し又その邑を燒たり </seg>
+</ab>
+<ab n="22:8">
+  <seg type="original"><hi rend="superscript">22:8</hi> 是に於てその僕等に曰けるは婚筵すでに備れども請たる者は客となるに堪ざる者なれば </seg>
+</ab>
+<ab n="22:9">
+  <seg type="original"><hi rend="superscript">22:9</hi> 衢に往て遇ほどの者を婚筵に請け </seg>
+</ab>
+<ab n="22:10">
+  <seg type="original"><hi rend="superscript">22:10</hi> その僕途に出て善者をも惡者をも遇ほどの者を悉く集ければ婚筵の客充滿す </seg>
+</ab>
+<ab n="22:11">
+  <seg type="original"><hi rend="superscript">22:11</hi> 王客を見んとて來りけるに茲に一人の禮服を着ざる者あるを見て </seg>
+</ab>
+<ab n="22:12">
+  <seg type="original"><hi rend="superscript">22:12</hi> 之に曰けるは友よ如何なれば禮服を着ずして此處に來る乎かれ默然たり </seg>
+</ab>
+<ab n="22:13">
+  <seg type="original"><hi rend="superscript">22:13</hi> 遂に王僕に曰けるは彼の手足を縛りて外の幽暗に投いだせ哀哭また切齒すること有ん </seg>
+</ab>
+<ab n="22:14">
+  <seg type="original"><hi rend="superscript">22:14</hi> それ召るる者は多しと雖も選るる者は少なし／ </seg>
+</ab>
+<ab n="22:15">
+  <seg type="original"><hi rend="superscript">22:15</hi> 此時パリサイの人いでて如何してか彼を言誤らせんと相謀り </seg>
+</ab>
+<ab n="22:16">
+  <seg type="original"><hi rend="superscript">22:16</hi> その弟子とヘロデの黨を遣して云せけるは師よ爾は眞なる者なり眞をもて神の道を教また誰にも偏らざることを我儕は知そは貌に由て人を取ざれば也 </seg>
+</ab>
+<ab n="22:17">
+  <seg type="original"><hi rend="superscript">22:17</hi> 然ば貢をカイザルに納るは善や惡や爾いかに意ふか我儕に告よ </seg>
+</ab>
+<ab n="22:18">
+  <seg type="original"><hi rend="superscript">22:18</hi> イエスその惡を知て曰けるは僞善者よ何ぞ我を試むるや </seg>
+</ab>
+<ab n="22:19">
+  <seg type="original"><hi rend="superscript">22:19</hi> 貢の銀錢を我に見せよ彼等デナリ一をイエスに携來りしに </seg>
+</ab>
+<ab n="22:20">
+  <seg type="original"><hi rend="superscript">22:20</hi> 之に曰けるは此像と號は誰か </seg>
+</ab>
+<ab n="22:21">
+  <seg type="original"><hi rend="superscript">22:21</hi> 答てカイザル也といふ是に於てイエス彼等に曰けるは然ばカイザルの物はカイザルに歸しまた神の物は神に歸すべし </seg>
+</ab>
+<ab n="22:22">
+  <seg type="original"><hi rend="superscript">22:22</hi> 彼等之をきき奇としてイエスを去ゆけり／ </seg>
+</ab>
+<ab n="22:23">
+  <seg type="original"><hi rend="superscript">22:23</hi> 復生なしと言なせるサドカイの人この日イエスにきたり問て </seg>
+</ab>
+<ab n="22:24">
+  <seg type="original"><hi rend="superscript">22:24</hi> 曰けるは師よモーセの云るに人もし子なくして死ば兄弟その妻を娶りて子をうみ兄弟の後を嗣すべしと </seg>
+</ab>
+<ab n="22:25">
+  <seg type="original"><hi rend="superscript">22:25</hi> 茲に我儕の中に兄弟七人ありしが兄めとりて死子なきが故に其妻を次子に遺れり </seg>
+</ab>
+<ab n="22:26">
+  <seg type="original"><hi rend="superscript">22:26</hi> その二その三その七まで皆然す </seg>
+</ab>
+<ab n="22:27">
+  <seg type="original"><hi rend="superscript">22:27</hi> 後つひに婦もまた死たり </seg>
+</ab>
+<ab n="22:28">
+  <seg type="original"><hi rend="superscript">22:28</hi> 甦るときは此婦七人のうち誰の妻と爲べきか是みな彼を娶し者なれば也 </seg>
+</ab>
+<ab n="22:29">
+  <seg type="original"><hi rend="superscript">22:29</hi> イエス答て彼等に曰けるは爾曹聖書をも神の能力をも知ざるに由て謬れり </seg>
+</ab>
+<ab n="22:30">
+  <seg type="original"><hi rend="superscript">22:30</hi> それ甦るときは娶らず嫁ず天にある神の使等の如し </seg>
+</ab>
+<ab n="22:31">
+  <seg type="original"><hi rend="superscript">22:31</hi> 死し者の甦ることに就ては爾曹に神の告たまひし言に </seg>
+</ab>
+<ab n="22:32">
+  <seg type="original"><hi rend="superscript">22:32</hi> 我はアブラハムの神イサクの神ヤコブの神なりとあるを未だ讀ざる乎そもそも神は死し者の神に非ず生る者の神なり </seg>
+</ab>
+<ab n="22:33">
+  <seg type="original"><hi rend="superscript">22:33</hi> 人々これを聞て其訓を驚けり／ </seg>
+</ab>
+<ab n="22:34">
+  <seg type="original"><hi rend="superscript">22:34</hi> イエス、サドカイの人をして口を塞がしめたりを聞てパリサイの人一處に集りけるが </seg>
+</ab>
+<ab n="22:35">
+  <seg type="original"><hi rend="superscript">22:35</hi> 其中なるひとりの教法師イエスを試みん爲に問て曰けるは </seg>
+</ab>
+<ab n="22:36">
+  <seg type="original"><hi rend="superscript">22:36</hi> 師よ律法のうち何の誡か大なる </seg>
+</ab>
+<ab n="22:37">
+  <seg type="original"><hi rend="superscript">22:37</hi> イエス答けるは爾心を盡し精神を盡し意を盡し主なる爾の神を愛すべし </seg>
+</ab>
+<ab n="22:38">
+  <seg type="original"><hi rend="superscript">22:38</hi> これ第一にして大なる誡なり </seg>
+</ab>
+<ab n="22:39">
+  <seg type="original"><hi rend="superscript">22:39</hi> 第二も亦これに同じ己の如く爾の隣を愛すべし </seg>
+</ab>
+<ab n="22:40">
+  <seg type="original"><hi rend="superscript">22:40</hi> 凡の律法と〔預言者｜預言者〕は此二の誡に因り／ </seg>
+</ab>
+<ab n="22:41">
+  <seg type="original"><hi rend="superscript">22:41</hi> パリサイの人の集れる時イエス彼等に問て曰けるは </seg>
+</ab>
+<ab n="22:42">
+  <seg type="original"><hi rend="superscript">22:42</hi> 爾曹キリストについて如何おもふ乎これ誰の子なるか彼等イエスに曰けるはダビデの<ruby>裔<rt rend="colorred">こ</rt></ruby>
+なり </seg>
+</ab>
+<ab n="22:43">
+  <seg type="original"><hi rend="superscript">22:43</hi> 彼等に曰けるは然ばダビデ靈に感じて何故これを主と稱へし乎ダビデ言 </seg>
+</ab>
+<ab n="22:44">
+  <seg type="original"><hi rend="superscript">22:44</hi> 主わが主に曰けるは我なんぢの敵を爾の足凳となすまで我みぎに坐すべしと </seg>
+</ab>
+<ab n="22:45">
+  <seg type="original"><hi rend="superscript">22:45</hi> 然ばダビデ既に之を主と稱たれば如何その子ならん乎 </seg>
+</ab>
+<ab n="22:46">
+  <seg type="original"><hi rend="superscript">22:46</hi> 誰一言これに答ること能はず此日より敢て又とふ者なかりき</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="23">
+          <head>マタイによる福音書 第23章</head>
+         <ab n="23:1">
+  <seg type="original"><hi rend="superscript">23:1</hi> 厥時イエス人々と弟子とに告て曰けるは </seg>
+</ab>
+<ab n="23:2">
+  <seg type="original"><hi rend="superscript">23:2</hi> 學者とパリサイの人はモーセの位に坐す </seg>
+</ab>
+<ab n="23:3">
+  <seg type="original"><hi rend="superscript">23:3</hi> 故に凡て彼等が爾曹に言ところを守て行ふべし然ど彼等が行ふ所を爲こと勿れ蓋かれらは言のみにして行はざれば也 </seg>
+</ab>
+<ab n="23:4">
+  <seg type="original"><hi rend="superscript">23:4</hi> また彼等は重かつ負がたき荷を括て人の肩に負せ己は一の指をもて之を動すことすら好ず </seg>
+</ab>
+<ab n="23:5">
+  <seg type="original"><hi rend="superscript">23:5</hi> 彼等の行は凡て人に見れんが爲にする也その佩經を幅闊し其衣の裾を大にし </seg>
+</ab>
+<ab n="23:6">
+  <seg type="original"><hi rend="superscript">23:6</hi> また筵席の上座會堂の高座 </seg>
+</ab>
+<ab n="23:7">
+  <seg type="original"><hi rend="superscript">23:7</hi> 市上の問安人々よりラビ、ラビと稱られんことを好む </seg>
+</ab>
+<ab n="23:8">
+  <seg type="original"><hi rend="superscript">23:8</hi> 爾曹はラビの稱を受ること勿れ蓋なんぢらの師は一人すなはちキリストなり爾曹はみな兄弟なり </seg>
+</ab>
+<ab n="23:9">
+  <seg type="original"><hi rend="superscript">23:9</hi> また地にある者を父と稱ること勿れ爾曹の父は一人すなはち天に在る者なり </seg>
+</ab>
+<ab n="23:10">
+  <seg type="original"><hi rend="superscript">23:10</hi> また導師の稱を受ること勿れ蓋なんぢらの導師は一人すなはちキリストなり </seg>
+</ab>
+<ab n="23:11">
+  <seg type="original"><hi rend="superscript">23:11</hi> 爾曹のうち大なる者は爾曹の僕と爲べし </seg>
+</ab>
+<ab n="23:12">
+  <seg type="original"><hi rend="superscript">23:12</hi> 凡そ自己を高する者は卑せられ自己を卑する者は高せられん／ </seg>
+</ab>
+<ab n="23:13">
+  <seg type="original"><hi rend="superscript">23:13</hi> 噫なんぢら禍なるかな僞善なる學者とパリサイの人よ蓋なんぢら天國を人の前に閉て自ら入ず且いらんとする者の入をも許さざれば也 </seg>
+</ab>
+<ab n="23:14">
+  <seg type="original"><hi rend="superscript">23:14</hi> 噫なんぢら禍なるかな僞善なる學者とパリサイの人よ蓋なんぢら嫠婦の家を呑いつはりて長き祈をなす之に由て爾曹最も重き審判を受べければ也 </seg>
+</ab>
+<ab n="23:15">
+  <seg type="original"><hi rend="superscript">23:15</hi> ああ禍なるかな僞善なる學者とパリサイの人よ蓋なんぢら徧く水陸を歴巡り一人をも己が宗旨に引入んとす既に引入れば之を爾曹よりも倍したる地獄の子と爲り </seg>
+</ab>
+<ab n="23:16">
+  <seg type="original"><hi rend="superscript">23:16</hi> 噫なんぢら禍なるかな瞽者なる相よ爾曹はいふ人もし殿を指て誓はば事なし殿の金を指て誓はば背べからずと </seg>
+</ab>
+<ab n="23:17">
+  <seg type="original"><hi rend="superscript">23:17</hi> 愚にして瞽なる者よ金と金を聖からしむる殿とは孰か尊き </seg>
+</ab>
+<ab n="23:18">
+  <seg type="original"><hi rend="superscript">23:18</hi> 又いふ人もし祭りの壇を指て誓はば事なし其上の禮物を指て誓はば背べからずと </seg>
+</ab>
+<ab n="23:19">
+  <seg type="original"><hi rend="superscript">23:19</hi> 愚にして瞽なる者よ禮物と禮物を聖からしむる祭の壇と孰か尊き </seg>
+</ab>
+<ab n="23:20">
+  <seg type="original"><hi rend="superscript">23:20</hi> それ祭の壇を指て誓ふ者は祭の壇および其上の凡の物を指て誓ふなり </seg>
+</ab>
+<ab n="23:21">
+  <seg type="original"><hi rend="superscript">23:21</hi> また殿を指て誓ふ者は殿および其中に在す者を指て誓ふなり </seg>
+</ab>
+<ab n="23:22">
+  <seg type="original"><hi rend="superscript">23:22</hi> また天を指て誓ふ者は神の寶座および其上に坐する者を指て誓ふなり／ </seg>
+</ab>
+<ab n="23:23">
+  <seg type="original"><hi rend="superscript">23:23</hi> 噫なんぢら禍なるかな僞善なる學者とパリサイの人よ蓋なんぢら薄荷、茴香、馬芹の十分の一を取納て律法の最も重き義と仁と信とを爾曹は廢これ行ふ可もの也かれも亦廢べからざる者なり </seg>
+</ab>
+<ab n="23:24">
+  <seg type="original"><hi rend="superscript">23:24</hi> 瞽者なる相者よ爾曹は蠉を漉出して駱駝をも呑もの也 </seg>
+</ab>
+<ab n="23:25">
+  <seg type="original"><hi rend="superscript">23:25</hi> ああ禍なる哉僞善なる學者とパリサイの人よ爾曹杯と盤の外を潔して内には貪欲と淫欲とを充せり </seg>
+</ab>
+<ab n="23:26">
+  <seg type="original"><hi rend="superscript">23:26</hi> 瞽者なるパリサイの人よ爾曹まづ杯と盤の内を潔せよ然ばその外をも亦きよまるべし／ </seg>
+</ab>
+<ab n="23:27">
+  <seg type="original"><hi rend="superscript">23:27</hi> 噫なんぢら禍なる哉僞善なる學者とパリサイの人よ爾曹は白く塗たる墓に似たり外は美しく見れども内は骸骨と諸の汚穢にて充 </seg>
+</ab>
+<ab n="23:28">
+  <seg type="original"><hi rend="superscript">23:28</hi> 此の如く爾曹もまた外は義く人に見れども内は僞善と不法にて充 </seg>
+</ab>
+<ab n="23:29">
+  <seg type="original"><hi rend="superscript">23:29</hi> 噫なんぢら禍なるかな僞善なる學者とパリサイの人よ爾曹〔預言者｜預言者〕の墓をたて<ruby>義人<rt rend="colorred">ただしいひと</rt></ruby>
+の碑を飾れり </seg>
+</ab>
+<ab n="23:30">
+  <seg type="original"><hi rend="superscript">23:30</hi> 又いふ我儕もし先祖の時にあらば〔預言者｜預言者〕の血を流すことに與せざりしをと </seg>
+</ab>
+<ab n="23:31">
+  <seg type="original"><hi rend="superscript">23:31</hi> 然ば爾曹は〔預言者｜預言者〕を殺し者の<ruby>裔<rt rend="colorred">こ</rt></ruby>
+なることを自ら證す </seg>
+</ab>
+<ab n="23:32">
+  <seg type="original"><hi rend="superscript">23:32</hi> なんぢら先祖の量を充せ </seg>
+</ab>
+<ab n="23:33">
+  <seg type="original"><hi rend="superscript">23:33</hi> 蛇蝮の類よ爾曹いかで地獄の刑罪を免れんや </seg>
+</ab>
+<ab n="23:34">
+  <seg type="original"><hi rend="superscript">23:34</hi> 是故に我爾曹に〔預言者｜預言者〕と智者と學者を遣さんに或は之を殺し又十字架に釘或は其會堂にて之を鞭ち或は邑より邑へ逐苦めん </seg>
+</ab>
+<ab n="23:35">
+  <seg type="original"><hi rend="superscript">23:35</hi> そは義なるアベルの血より殿と祭の壇の間にて爾曹が殺しバラキアの子ザカリアの血に至るまで地に流したる<ruby>義人<rt rend="colorred">ただしいひと</rt></ruby>
+の血は凡て爾曹に報來らんが爲なり </seg>
+</ab>
+<ab n="23:36">
+  <seg type="original"><hi rend="superscript">23:36</hi> われ誠に爾曹に告ん此事みな此代に報來るべし </seg>
+</ab>
+<ab n="23:37">
+  <seg type="original"><hi rend="superscript">23:37</hi> 噫エルサレムよエルサレムよ〔預言者｜預言者〕を殺し爾に遣さるる者を石にて撃ものよ母雞の雛を翼の下に集る如く我なんぢの赤子を集んとせしこと幾次ぞや然ど爾曹は好ざりき </seg>
+</ab>
+<ab n="23:38">
+  <seg type="original"><hi rend="superscript">23:38</hi> 視よ爾曹の家は荒地となりて遺れん </seg>
+</ab>
+<ab n="23:39">
+  <seg type="original"><hi rend="superscript">23:39</hi> われ爾曹に告ん主の名に託て來る者は福なりと爾曹の云んとき至るまでは今より我を見ざるべし</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="24">
+          <head>マタイによる福音書 第24章</head>
+          <ab n="24:1">
+  <seg type="original"><hi rend="superscript">24:1</hi> イエス殿より出ければ其弟子すすみて殿の構造を彼に觀せんとしたりしに </seg>
+</ab>
+<ab n="24:2">
+  <seg type="original"><hi rend="superscript">24:2</hi> イエス彼等に曰けるは爾曹すべて此等を見ざるか我まことに爾曹に告ん此處に一の石も石の上に圯れずしては遺らじ </seg>
+</ab>
+<ab n="24:3">
+  <seg type="original"><hi rend="superscript">24:3</hi> イエス橄欖山に坐し給へるとき弟子ひそかに來りて曰けるは何の時このこと有や又爾の來る兆と世の末の兆は如何なるぞや我儕に告たまへ </seg>
+</ab>
+<ab n="24:4">
+  <seg type="original"><hi rend="superscript">24:4</hi> イエス答て彼等に曰けるは爾曹人に欺かれざるやう愼よ </seg>
+</ab>
+<ab n="24:5">
+  <seg type="original"><hi rend="superscript">24:5</hi> 蓋おほくの人わが名を冒きたり我はキリストなりと云て多の人を欺くべし </seg>
+</ab>
+<ab n="24:6">
+  <seg type="original"><hi rend="superscript">24:6</hi> 又なんぢら戰と戰の風聲をきかん然ど愼て懼るる勿れ此等の事は皆ある可なり然ども末期は未だ至らず </seg>
+</ab>
+<ab n="24:7">
+  <seg type="original"><hi rend="superscript">24:7</hi> 民おこりて民をせめ國は國をせめ饑饉、疫病、地震ところどころに有ならん </seg>
+</ab>
+<ab n="24:8">
+  <seg type="original"><hi rend="superscript">24:8</hi> 是みな禍の始なり </seg>
+</ab>
+<ab n="24:9">
+  <seg type="original"><hi rend="superscript">24:9</hi> 其とき人なんぢらを患難に付し爾曹を殺すべし又なんぢら我名の爲に萬民に憎れん </seg>
+</ab>
+<ab n="24:10">
+  <seg type="original"><hi rend="superscript">24:10</hi> 此とき許多のもの礙かつ互に付し互に憾むべし </seg>
+</ab>
+<ab n="24:11">
+  <seg type="original"><hi rend="superscript">24:11</hi> また僞〔預言者｜預言者〕おほく起て多の人を欺かん </seg>
+</ab>
+<ab n="24:12">
+  <seg type="original"><hi rend="superscript">24:12</hi> また不法みつるに因て多の人の愛情ひややかに爲べし </seg>
+</ab>
+<ab n="24:13">
+  <seg type="original"><hi rend="superscript">24:13</hi> 然ど終まで忍ぶ者は救るることを得ん </seg>
+</ab>
+<ab n="24:14">
+  <seg type="original"><hi rend="superscript">24:14</hi> 又天國の此福音を萬民に證せん爲に普く天下に宣傳られん然るのち末期いたるべし </seg>
+</ab>
+<ab n="24:15">
+  <seg type="original"><hi rend="superscript">24:15</hi> 是故に〔預言者｜預言者〕ダニエルに託て言れたる所の殘暴にくむべきのものの聖處に立を見ば（讀者よく思ふべし） </seg>
+</ab>
+<ab n="24:16">
+  <seg type="original"><hi rend="superscript">24:16</hi> 厥時ユダヤにをる者は山に遁れよ </seg>
+</ab>
+<ab n="24:17">
+  <seg type="original"><hi rend="superscript">24:17</hi> 屋上に在ものは其家の物を取んとて下る勿れ </seg>
+</ab>
+<ab n="24:18">
+  <seg type="original"><hi rend="superscript">24:18</hi> 田にをる者は其衣を取んとて歸る勿れ </seg>
+</ab>
+<ab n="24:19">
+  <seg type="original"><hi rend="superscript">24:19</hi> 其日には孕める者と乳を飮する婦は禍なる哉 </seg>
+</ab>
+<ab n="24:20">
+  <seg type="original"><hi rend="superscript">24:20</hi> 爾曹冬または安息日に逃ることを免れん爲に祈れ </seg>
+</ab>
+<ab n="24:21">
+  <seg type="original"><hi rend="superscript">24:21</hi> 其とき大なる患難あり此の如き患難は世の始より今に至るまで有ざりき又後にも有じ </seg>
+</ab>
+<ab n="24:22">
+  <seg type="original"><hi rend="superscript">24:22</hi> 若その日を少くせられずば一人だに救るる者なからん然ど選れし者の爲に其日は少くせらるべし </seg>
+</ab>
+<ab n="24:23">
+  <seg type="original"><hi rend="superscript">24:23</hi> 其時もしキリスト此處にあり彼處にありと爾曹にいふ者あるとも信ずる勿れ </seg>
+</ab>
+<ab n="24:24">
+  <seg type="original"><hi rend="superscript">24:24</hi> そは僞キリスト僞〔預言者｜預言者〕たち起て大なる休徴と異能を行ひ選れたる者をも欺くことを得ば之を欺く可れば也 </seg>
+</ab>
+<ab n="24:25">
+  <seg type="original"><hi rend="superscript">24:25</hi> われ預じめ爾曹に之を告 </seg>
+</ab>
+<ab n="24:26">
+  <seg type="original"><hi rend="superscript">24:26</hi> 若キリスト野に在といふ者あるとも出る勿れ室に在と云ものあるとも信ずる勿れ </seg>
+</ab>
+<ab n="24:27">
+  <seg type="original"><hi rend="superscript">24:27</hi> そは雷の東より出て西にまで閃くが如く人の子も來るべければ也 </seg>
+</ab>
+<ab n="24:28">
+  <seg type="original"><hi rend="superscript">24:28</hi> それ屍のある處には鷲あつまらん </seg>
+</ab>
+<ab n="24:29">
+  <seg type="original"><hi rend="superscript">24:29</hi> 此等の日の患難の後ただちに日は晦く月は光を失ひ星は空よりおち天の勢ひ震ふべし </seg>
+</ab>
+<ab n="24:30">
+  <seg type="original"><hi rend="superscript">24:30</hi> 其とき人の子の兆天に現るまた地上にある諸族は哭哀み且人の子の權威と大なる榮光をもて天の雲に乘來るを見ん </seg>
+</ab>
+<ab n="24:31">
+  <seg type="original"><hi rend="superscript">24:31</hi> 又その使等を遣し箛の大なる聲を出しめて天の此極より彼極まで四方より其選れし者を集むべし／ </seg>
+</ab>
+<ab n="24:32">
+  <seg type="original"><hi rend="superscript">24:32</hi> 夫なんぢら無花果樹に由て譬を學べ其枝すでに柔かにして葉萠めば夏の近きを知 </seg>
+</ab>
+<ab n="24:33">
+  <seg type="original"><hi rend="superscript">24:33</hi> 此の如く爾曹も凡て此等の事を見ば時ちかく門口に至ると知 </seg>
+</ab>
+<ab n="24:34">
+  <seg type="original"><hi rend="superscript">24:34</hi> われ誠に爾曹に告ん此等の事ことごとく成まで此民は廢ざるべし </seg>
+</ab>
+<ab n="24:35">
+  <seg type="original"><hi rend="superscript">24:35</hi> 天地は廢ん然ど我言は廢じ </seg>
+</ab>
+<ab n="24:36">
+  <seg type="original"><hi rend="superscript">24:36</hi> その日その時を知ものは唯わが父のみ天の使者も誰もしる者なし </seg>
+</ab>
+<ab n="24:37">
+  <seg type="original"><hi rend="superscript">24:37</hi> ノアの時の如く人の子の來るも亦然らん </seg>
+</ab>
+<ab n="24:38">
+  <seg type="original"><hi rend="superscript">24:38</hi> それ〔洪水｜洪水〕の前ノア方舟にいる日までは人々飮食嫁娶などして </seg>
+</ab>
+<ab n="24:39">
+  <seg type="original"><hi rend="superscript">24:39</hi> 〔洪水｜洪水〕の來り悉く之を滅すまで知ざりき此の如く人の子も亦きたらん </seg>
+</ab>
+<ab n="24:40">
+  <seg type="original"><hi rend="superscript">24:40</hi> 其とき二人田に在んに一人は取れ一人は遺さるべし </seg>
+</ab>
+<ab n="24:41">
+  <seg type="original"><hi rend="superscript">24:41</hi> 二人の婦磨ひき居んに一人はとられ一人は遺さるべし </seg>
+</ab>
+<ab n="24:42">
+  <seg type="original"><hi rend="superscript">24:42</hi> 是故に爾曹も主いづれの時きたるかを知ざれば怠らずして守れ </seg>
+</ab>
+<ab n="24:43">
+  <seg type="original"><hi rend="superscript">24:43</hi> 爾曹これを知もし家の主人ぬすびと何の時きたるかを知ば其家を守て破らすまじ </seg>
+</ab>
+<ab n="24:44">
+  <seg type="original"><hi rend="superscript">24:44</hi> 然ば爾曹もまた預備せよ意ざる時に人の子きたらんと爲ばなり </seg>
+</ab>
+<ab n="24:45">
+  <seg type="original"><hi rend="superscript">24:45</hi> 時に及て糧を彼等に予さする爲に主人がその僕等の上に立たる忠義にして智僕は誰なる乎 </seg>
+</ab>
+<ab n="24:46">
+  <seg type="original"><hi rend="superscript">24:46</hi> その主人の來らん時かくの如く勤るを見るる僕は福なり </seg>
+</ab>
+<ab n="24:47">
+  <seg type="original"><hi rend="superscript">24:47</hi> 我まことに爾曹に告ん其所有をみな彼に督らすべし </seg>
+</ab>
+<ab n="24:48">
+  <seg type="original"><hi rend="superscript">24:48</hi> 若その惡僕おのが心に我が主人の來るは遲らんと意ひ </seg>
+</ab>
+<ab n="24:49">
+  <seg type="original"><hi rend="superscript">24:49</hi> その朋輩を打撻きて酒に醉たる者どもと共に飮食し始なば </seg>
+</ab>
+<ab n="24:50">
+  <seg type="original"><hi rend="superscript">24:50</hi> その僕の主人おもはざるの日しらざるの時に來りて </seg>
+</ab>
+<ab n="24:51">
+  <seg type="original"><hi rend="superscript">24:51</hi> 之を斬殺し其報を僞善者と同うすべし其處にて哀哭切齒すること有ん</seg>
+</ab>
+
+
+        </div>
+        <div type="chapter" n="25">
+          <head>マタイによる福音書 第25章</head>
+         <ab n="25:1">
+  <seg type="original"><hi rend="superscript">25:1</hi> 其とき天國は燈を執て新郎を迎に出る十人の童女に比ふべし </seg>
+</ab>
+<ab n="25:2">
+  <seg type="original"><hi rend="superscript">25:2</hi> その中の五人は智く五人は愚なり </seg>
+</ab>
+<ab n="25:3">
+  <seg type="original"><hi rend="superscript">25:3</hi> 愚かなる者は其燈をとるに油を携へざりしが </seg>
+</ab>
+<ab n="25:4">
+  <seg type="original"><hi rend="superscript">25:4</hi> 智き者は其燈と兼に油を器に携へたり </seg>
+</ab>
+<ab n="25:5">
+  <seg type="original"><hi rend="superscript">25:5</hi> 新郎おそかりければ皆假寐して眠れり </seg>
+</ab>
+<ab n="25:6">
+  <seg type="original"><hi rend="superscript">25:6</hi> 夜半ばに叫びて新郎きたりぬ出て迎よと呼聲ありければ </seg>
+</ab>
+<ab n="25:7">
+  <seg type="original"><hi rend="superscript">25:7</hi> この童女ども皆おきて其燈を整へたるに </seg>
+</ab>
+<ab n="25:8">
+  <seg type="original"><hi rend="superscript">25:8</hi> 愚かなるもの智き者に曰けるは我儕の燈熄んとす願くは爾曹の油を我儕に分予よ </seg>
+</ab>
+<ab n="25:9">
+  <seg type="original"><hi rend="superscript">25:9</hi> 智きもの答て曰けるは我儕と爾曹とに恐くは足まじ爾曹賣者に往て己が爲に買 </seg>
+</ab>
+<ab n="25:10">
+  <seg type="original"><hi rend="superscript">25:10</hi> かれら買んとて往しとき新郎きたりければ既に備たる者は之と偕に婚筵に入しかば門は閉られたり </seg>
+</ab>
+<ab n="25:11">
+  <seg type="original"><hi rend="superscript">25:11</hi> 斯て後その餘の童女きたりて曰けるは主よ主よ我儕の爲に開たまへ </seg>
+</ab>
+<ab n="25:12">
+  <seg type="original"><hi rend="superscript">25:12</hi> 答て我まことに爾曹に告ん我は爾曹を知ずと曰り </seg>
+</ab>
+<ab n="25:13">
+  <seg type="original"><hi rend="superscript">25:13</hi> 然ば怠らずして守れ爾曹その日その時を知ざれば也／ </seg>
+</ab>
+<ab n="25:14">
+  <seg type="original"><hi rend="superscript">25:14</hi> また天國は或人の旅行せんとして其僕をよび所有を彼等に預るが如し </seg>
+</ab>
+<ab n="25:15">
+  <seg type="original"><hi rend="superscript">25:15</hi> 各人の智慧に從ひて或者には銀五千或者には二千或者には一千を予へおき直に旅行せり </seg>
+</ab>
+<ab n="25:16">
+  <seg type="original"><hi rend="superscript">25:16</hi> 五千の銀を受し者は往て之を貿易し他に五千を得たり </seg>
+</ab>
+<ab n="25:17">
+  <seg type="original"><hi rend="superscript">25:17</hi> 二千を受し者もまた他に二千を得たり </seg>
+</ab>
+<ab n="25:18">
+  <seg type="original"><hi rend="superscript">25:18</hi> 然るに一千を受し者は往て地を掘その主の金を藏せり </seg>
+</ab>
+<ab n="25:19">
+  <seg type="original"><hi rend="superscript">25:19</hi> 歴久て後その僕等の主かへりて彼等と會計せしに </seg>
+</ab>
+<ab n="25:20">
+  <seg type="original"><hi rend="superscript">25:20</hi> 五千の銀を受し者その他に五千の銀を携來りて主よ我に五千の銀を預しが他に五千の銀を儲たりと曰ければ </seg>
+</ab>
+<ab n="25:21">
+  <seg type="original"><hi rend="superscript">25:21</hi> 主かれに曰けるはああ善かつ忠なる僕ぞ爾寡なる事に忠なり我なんぢに多ものを督らせん爾の主人の歡樂に入よ </seg>
+</ab>
+<ab n="25:22">
+  <seg type="original"><hi rend="superscript">25:22</hi> 二千の銀を受し者きたりて主よ我に二千の銀を預しが他に二千の銀を儲たりと曰ければ </seg>
+</ab>
+<ab n="25:23">
+  <seg type="original"><hi rend="superscript">25:23</hi> 主かれに曰けるはああ善且忠なる僕ぞなんぢ寡なる事に忠なり我なんぢに多ものを督らせん爾の主人の歡樂に入よ </seg>
+</ab>
+<ab n="25:24">
+  <seg type="original"><hi rend="superscript">25:24</hi> また一千の銀を受し者きたりて曰けるは主よ爾は嚴人にて播ざる處より穫ちらさざる處より斂ることを我は知 </seg>
+</ab>
+<ab n="25:25">
+  <seg type="original"><hi rend="superscript">25:25</hi> 故に我懼てゆき主の一千の銀を地に藏し置り今なんぢ爾の物を得たり </seg>
+</ab>
+<ab n="25:26">
+  <seg type="original"><hi rend="superscript">25:26</hi> その主こたへて曰けるは惡かつ惰れる僕ぞ爾わが播ざる處よりかり散さざる處より斂ることを知か </seg>
+</ab>
+<ab n="25:27">
+  <seg type="original"><hi rend="superscript">25:27</hi> 然らば我が金を兌換館に預置べきなり然ば我が歸たるとき本と利とを受べし </seg>
+</ab>
+<ab n="25:28">
+  <seg type="original"><hi rend="superscript">25:28</hi> 是故に彼の一千の銀を取て十千の銀ある者に予よ </seg>
+</ab>
+<ab n="25:29">
+  <seg type="original"><hi rend="superscript">25:29</hi> それ有る者は予られて尚あまりあり無有者はその有る者をも奪るる也 </seg>
+</ab>
+<ab n="25:30">
+  <seg type="original"><hi rend="superscript">25:30</hi> 無益なる僕を外の幽暗に逐やれ其處にて哀哭切齒すること有ん／ </seg>
+</ab>
+<ab n="25:31">
+  <seg type="original"><hi rend="superscript">25:31</hi> 人の子おのれの榮光をもて諸の聖使を率來る時はその榮光の位に坐し </seg>
+</ab>
+<ab n="25:32">
+  <seg type="original"><hi rend="superscript">25:32</hi> 萬國の民をその前に集め羊を牧者の綿羊と山羊とを別が如く彼等を別ち </seg>
+</ab>
+<ab n="25:33">
+  <seg type="original"><hi rend="superscript">25:33</hi> 綿羊をその右に山羊をその左に置べし </seg>
+</ab>
+<ab n="25:34">
+  <seg type="original"><hi rend="superscript">25:34</hi> 斯て王その右にをる者に云ん吾父に惠るる者よ來りて創世より以來なんぢらの爲に備られたる國を嗣 </seg>
+</ab>
+<ab n="25:35">
+  <seg type="original"><hi rend="superscript">25:35</hi> 蓋なんぢら我が飢し時われに食せ渇しとき我に飮せ旅せし時われを宿らせ </seg>
+</ab>
+<ab n="25:36">
+  <seg type="original"><hi rend="superscript">25:36</hi> 裸なりし時われに衣せ病しとき我をみまひ獄に在しとき我に就ればなり </seg>
+</ab>
+<ab n="25:37">
+  <seg type="original"><hi rend="superscript">25:37</hi> 是に於て義者かれに答て云ん主よ何時なんぢの飢たるを見て食せまた渇たるに飮しし乎 </seg>
+</ab>
+<ab n="25:38">
+  <seg type="original"><hi rend="superscript">25:38</hi> 何時主の旅したるを見て宿らせ又裸なるに衣しや </seg>
+</ab>
+<ab n="25:39">
+  <seg type="original"><hi rend="superscript">25:39</hi> 何時主の病また獄に在を見て爾に至りし乎 </seg>
+</ab>
+<ab n="25:40">
+  <seg type="original"><hi rend="superscript">25:40</hi> 王こたへて彼等に曰ん我まことに爾曹に告ん既に爾曹わが此兄弟の最微者の一人に行へるは即ち我に行しなり </seg>
+</ab>
+<ab n="25:41">
+  <seg type="original"><hi rend="superscript">25:41</hi> 遂にまた左にをる者に曰ん罰せらるべき者よ我を離れて惡魔と其使者の爲に備たる熄ざる火に入よ </seg>
+</ab>
+<ab n="25:42">
+  <seg type="original"><hi rend="superscript">25:42</hi> 蓋なんぢら我が飢し時われに食せず渇しとき我に飮せず </seg>
+</ab>
+<ab n="25:43">
+  <seg type="original"><hi rend="superscript">25:43</hi> 旅せし時われを宿らせず裸なりし時われに衣ず病また獄に在し時われを顧ざれば也 </seg>
+</ab>
+<ab n="25:44">
+  <seg type="original"><hi rend="superscript">25:44</hi> 是に於て彼等また答て曰ん主よ何時なんぢの飢また渇また旅し又裸また病また獄に在を見て主に事ざりし乎 </seg>
+</ab>
+<ab n="25:45">
+  <seg type="original"><hi rend="superscript">25:45</hi> 其とき王こたへて彼等にいはん我まことに爾曹に告ん此最微者の一人に行はざるは即ち我に行はざりし也 </seg>
+</ab>
+<ab n="25:46">
+  <seg type="original"><hi rend="superscript">25:46</hi> 此等の者は窮なき刑罰にいり義者は窮りなき生命に入るべし</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="26">
+          <head>マタイによる福音書 第26章</head>
+          <ab n="26:1">
+  <seg type="original"><hi rend="superscript">26:1</hi> 偖イエスこの諸の言を言竟りて其弟子に曰けるは </seg>
+</ab>
+<ab n="26:2">
+  <seg type="original"><hi rend="superscript">26:2</hi> 二日ののち逾越節なるは爾曹が知ところ也それ人の子は十字架に釘られん爲に付さるべし </seg>
+</ab>
+<ab n="26:3">
+  <seg type="original"><hi rend="superscript">26:3</hi> 此とき祭司の長および民の長老等カヤパと云る祭司の長の邸の庭に集り </seg>
+</ab>
+<ab n="26:4">
+  <seg type="original"><hi rend="superscript">26:4</hi> 詭計をもてイエスを執へ殺さんと共々に謀いひけるは </seg>
+</ab>
+<ab n="26:5">
+  <seg type="original"><hi rend="superscript">26:5</hi> 祭の日には行べからず恐くは民の中に亂おこらん／ </seg>
+</ab>
+<ab n="26:6">
+  <seg type="original"><hi rend="superscript">26:6</hi> イエス、ベタニヤの癩病〔人｜〕シモンの家に居たまへる時 </seg>
+</ab>
+<ab n="26:7">
+  <seg type="original"><hi rend="superscript">26:7</hi> ある婦蝋石の器物に價たかき香膏を盛てイエスの食する所に携來り其首に斟しかば </seg>
+</ab>
+<ab n="26:8">
+  <seg type="original"><hi rend="superscript">26:8</hi> 弟子等これを見て怒を含いひけるは此糜費のことを爲は何故ぞや </seg>
+</ab>
+<ab n="26:9">
+  <seg type="original"><hi rend="superscript">26:9</hi> 若これを賣ば多の金を得て貧者に施すことを得ん </seg>
+</ab>
+<ab n="26:10">
+  <seg type="original"><hi rend="superscript">26:10</hi> イエス知て彼等に曰けるは何ぞ此婦を惱すや彼は我に善事を行へる也 </seg>
+</ab>
+<ab n="26:11">
+  <seg type="original"><hi rend="superscript">26:11</hi> 貧者は常に爾曹と偕にあれど我は常に爾曹と偕に在ず </seg>
+</ab>
+<ab n="26:12">
+  <seg type="original"><hi rend="superscript">26:12</hi> 彼がこの香膏を我體に斟しは我の葬の爲に行る也 </seg>
+</ab>
+<ab n="26:13">
+  <seg type="original"><hi rend="superscript">26:13</hi> われ誠に爾曹に告ん天の下いづくにても此福音の宣傳らるる處には此婦の行し事もその〔紀念｜記念〕の爲に言傳らるべし／ </seg>
+</ab>
+<ab n="26:14">
+  <seg type="original"><hi rend="superscript">26:14</hi> 其とき十二弟子の一人なるイスカリオテのユダと云るもの祭司の長等の所に往て曰けるは </seg>
+</ab>
+<ab n="26:15">
+  <seg type="original"><hi rend="superscript">26:15</hi> 我なんぢらに彼を賣さば幾何を予るか遂に銀三十にて約したり </seg>
+</ab>
+<ab n="26:16">
+  <seg type="original"><hi rend="superscript">26:16</hi> 此時よりイエスを賣さんと機を窺ひぬ／ </seg>
+</ab>
+<ab n="26:17">
+  <seg type="original"><hi rend="superscript">26:17</hi> 除酵節の首の日弟子イエスに來り曰けるは我儕すぎこしの食を爾の爲に何處に備ふべき乎 </seg>
+</ab>
+<ab n="26:18">
+  <seg type="original"><hi rend="superscript">26:18</hi> イエス曰けるは京城にいり某に至ていへ師いふ我が時近きければ我弟子と偕に逾越の節筵を爾が家に行べしと </seg>
+</ab>
+<ab n="26:19">
+  <seg type="original"><hi rend="superscript">26:19</hi> 弟子イエスに命ぜられし如して逾越の食を備ふ </seg>
+</ab>
+<ab n="26:20">
+  <seg type="original"><hi rend="superscript">26:20</hi> 日くるる時イエス十二弟子と偕に席に就 </seg>
+</ab>
+<ab n="26:21">
+  <seg type="original"><hi rend="superscript">26:21</hi> 食する時いひけるは吾まことに爾曹に告ん爾曹のうち一人われを賣なり </seg>
+</ab>
+<ab n="26:22">
+  <seg type="original"><hi rend="superscript">26:22</hi> 彼等いたく憂て各イエスに曰出けるは主よ我なる乎 </seg>
+</ab>
+<ab n="26:23">
+  <seg type="original"><hi rend="superscript">26:23</hi> 答て曰けるは我と偕に手を盂に着る者は即ち我を賣す者なり </seg>
+</ab>
+<ab n="26:24">
+  <seg type="original"><hi rend="superscript">26:24</hi> 人の子は己について録されたる如く逝ん然ど人の子を賣す者は禍なる哉その人生れざりしならば反て幸なりしならん </seg>
+</ab>
+<ab n="26:25">
+  <seg type="original"><hi rend="superscript">26:25</hi> 彼を賣すユダ答て曰けるはラビ我なるや之に曰けるは爾の言る如し </seg>
+</ab>
+<ab n="26:26">
+  <seg type="original"><hi rend="superscript">26:26</hi> かれら食する時イエス、パンを取て祝し之をさき弟子に予て曰けるは取て食これは我身なり </seg>
+</ab>
+<ab n="26:27">
+  <seg type="original"><hi rend="superscript">26:27</hi> また杯を取て謝し彼等に予て曰けるは爾曹みな此杯より飮 </seg>
+</ab>
+<ab n="26:28">
+  <seg type="original"><hi rend="superscript">26:28</hi> これ新約の我血にして罪を赦さんとて衆の人のために流所のもの也 </seg>
+</ab>
+<ab n="26:29">
+  <seg type="original"><hi rend="superscript">26:29</hi> われ爾曹に告ん今より後なんぢらと偕に新しき物を吾父の國に飮ん日までは再びこの葡萄にて造れる物を飮じ／ </seg>
+</ab>
+<ab n="26:30">
+  <seg type="original"><hi rend="superscript">26:30</hi> かれら歌を謳てのち橄欖山に往り </seg>
+</ab>
+<ab n="26:31">
+  <seg type="original"><hi rend="superscript">26:31</hi> 其時イエス彼等に曰けるは今夜なんぢら皆われに就て礙かん蓋われ牧者を撃ば群の綿羊たらんと録されたれば也 </seg>
+</ab>
+<ab n="26:32">
+  <seg type="original"><hi rend="superscript">26:32</hi> 然ど我甦りて後爾曹に先ちガリラヤに往べし </seg>
+</ab>
+<ab n="26:33">
+  <seg type="original"><hi rend="superscript">26:33</hi> ペテロ答てイエスに曰けるは皆なんぢに就て礙くとも我は終に礙かじ </seg>
+</ab>
+<ab n="26:34">
+  <seg type="original"><hi rend="superscript">26:34</hi> イエス彼に曰けるは我まことに爾に〔告｜つげ〕ん今夜鷄なかざる前に爾三次われを知ずと言ん </seg>
+</ab>
+<ab n="26:35">
+  <seg type="original"><hi rend="superscript">26:35</hi> ペテロ彼に曰けるは我は主と偕に死るとも爾を知ずと言じ弟子みな如此いへり／ </seg>
+</ab>
+<ab n="26:36">
+  <seg type="original"><hi rend="superscript">26:36</hi> 厥時イエス彼等と偕にゲツセマネといふ處に至て弟子等に曰けるは爾曹ここに坐われ彼處に往て祈らん </seg>
+</ab>
+<ab n="26:37">
+  <seg type="original"><hi rend="superscript">26:37</hi> ペテロ及ゼベタイの二人の子を携へ憂へ哀みを催し </seg>
+</ab>
+<ab n="26:38">
+  <seg type="original"><hi rend="superscript">26:38</hi> 彼等に曰けるは我心いたく憂て死るばかり也ここに待て我と偕に目を醒しをれ </seg>
+</ab>
+<ab n="26:39">
+  <seg type="original"><hi rend="superscript">26:39</hi> 少し進往てひれふし祈いひけるは吾父よ若かなはば此杯を我より離ち給へ然ど我心の從を成んとするに非ず聖旨に任せ給へ </seg>
+</ab>
+<ab n="26:40">
+  <seg type="original"><hi rend="superscript">26:40</hi> 〔而て｜而して〕弟子に來り其寢たるを見てペテロに曰けるは如此一時も我と偕に目を醒をること能はざる乎 </seg>
+</ab>
+<ab n="26:41">
+  <seg type="original"><hi rend="superscript">26:41</hi> 惑に入ぬやう目を醒かつ祈その靈には願ふなれど肉體よわきなり </seg>
+</ab>
+<ab n="26:42">
+  <seg type="original"><hi rend="superscript">26:42</hi> 二次ゆきて復いのり曰けるは吾父よ若われに此杯を飮さで離つこと能ずば聖旨に任せ給へ </seg>
+</ab>
+<ab n="26:43">
+  <seg type="original"><hi rend="superscript">26:43</hi> 來りて又かれらの寢たるを見これ彼等の目疲たる也 </seg>
+</ab>
+<ab n="26:44">
+  <seg type="original"><hi rend="superscript">26:44</hi> 彼等を離れて又ゆき第三次も同言をもて祈れり </seg>
+</ab>
+<ab n="26:45">
+  <seg type="original"><hi rend="superscript">26:45</hi> 遂に其弟子に來りて曰けるは今は寢て休め時は近し人の子罪人の手に付されん </seg>
+</ab>
+<ab n="26:46">
+  <seg type="original"><hi rend="superscript">26:46</hi> 起よ我儕往べし我を賣す者近きたり／ </seg>
+</ab>
+<ab n="26:47">
+  <seg type="original"><hi rend="superscript">26:47</hi> 如此いへるとき十二の一人なるユダ劔と棒とを持たる多の人々と偕に祭司の長と民の長老の所より來る </seg>
+</ab>
+<ab n="26:48">
+  <seg type="original"><hi rend="superscript">26:48</hi> イエスを賣す者かれらに號をなして曰けるは我が接吻する者は夫なり之を執へよ </seg>
+</ab>
+<ab n="26:49">
+  <seg type="original"><hi rend="superscript">26:49</hi> 直にイエスに來りラビ安かと曰て彼に接吻す </seg>
+</ab>
+<ab n="26:50">
+  <seg type="original"><hi rend="superscript">26:50</hi> イエス彼に曰けるは友よ何の爲に來るや遂に彼等すすみ來り手をイエスに措て執へぬ </seg>
+</ab>
+<ab n="26:51">
+  <seg type="original"><hi rend="superscript">26:51</hi> イエスと偕に在し者の一人手をのべ劔を拔て祭司の長の僕を撃その耳を削おとせり </seg>
+</ab>
+<ab n="26:52">
+  <seg type="original"><hi rend="superscript">26:52</hi> イエス彼に曰けるは爾の劔を故處に收よ凡て劔をとる者は劔にて亡ぶべし </seg>
+</ab>
+<ab n="26:53">
+  <seg type="original"><hi rend="superscript">26:53</hi> 我いま十二軍餘の天使を我父に請て受ること能はずと爾曹おもふ乎 </seg>
+</ab>
+<ab n="26:54">
+  <seg type="original"><hi rend="superscript">26:54</hi> もし然せば如此あるべき事を録し聖書に如何で應はん乎／ </seg>
+</ab>
+<ab n="26:55">
+  <seg type="original"><hi rend="superscript">26:55</hi> 此時イエス人々に曰けるは劔と棒とを持て盜賊を執ふる如して我を執にきたる乎われ日々爾曹と偕に殿に坐して誨しに爾曹われを執ざりし </seg>
+</ab>
+<ab n="26:56">
+  <seg type="original"><hi rend="superscript">26:56</hi> 然ど此の如なるは皆〔預言者｜預言者〕の録たる所に應成せん爲なり遂に弟子等みなイエスを離れて逃去ぬ／ </seg>
+</ab>
+<ab n="26:57">
+  <seg type="original"><hi rend="superscript">26:57</hi> イエスを執たる者これを曳て學者と長老の集れる所の祭司の長カヤパに携ゆく </seg>
+</ab>
+<ab n="26:58">
+  <seg type="original"><hi rend="superscript">26:58</hi> ペテロ遠く離れてイエスに從ひ祭司の長の庭にまで至その結局を見んとて内にいり僕と偕に坐せり </seg>
+</ab>
+<ab n="26:59">
+  <seg type="original"><hi rend="superscript">26:59</hi> 祭司の長等および長老すべての議員ともにイエスを殺さんとして妄證を求れども得ず </seg>
+</ab>
+<ab n="26:60">
+  <seg type="original"><hi rend="superscript">26:60</hi> 多くの妄りの證者きたれども亦えず後また妄りの證者二人きたりて曰けるは </seg>
+</ab>
+<ab n="26:61">
+  <seg type="original"><hi rend="superscript">26:61</hi> この人曩に言ることあり我よく神の殿を毀ちて三日の内に之を建うべしと </seg>
+</ab>
+<ab n="26:62">
+  <seg type="original"><hi rend="superscript">26:62</hi> 祭司の長たちてイエスに曰けるは爾こたふる言なき乎この人々の爾に立る證據は如何 </seg>
+</ab>
+<ab n="26:63">
+  <seg type="original"><hi rend="superscript">26:63</hi> イエス默然たり祭司の長こたへて彼に曰けるは爾キリスト神の子なるか我なんぢを活神に誓はせて之を告しめん </seg>
+</ab>
+<ab n="26:64">
+  <seg type="original"><hi rend="superscript">26:64</hi> イエス彼に曰けるは爾が言る如し且われ爾曹に告ん此のち人の子大權の右に坐し天の雲に乘て來るを爾曹みるべし </seg>
+</ab>
+<ab n="26:65">
+  <seg type="original"><hi rend="superscript">26:65</hi> 是に於て祭司の長その衣を裂て曰けるは此人は褻涜ことを言り何ぞ外に證據を求んや爾曹も今その褻涜たることを聞 </seg>
+</ab>
+<ab n="26:66">
+  <seg type="original"><hi rend="superscript">26:66</hi> なんぢら如何おもふ乎かれら答て曰けるは彼は死に當れり </seg>
+</ab>
+<ab n="26:67">
+  <seg type="original"><hi rend="superscript">26:67</hi> 是に於て彼等その面に唾し且拳にて撃りまた或人かれを批いひけるは </seg>
+</ab>
+<ab n="26:68">
+  <seg type="original"><hi rend="superscript">26:68</hi> キリストよ爾を撃者は誰か我儕に預言せよ／ </seg>
+</ab>
+<ab n="26:69">
+  <seg type="original"><hi rend="superscript">26:69</hi> ペテロ庭に坐ゐけるに或婢きたりて爾もガリラヤのイエスと偕なりと曰ければ </seg>
+</ab>
+<ab n="26:70">
+  <seg type="original"><hi rend="superscript">26:70</hi> ペテロ凡の人の前に此言を肯はずして我なんぢが言ところを知ずと曰り </seg>
+</ab>
+<ab n="26:71">
+  <seg type="original"><hi rend="superscript">26:71</hi> 出て門口に至れる時また他の婢これを見て其處にをる者に曰けるは此人もナザレのイエスと偕に在し </seg>
+</ab>
+<ab n="26:72">
+  <seg type="original"><hi rend="superscript">26:72</hi> ペテロまた肯はずして誓ふ我この人を知ずと </seg>
+</ab>
+<ab n="26:73">
+  <seg type="original"><hi rend="superscript">26:73</hi> 暫くありて旁らに立たる者すすみ近てペテロに曰けるは誠に爾もその黨の一人なり蓋なんぢの方言なんぢを顯せり </seg>
+</ab>
+<ab n="26:74">
+  <seg type="original"><hi rend="superscript">26:74</hi> 是に於てペテロ詈り且誓て我その人を知ずと曰しが頓て雞鳴ぬ </seg>
+</ab>
+<ab n="26:75">
+  <seg type="original"><hi rend="superscript">26:75</hi> ペテロ、イエスの雞なかざる前なんぢ三次われを知ずといはんと云たまへる言を懷起し外に出て悲み哭り</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="27">
+          <head>マタイによる福音書 第27章</head>
+         <ab n="27:1">
+  <seg type="original"><hi rend="superscript">27:1</hi> 平旦になりて凡の祭司の長と民の長老どもに謀てイエスを殺さんとし </seg>
+</ab>
+<ab n="27:2">
+  <seg type="original"><hi rend="superscript">27:2</hi> 既に彼を縛ひきゆきて方伯のポンテオ・ピラトに解せり／ </seg>
+</ab>
+<ab n="27:3">
+  <seg type="original"><hi rend="superscript">27:3</hi> 是に於てイエスを賣ししユダ彼の死に定られしを見て悔その銀三十を祭司の長長老等に返して </seg>
+</ab>
+<ab n="27:4">
+  <seg type="original"><hi rend="superscript">27:4</hi> 曰けるは無辜の血を付し我は罪を犯しぬ彼等いひけるは我儕に於て何ぞ與らんや爾みづから當べし </seg>
+</ab>
+<ab n="27:5">
+  <seg type="original"><hi rend="superscript">27:5</hi> ユダその銀を殿に投棄て其處を去ゆきて自ら縊たり </seg>
+</ab>
+<ab n="27:6">
+  <seg type="original"><hi rend="superscript">27:6</hi> 祭司の長等この銀を取て曰けるは此は血の價なれば賽錢の箱に入べからずとて </seg>
+</ab>
+<ab n="27:7">
+  <seg type="original"><hi rend="superscript">27:7</hi> 共に謀この銀をもて旅客を葬る爲に陶工の田を買り </seg>
+</ab>
+<ab n="27:8">
+  <seg type="original"><hi rend="superscript">27:8</hi> 故に其田は今に至るまで血田と稱らる </seg>
+</ab>
+<ab n="27:9">
+  <seg type="original"><hi rend="superscript">27:9</hi> 是に於て〔預言者｜預言者〕エレミヤに託いはれたる言にイスラエルの民に估られ估られし者の價の銀三十を取 </seg>
+</ab>
+<ab n="27:10">
+  <seg type="original"><hi rend="superscript">27:10</hi> 主の我に命ぜし如く陶工の田を買ぬと有に應へり／ </seg>
+</ab>
+<ab n="27:11">
+  <seg type="original"><hi rend="superscript">27:11</hi> 偖イエス方伯の前にたつ方伯イエスに問て曰けるは爾はユダヤ人の王なるかイエス之に曰けるは爾が言る如し </seg>
+</ab>
+<ab n="27:12">
+  <seg type="original"><hi rend="superscript">27:12</hi> 祭司の長長老たち彼を訟ふれども何の答もせず </seg>
+</ab>
+<ab n="27:13">
+  <seg type="original"><hi rend="superscript">27:13</hi> 是に於てピラト彼に曰けるは此人々なんぢに立る證のかく大なるを爾きかざる乎 </seg>
+</ab>
+<ab n="27:14">
+  <seg type="original"><hi rend="superscript">27:14</hi> 方伯の甚奇とするまでにイエス一言も答へざりき </seg>
+</ab>
+<ab n="27:15">
+  <seg type="original"><hi rend="superscript">27:15</hi> この祭の日には方伯より民の願に任せて一人の囚人を釋の例あり </seg>
+</ab>
+<ab n="27:16">
+  <seg type="original"><hi rend="superscript">27:16</hi> 時にバラバと云る一人の名高き囚人ありければ </seg>
+</ab>
+<ab n="27:17">
+  <seg type="original"><hi rend="superscript">27:17</hi> ピラト民の集りしとき彼等に曰けるはバラバか又はキリストと稱ふるイエスなる乎なんぢら誰を釋さんと欲ふや </seg>
+</ab>
+<ab n="27:18">
+  <seg type="original"><hi rend="superscript">27:18</hi> これ娼嫉に由てイエスを解したりと知ばなり／ </seg>
+</ab>
+<ab n="27:19">
+  <seg type="original"><hi rend="superscript">27:19</hi> 方伯審判の座に坐りたる時その妻いひ遣しけるは此<ruby>義人<rt rend="colorred">ただしいひと</rt></ruby>
+に爾干ること勿れ蓋われ今日夢の中に彼につきて多く憂たり </seg>
+</ab>
+<ab n="27:20">
+  <seg type="original"><hi rend="superscript">27:20</hi> 祭司の長長老たちバラバを釋しイエスを殺さんことを求と民に唆む </seg>
+</ab>
+<ab n="27:21">
+  <seg type="original"><hi rend="superscript">27:21</hi> 方伯こたへて彼等に曰けるは二人のうち孰を我なんぢらに釋さんことを望むや彼等バラバと答ふ </seg>
+</ab>
+<ab n="27:22">
+  <seg type="original"><hi rend="superscript">27:22</hi> ピラト曰けるは然ばキリストと稱ふるいエスに我なにを處べきか衆いふ十字架に釘よと </seg>
+</ab>
+<ab n="27:23">
+  <seg type="original"><hi rend="superscript">27:23</hi> 方伯いひけるは彼なにの惡事を行しや彼等ますます喊叫て十字架に釘よと曰 </seg>
+</ab>
+<ab n="27:24">
+  <seg type="original"><hi rend="superscript">27:24</hi> ピラトその言の益なくして唯亂の起んとするをしり水を取て人々の前に手をあらひ曰けるは此義者の血に我は罪なし爾曹みづから之に當れ </seg>
+</ab>
+<ab n="27:25">
+  <seg type="original"><hi rend="superscript">27:25</hi> 民みな答て曰けるは其血は我儕と我儕の子孫に係るべし </seg>
+</ab>
+<ab n="27:26">
+  <seg type="original"><hi rend="superscript">27:26</hi> 是に於てバラバを彼等に釋しイエスを鞭ちて之を十字架に釘ん爲に付したり </seg>
+</ab>
+<ab n="27:27">
+  <seg type="original"><hi rend="superscript">27:27</hi> 方伯の兵卒イエスを携へ公廳に至り全營を其もとに集め </seg>
+</ab>
+<ab n="27:28">
+  <seg type="original"><hi rend="superscript">27:28</hi> 彼の衣を褫て絳色の袍を着せ </seg>
+</ab>
+<ab n="27:29">
+  <seg type="original"><hi rend="superscript">27:29</hi> 棘にて冕を編其首に冠しめ又葦を右手に持せ且その前に跪づき嘲弄して曰けるはユダヤ人の王安かれ </seg>
+</ab>
+<ab n="27:30">
+  <seg type="original"><hi rend="superscript">27:30</hi> また彼に唾し其葦を取て其首を撃り </seg>
+</ab>
+<ab n="27:31">
+  <seg type="original"><hi rend="superscript">27:31</hi> 嘲弄し畢りて其袍をはぎ故衣をきせ十字架に釘んとて彼を曳ゆく </seg>
+</ab>
+<ab n="27:32">
+  <seg type="original"><hi rend="superscript">27:32</hi> その出し時クレネ人のシモンといふ者に遇ければ強て之に其十字架を負せたり／ </seg>
+</ab>
+<ab n="27:33">
+  <seg type="original"><hi rend="superscript">27:33</hi> 彼等ゴルゴタ譯ば即ち髑髏と云る處に來り </seg>
+</ab>
+<ab n="27:34">
+  <seg type="original"><hi rend="superscript">27:34</hi> 醋に膽を和せてイエスに飮せんと爲たりしに甞て飮ことをせざりき </seg>
+</ab>
+<ab n="27:35">
+  <seg type="original"><hi rend="superscript">27:35</hi> 斯てイエスを十字架に釘しのち鬮を拈て其衣を分これ〔預言者｜預言者〕の言に彼等互に我が衣を分わが裏衣を鬮にすと云しに應へり </seg>
+</ab>
+<ab n="27:36">
+  <seg type="original"><hi rend="superscript">27:36</hi> 兵卒ここに坐してイエスを守れり </seg>
+</ab>
+
+<ab n="27:37">
+  <seg type="original"><hi rend="superscript">27:37</hi> また罪標に此はユダヤ人の王イエスなりと書して其首の上に置り </seg>
+</ab>
+<ab n="27:38">
+  <seg type="original"><hi rend="superscript">27:38</hi> 其とき二人の盜賊イエスと偕に一人は其右一人は其左に十字架に釘らる／ </seg>
+</ab>
+
+<ab n="27:39">
+  <seg type="original"><hi rend="superscript">27:39</hi> 往來の者イエスを詈り首を搖て曰けるは </seg>
+</ab>
+
+<ab n="27:40">
+  <seg type="original"><hi rend="superscript">27:40</hi> 殿を毀ちて三日に之を建る者よ自己を救へ爾もし神の子ならば十字架より下よ </seg>
+</ab>
+<ab n="27:41">
+  <seg type="original"><hi rend="superscript">27:41</hi> 祭司の長學者長老等も亦おなじく嘲弄して曰けるは </seg>
+</ab>
+
+<ab n="27:42">
+  <seg type="original"><hi rend="superscript">27:42</hi> 人を救て己が身を救あたはず若イスラエルの王たらば今十字架より下るべし然ば我儕かれを信ぜん </seg>
+</ab>
+<ab n="27:43">
+  <seg type="original"><hi rend="superscript">27:43</hi> 彼は神に依頼めり神もし彼を愛しまば今救ふべし蓋かれ我は神の子なりと云し也 </seg>
+</ab>
+<ab n="27:44">
+  <seg type="original"><hi rend="superscript">27:44</hi> 同に十字架に釘られたる盜賊も同くイエスを詈れり／ </seg>
+</ab>
+<ab n="27:45">
+  <seg type="original"><hi rend="superscript">27:45</hi> 晝の十二時より三時に至るまで其地あまねく黒暗となる </seg>
+</ab>
+
+<ab n="27:46">
+  <seg type="original"><hi rend="superscript">27:46</hi> 三時ごろイエス大聲に〔エリ、エリ、ラマサバクタニ｜エリエリラマサバクタニ〕と呼りぬ之を譯ば吾神わが神なんぞ我を遺たまふ乎と云る也 </seg>
+</ab>
+
+<ab n="27:47">
+  <seg type="original"><hi rend="superscript">27:47</hi> 旁らに立たる者のうち或人これを聞て彼はエリヤを呼るなりと曰 </seg>
+</ab>
+<ab n="27:48">
+  <seg type="original"><hi rend="superscript">27:48</hi> 其中の一人直に走り往て海絨をとり醋を含せ之を葦につけてイエスに飮しむ </seg>
+</ab>
+
+<ab n="27:49">
+  <seg type="original"><hi rend="superscript">27:49</hi> 餘人曰けるは俟エリヤ來りて彼を救ふや否試べし／ </seg>
+</ab>
+<ab n="27:50">
+  <seg type="original"><hi rend="superscript">27:50</hi> イエスまた大聲に呼りて氣絶たり </seg>
+</ab>
+<ab n="27:51">
+  <seg type="original"><hi rend="superscript">27:51</hi> 殿の幔上より下まで裂て二となり又地ふるひ磐さけ </seg>
+</ab>
+
+<ab n="27:52">
+  <seg type="original"><hi rend="superscript">27:52</hi> 墓ひらけて既に寢たる聖徒の身おほく甦へりイエスの甦れる後 </seg>
+</ab>
+<ab n="27:53">
+  <seg type="original"><hi rend="superscript">27:53</hi> 墓を出て聖城に入おほくの人に現れたり／ </seg>
+</ab>
+<ab n="27:54">
+  <seg type="original"><hi rend="superscript">27:54</hi> 百夫の長と偕にイエスを守たるもの地震および其有し事を見て甚く懼れ此は誠に神の子なりと曰り／ </seg>
+</ab>
+<ab n="27:55">
+  <seg type="original"><hi rend="superscript">27:55</hi> 此處に遙に望ゐたる多の婦ありし彼等はガリラヤよりイエスに從ひ事し者等なり </seg>
+</ab>
+
+<ab n="27:56">
+  <seg type="original"><hi rend="superscript">27:56</hi> 其中に居し者はマグダラのマリアとヤコブ、ヨセの母なるマリアとゼベタイの子等の母となり／ </seg>
+</ab>
+<ab n="27:57">
+  <seg type="original"><hi rend="superscript">27:57</hi> 日くれてイエスの弟子なるヨセフと云るアリマタヤの富人きたりてピラトに往イエスの屍を請しかば </seg>
+</ab>
+<ab n="27:58">
+  <seg type="original"><hi rend="superscript">27:58</hi> ピラトその屍を付せと命ず </seg>
+</ab>
+<ab n="27:59">
+  <seg type="original"><hi rend="superscript">27:59</hi> ヨセフ屍を取て清き枲布に裹み </seg>
+</ab>
+<ab n="27:60">
+  <seg type="original"><hi rend="superscript">27:60</hi> 之を磐に鑿たる己が新しき墓におき大なる石を墓の門に轉して去 </seg>
+</ab>
+
+<ab n="27:61">
+  <seg type="original"><hi rend="superscript">27:61</hi> マグダラのマリアと他のマリアと墓に對て坐し其處に居り／ </seg>
+</ab>
+<ab n="27:62">
+  <seg type="original"><hi rend="superscript">27:62</hi> 預備日の翌日祭司の長とパリサイの人等ピラトの所に集來り曰けるは </seg>
+</ab>
+
+<ab n="27:63">
+  <seg type="original"><hi rend="superscript">27:63</hi> 主よ我儕憶起せり彼の僞者いきて在しとき三日ののち甦らんと言し </seg>
+</ab>
+<ab n="27:64">
+  <seg type="original"><hi rend="superscript">27:64</hi> 是故に命じて三日に至まで墓を固守しめよ恐くは其弟子夜きたりて之を竊み死より甦りたりと民に言ん然ば後の惑は先よりも愈勝るべし </seg>
+</ab>
+<ab n="27:65">
+  <seg type="original"><hi rend="superscript">27:65</hi> ピラト彼等に曰けるは守兵は爾曹にあり往て意のままに固守しめよ </seg>
+</ab>
+
+<ab n="27:66">
+  <seg type="original"><hi rend="superscript">27:66</hi> 是に於て彼等ゆきて石に封印し守兵をして墓を固守しめたり</seg>
+</ab>
+
+        </div>
+        <div type="chapter" n="28">
+          <head>マタイによる福音書 第28章</head>
+          <ab n="28:1">
+  <seg type="original"><hi rend="superscript">28:1</hi> 安息日終てのち七日の首の日黎明にマグダラのマリア及び他のマリアその墓を觀んとて來りしに </seg>
+</ab>
+
+<ab n="28:2">
+  <seg type="original"><hi rend="superscript">28:2</hi> 大なる地震ありて主の使者天より降り墓の門より石を轉し其上に坐す </seg>
+</ab>
+
+<ab n="28:3">
+  <seg type="original"><hi rend="superscript">28:3</hi> その容貌は閃電のごとく其衣服は雪のごとく白し </seg>
+</ab>
+
+<ab n="28:4">
+  <seg type="original"><hi rend="superscript">28:4</hi> 守兵かれを懼戰き死たる者の如くなりぬ </seg>
+</ab>
+
+<ab n="28:5">
+  <seg type="original"><hi rend="superscript">28:5</hi> 天使こたへて婦に曰けるは爾曹おそるる勿れ我なんぢらが十字架に釘られしイエスを尋ることを知 </seg>
+</ab>
+
+<ab n="28:6">
+  <seg type="original"><hi rend="superscript">28:6</hi> 彼は此に在ず其言る如く甦りたり爾曹きたりて主の置れし處を見よ </seg>
+</ab>
+
+<ab n="28:7">
+  <seg type="original"><hi rend="superscript">28:7</hi> 且ゆきて其弟子に告よ彼は死より甦り爾曹に先ちてガリラヤに往り彼處に於て爾曹かれを見べし我これを爾曹に告 </seg>
+</ab>
+
+<ab n="28:8">
+  <seg type="original"><hi rend="superscript">28:8</hi> 婦懼ながらも甚く喜びて急墓をさり其弟子に告んと走り往り </seg>
+</ab>
+
+<ab n="28:9">
+  <seg type="original"><hi rend="superscript">28:9</hi> 弟子に告んとて往ときイエス彼等に遇て安かれと曰給ひければ婦すすみ其足を抱て拜しぬ </seg>
+</ab>
+
+<ab n="28:10">
+  <seg type="original"><hi rend="superscript">28:10</hi> イエス彼等に曰けるは懼るる勿れ去て我が兄弟にガリラヤに往と告よ彼處にて我を見べし／ </seg>
+</ab>
+
+<ab n="28:11">
+  <seg type="original"><hi rend="superscript">28:11</hi> 婦の去しのち守兵のうち或者ども城に至り凡て有し事を祭司の長等に告しかば </seg>
+</ab>
+
+<ab n="28:12">
+  <seg type="original"><hi rend="superscript">28:12</hi> 彼等と長老あつまりて共に議おほくの銀子を兵卒に給て曰けるは </seg>
+</ab>
+
+<ab n="28:13">
+  <seg type="original"><hi rend="superscript">28:13</hi> 爾曹いへ我儕が寢たる時その弟子夜きたりて彼を竊りと </seg>
+</ab>
+
+<ab n="28:14">
+  <seg type="original"><hi rend="superscript">28:14</hi> 此事もし方伯に聞るとも我儕かれに勸て爾曹に〔憂慮｜憂慮〕なからしめん </seg>
+</ab>
+
+<ab n="28:15">
+  <seg type="original"><hi rend="superscript">28:15</hi> かれら銀子を取て囑められたる如したりし是に於て此の如き話今日に至るまでユダヤ人の中に傳播られたり／ </seg>
+</ab>
+
+<ab n="28:16">
+  <seg type="original"><hi rend="superscript">28:16</hi> 十一の弟子ガリラヤに往てイエスの彼等に命じ給ふ所の山に至り </seg>
+</ab>
+
+<ab n="28:17">
+  <seg type="original"><hi rend="superscript">28:17</hi> イエスを見て拜せり然ど疑へる者もありき </seg>
+</ab>
+
+<ab n="28:18">
+  <seg type="original"><hi rend="superscript">28:18</hi> イエス進て彼等に語いひけるは天のうち地の上の凡の權を我に賜れり </seg>
+</ab>
+
+<ab n="28:19">
+  <seg type="original"><hi rend="superscript">28:19</hi> 是故に爾曹ゆきて萬國の民にバプテスマを施し之を父と子と聖靈の名に入て弟子とし </seg>
+</ab>
+
+<ab n="28:20">
+  <seg type="original"><hi rend="superscript">28:20</hi> 且わが凡て爾曹に命ぜし言を守れと彼等に教よ夫われは世の末まで常に爾曹と偕に在なりアメン</seg>
+</ab>
+
+
         </div>
       </div>
     </body>
