@@ -5,31 +5,50 @@
   <title>Meiji Bible — Matthew (TEI)</title>
   <script src="https://teic.github.io/TEI-Boilerplate/js/teibp.min.js"></script>
   <link rel="stylesheet" href="https://teic.github.io/TEI-Boilerplate/css/teibp.css">
-  <style>
-    rt[rend~="color(red)"] {
-      color: red;
-    }
-    ab {
-      display: block;
-      margin-bottom: 1em;
-    }
-    hi[rend~="superscript"] {
-      vertical-align: super;
-      font-size: 0.7em;
-      color: #888;
-      padding-right: 0.4em;
-    }
-    ruby {
-      ruby-position: over;
-    }
-    div[type="chapter"] > head {
-      color: #b11;
-      font-weight: bold;
-      font-size: 1.4em;
-      margin-top: 2em;
-      margin-bottom: 0.5em;
-    }
-  </style>
+<style>
+  /* 🔴 Red ruby glosses */
+  rt[rend~="color(red)"] {
+    color: red;
+  }
+
+  /* ✨ Basic typography */
+  body {
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.2em;
+    line-height: 1.8;
+    padding: 2em;
+    background-color: #fdfdfd;
+    color: #222;
+  }
+
+  /* 📖 Verse spacing */
+  ab {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  /* 📌 Superscript verse numbers */
+  hi[rend~="superscript"] {
+    vertical-align: super;
+    font-size: 0.7em;
+    color: #888;
+    padding-right: 0.4em;
+  }
+
+  /* 🔠 Ruby positioning */
+  ruby {
+    ruby-position: over;
+  }
+
+  /* ✒ Optional: Red headings for chapters */
+  div[type="chapter"] > head {
+    color: #b11;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+  }
+</style>
 </head>
 <body>
   <tei-tei src="matthew.xml"></tei-tei>
