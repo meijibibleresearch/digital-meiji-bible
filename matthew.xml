@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Matthew Chapter 1 — Meiji Bible + Romaji</title>
+        <title>Matthew Chapter 1 — Meiji Bible + Romaji (Split Pane)</title>
         <author>明治元訳翻訳チーム</author>
       </titleStmt>
       <publicationStmt>
@@ -18,26 +18,20 @@
 
   <text>
     <body>
-      <div type="book" xml:lang="ja" n="Matthew">
+      <div type="book" n="Matthew">
         <div type="chapter" n="1">
           <head>マタイによる福音書 第一章</head>
 
           <ab n="1">
-            <seg type="original" xml:lang="ja">アブラハムの子、ダビデの子、イエス・キリストの系図。</seg>
-            <seg type="reading" xml:lang="ja-Latn">Aburahamu no ko, Dabide no ko, Iesu Kirisuto no keizu.</seg>
+            <seg type="original">アブラハムの子、ダビデの子、イエス・キリストの系図。</seg>
+            <seg type="reading">Aburahamu no ko, Dabide no ko, Iesu Kirisuto no keizu.</seg>
           </ab>
 
           <ab n="2">
-            <seg type="original" xml:lang="ja">アブラハムはイサクを生み、イサクはヤコブを生み、ヤコブはユダとその兄弟たちを生んだ。</seg>
-            <seg type="reading" xml:lang="ja-Latn">Aburahamu wa Isaku o umi, Isaku wa Yakobu o umi, Yakobu wa Yuda to sono kyōdai-tachi o unda.</seg>
+            <seg type="original">アブラハムはイサクを生み、イサクはヤコブを生み、ヤコブはユダとその兄弟たちを生んだ。</seg>
+            <seg type="reading">Aburahamu wa Isaku o umi, Isaku wa Yakobu o umi, Yakobu wa Yuda to sono kyōdai-tachi o unda.</seg>
           </ab>
 
-          <ab n="3">
-            <seg type="original" xml:lang="ja">ユダはタマルによってペレズとゼラを生み、ペレズはヘツロンを生み、ヘツロンはアラムを生んだ。</seg>
-            <seg type="reading" xml:lang="ja-Latn">Yuda wa Tamaru ni yotte Perez to Zera o umi, Perez wa Hetzuron o umi, Hetzuron wa Aramu o unda.</seg>
-          </ab>
-
-          <!-- Add more verses as needed -->
         </div>
       </div>
     </body>
